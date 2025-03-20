@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9AE78A822D8C2937001CEFFC /* CopyFiles */ = {
+		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AE78AB02D8C31B2001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AE78ABF2D8C31D1001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +37,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9AE78A842D8C2937001CEFFC /* educoder homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "educoder homework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"n!计算 e 的值/main.cpp",
+			);
+			target = 9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
+		};
+		9AE78ABC2D8C31B5001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第1关 C循环-求各位数字之积/main.cpp",
+			);
+			target = 9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */;
+		};
+		9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第3关：输入一批整数统计正负数个数/main.cpp",
+			);
+			target = 9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9AE78A862D8C2937001CEFFC /* educoder homework */ = {
+		9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "educoder homework";
+			exceptions = (
+				9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
+				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */,
+				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
+			);
+			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9AE78A812D8C2937001CEFFC /* Frameworks */ = {
+		9AE78AA02D8C3175001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78AAF2D8C31B2001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78ABE2D8C31D1001CEFFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +107,7 @@
 		9AE78A7B2D8C2937001CEFFC = {
 			isa = PBXGroup;
 			children = (
-				9AE78A862D8C2937001CEFFC /* educoder homework */,
+				9AE78A8E2D8C3115001CEFFC /* 第四章 循环结构 */,
 				9AE78A852D8C2937001CEFFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,34 +115,79 @@
 		9AE78A852D8C2937001CEFFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AE78A842D8C2937001CEFFC /* educoder homework */,
+				9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
+				9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
+				9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE78A8E2D8C3115001CEFFC /* 第四章 循环结构 */ = {
+			isa = PBXGroup;
+			children = (
+				9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */,
+			);
+			path = "第四章 循环结构";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9AE78A832D8C2937001CEFFC /* educoder homework */ = {
+		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78A8B2D8C2937001CEFFC /* Build configuration list for PBXNativeTarget "educoder homework" */;
+			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
 			buildPhases = (
-				9AE78A802D8C2937001CEFFC /* Sources */,
-				9AE78A812D8C2937001CEFFC /* Frameworks */,
-				9AE78A822D8C2937001CEFFC /* CopyFiles */,
+				9AE78A9F2D8C3175001CEFFC /* Sources */,
+				9AE78AA02D8C3175001CEFFC /* Frameworks */,
+				9AE78AA12D8C3175001CEFFC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				9AE78A862D8C2937001CEFFC /* educoder homework */,
-			);
-			name = "educoder homework";
+			name = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值";
 			packageProductDependencies = (
 			);
-			productName = "educoder homework";
-			productReference = 9AE78A842D8C2937001CEFFC /* educoder homework */;
+			productName = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值";
+			productReference = 9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "第1关 C循环-求各位数字之积" */;
+			buildPhases = (
+				9AE78AAE2D8C31B2001CEFFC /* Sources */,
+				9AE78AAF2D8C31B2001CEFFC /* Frameworks */,
+				9AE78AB02D8C31B2001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第1关 C循环-求各位数字之积";
+			packageProductDependencies = (
+			);
+			productName = "第1关 C循环-求各位数字之积";
+			productReference = 9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "第3关：输入一批整数统计正负数个数" */;
+			buildPhases = (
+				9AE78ABD2D8C31D1001CEFFC /* Sources */,
+				9AE78ABE2D8C31D1001CEFFC /* Frameworks */,
+				9AE78ABF2D8C31D1001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第3关：输入一批整数统计正负数个数";
+			packageProductDependencies = (
+			);
+			productName = "第3关：输入一批整数统计正负数个数";
+			productReference = 9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +199,13 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					9AE78A832D8C2937001CEFFC = {
+					9AE78AA22D8C3175001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AE78AB12D8C31B2001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AE78AC02D8C31D1001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -110,13 +224,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AE78A832D8C2937001CEFFC /* educoder homework */,
+				9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
+				9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
+				9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9AE78A802D8C2937001CEFFC /* Sources */ = {
+		9AE78A9F2D8C3175001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78AAE2D8C31B2001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78ABD2D8C31D1001CEFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,7 +371,7 @@
 			};
 			name = Release;
 		};
-		9AE78A8C2D8C2937001CEFFC /* Debug */ = {
+		9AE78AA82D8C3175001CEFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +381,47 @@
 			};
 			name = Debug;
 		};
-		9AE78A8D2D8C2937001CEFFC /* Release */ = {
+		9AE78AA92D8C3175001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AE78AB72D8C31B2001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78AB82D8C31B2001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AE78AC62D8C31D1001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78AC72D8C31D1001CEFFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -273,11 +443,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78A8B2D8C2937001CEFFC /* Build configuration list for PBXNativeTarget "educoder homework" */ = {
+		9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AE78A8C2D8C2937001CEFFC /* Debug */,
-				9AE78A8D2D8C2937001CEFFC /* Release */,
+				9AE78AA82D8C3175001CEFFC /* Debug */,
+				9AE78AA92D8C3175001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "第1关 C循环-求各位数字之积" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78AB72D8C31B2001CEFFC /* Debug */,
+				9AE78AB82D8C31B2001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "第3关：输入一批整数统计正负数个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78AC62D8C31D1001CEFFC /* Debug */,
+				9AE78AC72D8C31D1001CEFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

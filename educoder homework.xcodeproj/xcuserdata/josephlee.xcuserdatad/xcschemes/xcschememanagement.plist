@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>educoder homework.xcscheme_^#shared#^_</key>
+		<key>第1关 C循环-求各位数字之积.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>第3关：输入一批整数统计正负数个数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9AE78A832D8C2937001CEFFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9AE78A932D8C3142001CEFFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
