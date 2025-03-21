@@ -34,12 +34,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AE78ACE2D8C3420001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -64,6 +74,13 @@
 			);
 			target = 9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
 		};
+		9AE78ADA2D8C3426001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和/main.cpp",
+			);
+			target = 9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -73,6 +90,7 @@
 				9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
 				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */,
 				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
+				9AE78ADA2D8C3426001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
 			);
 			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -101,6 +119,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AE78ACD2D8C3420001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,6 +143,7 @@
 				9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
 				9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
 				9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
+				9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +216,25 @@
 			productReference = 9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */;
+			buildPhases = (
+				9AE78ACC2D8C3420001CEFFC /* Sources */,
+				9AE78ACD2D8C3420001CEFFC /* Frameworks */,
+				9AE78ACE2D8C3420001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和";
+			packageProductDependencies = (
+			);
+			productName = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和";
+			productReference = 9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +251,9 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					9AE78AC02D8C31D1001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AE78ACF2D8C3420001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -227,6 +275,7 @@
 				9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
 				9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
 				9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
+				9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +296,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AE78ABD2D8C31D1001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78ACC2D8C3420001CEFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,6 +487,26 @@
 			};
 			name = Release;
 		};
+		9AE78AD52D8C3420001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78AD62D8C3420001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,6 +542,15 @@
 			buildConfigurations = (
 				9AE78AC62D8C31D1001CEFFC /* Debug */,
 				9AE78AC72D8C31D1001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78AD52D8C3420001CEFFC /* Debug */,
+				9AE78AD62D8C3420001CEFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
