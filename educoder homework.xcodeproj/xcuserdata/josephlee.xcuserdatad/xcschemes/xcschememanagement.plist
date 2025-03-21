@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
