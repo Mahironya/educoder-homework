@@ -79,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AE78B192D8D6B6B001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +99,7 @@
 		9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第6关：给一个不多于5的正整数，用循环求出它是几位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第7关：拆数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第8关：数列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -149,6 +159,13 @@
 			);
 			target = 9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */;
 		};
+		9AE78B252D8D6B76001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第20关：求a^b的个位数/main.cpp",
+			);
+			target = 9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -163,6 +180,7 @@
 				9AE78AF82D8D42C2001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
 				9AE78B072D8D48F1001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第7关：拆数" target */,
 				9AE78B162D8D5CE8001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第8关：数列" target */,
+				9AE78B252D8D6B76001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */,
 			);
 			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -226,6 +244,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AE78B182D8D6B6B001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -248,6 +273,7 @@
 				9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
 				9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */,
 				9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */,
+				9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,6 +441,25 @@
 			productReference = 9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "第20关：求a^b的个位数" */;
+			buildPhases = (
+				9AE78B172D8D6B6B001CEFFC /* Sources */,
+				9AE78B182D8D6B6B001CEFFC /* Frameworks */,
+				9AE78B192D8D6B6B001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第20关：求a^b的个位数";
+			packageProductDependencies = (
+			);
+			productName = "第20关：求a^b的个位数";
+			productReference = 9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -448,6 +493,9 @@
 					9AE78B0B2D8D5CE5001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AE78B1A2D8D6B6B001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -472,6 +520,7 @@
 				9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
 				9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */,
 				9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */,
+				9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
 			);
 		};
 /* End PBXProject section */
@@ -527,6 +576,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AE78B082D8D5CE5001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78B172D8D6B6B001CEFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -811,6 +867,26 @@
 			};
 			name = Release;
 		};
+		9AE78B202D8D6B6B001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78B212D8D6B6B001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -891,6 +967,15 @@
 			buildConfigurations = (
 				9AE78B112D8D5CE5001CEFFC /* Debug */,
 				9AE78B122D8D5CE5001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "第20关：求a^b的个位数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78B202D8D6B6B001CEFFC /* Debug */,
+				9AE78B212D8D6B6B001CEFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
