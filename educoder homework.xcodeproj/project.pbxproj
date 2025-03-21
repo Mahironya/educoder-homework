@@ -52,6 +52,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AE78AEC2D8D42BE001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AE78AFB2D8D48ED001CEFFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +78,8 @@
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第6关：给一个不多于5的正整数，用循环求出它是几位数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第7关：拆数"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -98,6 +118,20 @@
 			);
 			target = 9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
 		};
+		9AE78AF82D8D42C2001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第6关：给一个不多于5的正整数，用循环求出它是几位数/main.cpp",
+			);
+			target = 9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
+		};
+		9AE78B072D8D48F1001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第7关：拆数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第7关：拆数/main.cpp",
+			);
+			target = 9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -109,6 +143,8 @@
 				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
 				9AE78ADA2D8C3426001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
 				9AE78AE92D8D245A001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */,
+				9AE78AF82D8D42C2001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
+				9AE78B072D8D48F1001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第7关：拆数" target */,
 			);
 			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -151,6 +187,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AE78AEB2D8D42BE001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78AFA2D8D48ED001CEFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -170,6 +220,8 @@
 				9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
 				9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
 				9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
+				9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
+				9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +332,44 @@
 			productReference = 9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "第6关：给一个不多于5的正整数，用循环求出它是几位数" */;
+			buildPhases = (
+				9AE78AEA2D8D42BE001CEFFC /* Sources */,
+				9AE78AEB2D8D42BE001CEFFC /* Frameworks */,
+				9AE78AEC2D8D42BE001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第6关：给一个不多于5的正整数，用循环求出它是几位数";
+			packageProductDependencies = (
+			);
+			productName = "第6关：给一个不多于5的正整数，用循环求出它是几位数";
+			productReference = 9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "第7关：拆数" */;
+			buildPhases = (
+				9AE78AF92D8D48ED001CEFFC /* Sources */,
+				9AE78AFA2D8D48ED001CEFFC /* Frameworks */,
+				9AE78AFB2D8D48ED001CEFFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第7关：拆数";
+			packageProductDependencies = (
+			);
+			productName = "第7关：拆数";
+			productReference = 9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -304,6 +394,12 @@
 					9AE78ADE2D8D2457001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AE78AED2D8D42BE001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AE78AFC2D8D48ED001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -325,6 +421,8 @@
 				9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
 				9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
 				9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
+				9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
+				9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */,
 			);
 		};
 /* End PBXProject section */
@@ -359,6 +457,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AE78ADB2D8D2457001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78AEA2D8D42BE001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78AF92D8D48ED001CEFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,6 +695,46 @@
 			};
 			name = Release;
 		};
+		9AE78AF32D8D42BE001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78AF42D8D42BE001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AE78B022D8D48ED001CEFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AE78B032D8D48ED001CEFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -636,6 +788,24 @@
 			buildConfigurations = (
 				9AE78AE42D8D2457001CEFFC /* Debug */,
 				9AE78AE52D8D2457001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "第6关：给一个不多于5的正整数，用循环求出它是几位数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78AF32D8D42BE001CEFFC /* Debug */,
+				9AE78AF42D8D42BE001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "第7关：拆数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE78B022D8D48ED001CEFFC /* Debug */,
+				9AE78B032D8D48ED001CEFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
