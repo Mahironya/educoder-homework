@@ -70,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A6F7D7D2D91941C00B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +179,7 @@
 		9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第15关：判断完数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第19关：数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第9关：进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D7F2D91941C00B9D960 /* test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -305,6 +315,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "用来临时测试代码";
+			sourceTree = "<group>";
+		};
+		9A6F7D802D91941C00B9D960 /* test1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = test1;
+			sourceTree = "<group>";
+		};
 		9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -375,6 +395,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7D692D918C7F00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D7C2D91941C00B9D960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -454,9 +481,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A6F7D7A2D91940F00B9D960 /* 临时测试代码 */ = {
+			isa = PBXGroup;
+			children = (
+				9A6F7D802D91941C00B9D960 /* test1 */,
+			);
+			path = "临时测试代码";
+			sourceTree = "<group>";
+		};
 		9AE78A7B2D8C2937001CEFFC = {
 			isa = PBXGroup;
 			children = (
+				9A6F7D7A2D91940F00B9D960 /* 临时测试代码 */,
 				9AE78A8E2D8C3115001CEFFC /* 第四章 循环结构 */,
 				9AE78A852D8C2937001CEFFC /* Products */,
 			);
@@ -482,6 +518,8 @@
 				9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
 				9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */,
 				9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */,
+				9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */,
+				9A6F7D7F2D91941C00B9D960 /* test1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -628,6 +666,28 @@
 			);
 			productName = "第9关：进制转换";
 			productReference = 9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D7E2D91941C00B9D960 /* test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D832D91941C00B9D960 /* Build configuration list for PBXNativeTarget "test1" */;
+			buildPhases = (
+				9A6F7D7B2D91941C00B9D960 /* Sources */,
+				9A6F7D7C2D91941C00B9D960 /* Frameworks */,
+				9A6F7D7D2D91941C00B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A6F7D802D91941C00B9D960 /* test1 */,
+			);
+			name = test1;
+			packageProductDependencies = (
+			);
+			productName = test1;
+			productReference = 9A6F7D7F2D91941C00B9D960 /* test1 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
@@ -850,6 +910,9 @@
 					9A6F7D6B2D918C7F00B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A6F7D7E2D91941C00B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9AE78AA22D8C3175001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -913,6 +976,7 @@
 				9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
 				9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */,
 				9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */,
+				9A6F7D7E2D91941C00B9D960 /* test1 */,
 			);
 		};
 /* End PBXProject section */
@@ -961,6 +1025,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7D682D918C7F00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D7B2D91941C00B9D960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1171,6 +1242,26 @@
 			name = Debug;
 		};
 		9A6F7D722D918C7F00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D842D91941C00B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D852D91941C00B9D960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1557,6 +1648,15 @@
 			buildConfigurations = (
 				9A6F7D712D918C7F00B9D960 /* Debug */,
 				9A6F7D722D918C7F00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D832D91941C00B9D960 /* Build configuration list for PBXNativeTarget "test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D842D91941C00B9D960 /* Debug */,
+				9A6F7D852D91941C00B9D960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
