@@ -7,6 +7,69 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D1F2D90E4E700B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D2E2D90E76900B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D3D2D90E9E700B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D4C2D90F6FD00B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D5B2D9181DA00B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7D6A2D918C7F00B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +163,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第14关：判断区间内某个数字出现的次数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第15关：判断完数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第19关：数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第9关：进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +183,55 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第11关：歌手评分系统/main.cpp",
+			);
+			target = 9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */;
+		};
+		9A6F7D2B2D90E4F000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第12关：判断数字能不能被整除/main.cpp",
+			);
+			target = 9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */;
+		};
+		9A6F7D3A2D90E76E00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第13关：判断区间内素数的个数/main.cpp",
+			);
+			target = 9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */;
+		};
+		9A6F7D492D90E9E900B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第14关：判断区间内某个数字出现的次数/main.cpp",
+			);
+			target = 9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */;
+		};
+		9A6F7D582D90F70000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第15关：判断完数的个数/main.cpp",
+			);
+			target = 9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */;
+		};
+		9A6F7D672D9181DD00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第19关：数字之积" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第19关：数字之积/main.cpp",
+			);
+			target = 9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */;
+		};
+		9A6F7D762D918C8200B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第9关：进制转换" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第9关：进制转换/main.cpp",
+			);
+			target = 9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */;
+		};
 		9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -199,6 +318,13 @@
 				9AE78B162D8D5CE8001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第8关：数列" target */,
 				9AE78B252D8D6B76001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */,
 				9AE78B342D8DBD50001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第21关：输出星号2" target */,
+				9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */,
+				9A6F7D2B2D90E4F000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */,
+				9A6F7D3A2D90E76E00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */,
+				9A6F7D492D90E9E900B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */,
+				9A6F7D582D90F70000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */,
+				9A6F7D672D9181DD00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第19关：数字之积" target */,
+				9A6F7D762D918C8200B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第9关：进制转换" target */,
 			);
 			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -206,6 +332,55 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A6F7D0F2D90E24800B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D1E2D90E4E700B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D2D2D90E76900B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D3C2D90E9E700B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D4B2D90F6FD00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D5A2D9181DA00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D692D918C7F00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AE78AA02D8C3175001CEFFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +475,13 @@
 				9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */,
 				9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
 				9AE78B2A2D8DBC92001CEFFC /* 第21关：输出星号2 */,
+				9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */,
+				9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */,
+				9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */,
+				9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */,
+				9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
+				9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */,
+				9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -315,6 +497,139 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */;
+			buildPhases = (
+				9A6F7D0E2D90E24800B9D960 /* Sources */,
+				9A6F7D0F2D90E24800B9D960 /* Frameworks */,
+				9A6F7D102D90E24800B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第11关：歌手评分系统";
+			packageProductDependencies = (
+			);
+			productName = "第11关：歌手评分系统";
+			productReference = 9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "第12关：判断数字能不能被整除" */;
+			buildPhases = (
+				9A6F7D1D2D90E4E700B9D960 /* Sources */,
+				9A6F7D1E2D90E4E700B9D960 /* Frameworks */,
+				9A6F7D1F2D90E4E700B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第12关：判断数字能不能被整除";
+			packageProductDependencies = (
+			);
+			productName = "第12关：判断数字能不能被整除";
+			productReference = 9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "第13关：判断区间内素数的个数" */;
+			buildPhases = (
+				9A6F7D2C2D90E76900B9D960 /* Sources */,
+				9A6F7D2D2D90E76900B9D960 /* Frameworks */,
+				9A6F7D2E2D90E76900B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第13关：判断区间内素数的个数";
+			packageProductDependencies = (
+			);
+			productName = "第13关：判断区间内素数的个数";
+			productReference = 9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "第14关：判断区间内某个数字出现的次数" */;
+			buildPhases = (
+				9A6F7D3B2D90E9E700B9D960 /* Sources */,
+				9A6F7D3C2D90E9E700B9D960 /* Frameworks */,
+				9A6F7D3D2D90E9E700B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第14关：判断区间内某个数字出现的次数";
+			packageProductDependencies = (
+			);
+			productName = "第14关：判断区间内某个数字出现的次数";
+			productReference = 9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "第15关：判断完数的个数" */;
+			buildPhases = (
+				9A6F7D4A2D90F6FD00B9D960 /* Sources */,
+				9A6F7D4B2D90F6FD00B9D960 /* Frameworks */,
+				9A6F7D4C2D90F6FD00B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第15关：判断完数的个数";
+			packageProductDependencies = (
+			);
+			productName = "第15关：判断完数的个数";
+			productReference = 9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "第19关：数字之积" */;
+			buildPhases = (
+				9A6F7D592D9181DA00B9D960 /* Sources */,
+				9A6F7D5A2D9181DA00B9D960 /* Frameworks */,
+				9A6F7D5B2D9181DA00B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第19关：数字之积";
+			packageProductDependencies = (
+			);
+			productName = "第19关：数字之积";
+			productReference = 9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "第9关：进制转换" */;
+			buildPhases = (
+				9A6F7D682D918C7F00B9D960 /* Sources */,
+				9A6F7D692D918C7F00B9D960 /* Frameworks */,
+				9A6F7D6A2D918C7F00B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第9关：进制转换";
+			packageProductDependencies = (
+			);
+			productName = "第9关：进制转换";
+			productReference = 9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
@@ -514,6 +829,27 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					9A6F7D112D90E24800B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D202D90E4E700B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D2F2D90E76900B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D3E2D90E9E700B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D4D2D90F6FD00B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D5C2D9181DA00B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7D6B2D918C7F00B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9AE78AA22D8C3175001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -570,11 +906,67 @@
 				9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */,
 				9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
 				9AE78B292D8DBC92001CEFFC /* 第21关：输出星号2 */,
+				9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */,
+				9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */,
+				9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */,
+				9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */,
+				9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
+				9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */,
+				9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A6F7D0E2D90E24800B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D1D2D90E4E700B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D2C2D90E76900B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D3B2D90E9E700B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D4A2D90F6FD00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D592D9181DA00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D682D918C7F00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AE78A9F2D8C3175001CEFFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -648,6 +1040,146 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9A6F7D162D90E24800B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D172D90E24800B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D262D90E4E700B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D272D90E4E700B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D352D90E76900B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D362D90E76900B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D442D90E9E700B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D452D90E9E700B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D532D90F6FD00B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D542D90F6FD00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D622D9181DA00B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D632D9181DA00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D712D918C7F00B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D722D918C7F00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9AE78A892D8C2937001CEFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -966,6 +1498,69 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D162D90E24800B9D960 /* Debug */,
+				9A6F7D172D90E24800B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "第12关：判断数字能不能被整除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D262D90E4E700B9D960 /* Debug */,
+				9A6F7D272D90E4E700B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "第13关：判断区间内素数的个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D352D90E76900B9D960 /* Debug */,
+				9A6F7D362D90E76900B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "第14关：判断区间内某个数字出现的次数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D442D90E9E700B9D960 /* Debug */,
+				9A6F7D452D90E9E700B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "第15关：判断完数的个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D532D90F6FD00B9D960 /* Debug */,
+				9A6F7D542D90F6FD00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "第19关：数字之积" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D622D9181DA00B9D960 /* Debug */,
+				9A6F7D632D9181DA00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "第9关：进制转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D712D918C7F00B9D960 /* Debug */,
+				9A6F7D722D918C7F00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
