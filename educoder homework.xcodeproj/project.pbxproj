@@ -88,6 +88,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A6F7D972D92941700B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +199,7 @@
 		9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第9关：进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D7F2D91941C00B9D960 /* test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第10关：千分位分隔符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第16关：求矩阵最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,6 +268,13 @@
 				"第10关：千分位分隔符/main.cpp",
 			);
 			target = 9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */;
+		};
+		9A6F7DA32D92941C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"第16关：求矩阵最大值/main.cpp",
+			);
+			target = 9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */;
 		};
 		9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -363,6 +380,7 @@
 				9A6F7D672D9181DD00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第19关：数字之积" target */,
 				9A6F7D762D918C8200B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第9关：进制转换" target */,
 				9A6F7D942D91AB5000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */,
+				9A6F7DA32D92941C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */,
 			);
 			path = "第四章 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -427,6 +445,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7D872D91AB4E00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D962D92941700B9D960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -546,6 +571,7 @@
 				9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */,
 				9A6F7D7F2D91941C00B9D960 /* test1 */,
 				9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */,
+				9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -733,6 +759,25 @@
 			);
 			productName = "第10关：千分位分隔符";
 			productReference = 9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "第16关：求矩阵最大值" */;
+			buildPhases = (
+				9A6F7D952D92941700B9D960 /* Sources */,
+				9A6F7D962D92941700B9D960 /* Frameworks */,
+				9A6F7D972D92941700B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第16关：求矩阵最大值";
+			packageProductDependencies = (
+			);
+			productName = "第16关：求矩阵最大值";
+			productReference = 9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
@@ -961,6 +1006,9 @@
 					9A6F7D892D91AB4E00B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A6F7D982D92941700B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9AE78AA22D8C3175001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -1026,6 +1074,7 @@
 				9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */,
 				9A6F7D7E2D91941C00B9D960 /* test1 */,
 				9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */,
+				9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */,
 			);
 		};
 /* End PBXProject section */
@@ -1088,6 +1137,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7D862D91AB4E00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7D952D92941700B9D960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1338,6 +1394,26 @@
 			name = Debug;
 		};
 		9A6F7D902D91AB4E00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7D9E2D92941700B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7D9F2D92941700B9D960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1742,6 +1818,15 @@
 			buildConfigurations = (
 				9A6F7D8F2D91AB4E00B9D960 /* Debug */,
 				9A6F7D902D91AB4E00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "第16关：求矩阵最大值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7D9E2D92941700B9D960 /* Debug */,
+				9A6F7D9F2D92941700B9D960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
