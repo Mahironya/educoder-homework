@@ -333,14 +333,14 @@
 		9A6F7DD52D93CA6C00B9D960 /* Exceptions for "第五章 函数进阶" folder in "第1关：回文数计算" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第1关：回文数计算/main.cpp",
+				"C5-3 第1关：回文数计算/main.cpp",
 			);
 			target = 9A6F7DCA2D93CA6800B9D960 /* 第1关：回文数计算 */;
 		};
 		9A6F7DE42D97821200B9D960 /* Exceptions for "第五章 函数进阶" folder in "第2关： 编写函数求表达式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第2关： 编写函数求表达式的值/main.cpp",
+				"C5-3 第2关： 编写函数求表达式的值/main.cpp",
 			);
 			target = 9A6F7DD92D97820F00B9D960 /* 第2关： 编写函数求表达式的值 */;
 		};
