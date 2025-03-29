@@ -6,7 +6,16 @@ double sequence(double times){
     return sequence(times - 1) * ((times - 1)/(2*times - 1));
 }
 int main(){
-    cout<<sequence(1);
+    double n, sum = 0;
+    cin >> n;
+    if (n == 1){
+        cout<<1;
+        return 0;
+    }
+    for (double i = 1; i <= n + 1; ++i){
+        sum += sequence(i);
+    }
+    cout<<fixed<<setprecision(10)<<sum<<endl;
 }
 
 /*
