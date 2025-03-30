@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		9A0242102D99755C002C75E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A02421F2D997791002C75E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A02422E2D998153002C75E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A02423D2D998738002C75E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +316,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A0242122D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第9关：编写函数计算并输出多项式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0242212D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +353,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A02421C2D99755F002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第9关：编写函数计算并输出多项式的值/main.cpp",
+			);
+			target = 9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */;
+		};
+		9A02422B2D997794002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数/main.cpp",
+			);
+			target = 9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */;
+		};
+		9A02423A2D998157002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)/main.cpp",
+			);
+			target = 9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */;
+		};
+		9A0242492D99873D002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第12关：编写递归函数求小于等于n的所有正整数之和/main.cpp",
+			);
+			target = 9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
+		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -540,6 +608,10 @@
 				9A6F7E342D99180100B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */,
 				9A6F7E432D99584900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */,
 				9A6F7E522D99596000B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */,
+				9A02421C2D99755F002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */,
+				9A02422B2D997794002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
+				9A02423A2D998157002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
+				9A0242492D99873D002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
 			);
 			path = "第五章 函数进阶";
 			sourceTree = "<group>";
@@ -575,6 +647,34 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A02420F2D99755C002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02421E2D997791002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02422D2D998153002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02423C2D998738002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A6F7D0F2D90E24800B9D960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -848,6 +948,10 @@
 				9A6F7E2A2D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */,
 				9A6F7E392D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */,
 				9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */,
+				9A0242122D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */,
+				9A0242212D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */,
+				9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */,
+				9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -863,6 +967,82 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0242182D99755C002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第9关：编写函数计算并输出多项式的值" */;
+			buildPhases = (
+				9A02420E2D99755C002C75E2 /* Sources */,
+				9A02420F2D99755C002C75E2 /* Frameworks */,
+				9A0242102D99755C002C75E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第9关：编写函数计算并输出多项式的值";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第9关：编写函数计算并输出多项式的值";
+			productReference = 9A0242122D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0242252D997792002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" */;
+			buildPhases = (
+				9A02421D2D997791002C75E2 /* Sources */,
+				9A02421E2D997791002C75E2 /* Frameworks */,
+				9A02421F2D997791002C75E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数";
+			productReference = 9A0242212D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0242342D998153002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" */;
+			buildPhases = (
+				9A02422C2D998153002C75E2 /* Sources */,
+				9A02422D2D998153002C75E2 /* Frameworks */,
+				9A02422E2D998153002C75E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)";
+			productReference = 9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0242432D998738002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" */;
+			buildPhases = (
+				9A02423B2D998738002C75E2 /* Sources */,
+				9A02423C2D998738002C75E2 /* Frameworks */,
+				9A02423D2D998738002C75E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和";
+			productReference = 9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */;
@@ -1445,6 +1625,18 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					9A0242112D99755C002C75E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A0242202D997791002C75E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A02422F2D998153002C75E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A02423E2D998738002C75E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A6F7D112D90E24800B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -1581,11 +1773,43 @@
 				9A6F7E292D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */,
 				9A6F7E382D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */,
 				9A6F7E472D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */,
+				9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */,
+				9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */,
+				9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */,
+				9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A02420E2D99755C002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02421D2D997791002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02422C2D998153002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02423B2D998738002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A6F7D0E2D90E24800B9D960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1799,6 +2023,86 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9A0242162D99755C002C75E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0242172D99755C002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0242262D997792002C75E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0242272D997792002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0242352D998153002C75E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0242362D998153002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0242442D998738002C75E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0242452D998738002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9A6F7D162D90E24800B9D960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2517,6 +2821,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A0242182D99755C002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第9关：编写函数计算并输出多项式的值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0242162D99755C002C75E2 /* Debug */,
+				9A0242172D99755C002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0242252D997792002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0242262D997792002C75E2 /* Debug */,
+				9A0242272D997792002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0242342D998153002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0242352D998153002C75E2 /* Debug */,
+				9A0242362D998153002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0242432D998738002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0242442D998738002C75E2 /* Debug */,
+				9A0242452D998738002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
