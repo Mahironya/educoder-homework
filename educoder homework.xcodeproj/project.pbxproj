@@ -133,6 +133,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A6F7DE72D97B8C500B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A6F7E092D98E5E700B9D960 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,6 +258,8 @@
 		9A6F7DB72D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第18关：求数列的第n项及前n项之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7DCB2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第1关：回文数计算"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7DDA2D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第2关： 编写函数求表达式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7DE92D97B8C500B9D960 /* C5-3 第3关：亲密数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第3关：亲密数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7E0B2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第4关：用递归方法将一个正整数逆序输出"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "n!计算 e 的值"; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -344,6 +364,20 @@
 			);
 			target = 9A6F7DD92D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */;
 		};
+		9A6F7DF32D97B8C900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第3关：亲密数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第3关：亲密数/main.cpp",
+			);
+			target = 9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */;
+		};
+		9A6F7E152D98E5EA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第4关：用递归方法将一个正整数逆序输出/main.cpp",
+			);
+			target = 9A6F7E0A2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */;
+		};
 		9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -432,6 +466,8 @@
 			exceptions = (
 				9A6F7DD52D93CA6C00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第1关：回文数计算" target */,
 				9A6F7DE42D97821200B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */,
+				9A6F7DF32D97B8C900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第3关：亲密数" target */,
+				9A6F7E152D98E5EA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */,
 			);
 			path = "第五章 函数进阶";
 			sourceTree = "<group>";
@@ -565,6 +601,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A6F7DE62D97B8C500B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7E082D98E5E700B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AE78AA02D8C3175001CEFFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,6 +742,8 @@
 				9A6F7DB72D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */,
 				9A6F7DCB2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */,
 				9A6F7DDA2D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */,
+				9A6F7DE92D97B8C500B9D960 /* C5-3 第3关：亲密数 */,
+				9A6F7E0B2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -976,6 +1028,44 @@
 			productReference = 9A6F7DDA2D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7DED2D97B8C500B9D960 /* Build configuration list for PBXNativeTarget "C5-3 第3关：亲密数" */;
+			buildPhases = (
+				9A6F7DE52D97B8C500B9D960 /* Sources */,
+				9A6F7DE62D97B8C500B9D960 /* Frameworks */,
+				9A6F7DE72D97B8C500B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第3关：亲密数";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第3关：亲密数";
+			productReference = 9A6F7DE92D97B8C500B9D960 /* C5-3 第3关：亲密数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A6F7E0A2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6F7E0F2D98E5E700B9D960 /* Build configuration list for PBXNativeTarget "C5-3 第4关：用递归方法将一个正整数逆序输出" */;
+			buildPhases = (
+				9A6F7E072D98E5E700B9D960 /* Sources */,
+				9A6F7E082D98E5E700B9D960 /* Frameworks */,
+				9A6F7E092D98E5E700B9D960 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第4关：用递归方法将一个正整数逆序输出";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第4关：用递归方法将一个正整数逆序输出";
+			productReference = 9A6F7E0B2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
@@ -1217,6 +1307,12 @@
 					9A6F7DD92D97820F00B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A6F7DE82D97B8C500B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A6F7E0A2D98E5E700B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9AE78AA22D8C3175001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -1287,6 +1383,8 @@
 				9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */,
 				9A6F7DCA2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */,
 				9A6F7DD92D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */,
+				9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */,
+				9A6F7E0A2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */,
 			);
 		};
 /* End PBXProject section */
@@ -1384,6 +1482,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7DD62D97820F00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7DE52D97B8C500B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6F7E072D98E5E700B9D960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1734,6 +1846,46 @@
 			name = Debug;
 		};
 		9A6F7DE02D97820F00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7DEE2D97B8C500B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7DEF2D97B8C500B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6F7E102D98E5E700B9D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6F7E112D98E5E700B9D960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2183,6 +2335,24 @@
 			buildConfigurations = (
 				9A6F7DDF2D97820F00B9D960 /* Debug */,
 				9A6F7DE02D97820F00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7DED2D97B8C500B9D960 /* Build configuration list for PBXNativeTarget "C5-3 第3关：亲密数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7DEE2D97B8C500B9D960 /* Debug */,
+				9A6F7DEF2D97B8C500B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6F7E0F2D98E5E700B9D960 /* Build configuration list for PBXNativeTarget "C5-3 第4关：用递归方法将一个正整数逆序输出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6F7E102D98E5E700B9D960 /* Debug */,
+				9A6F7E112D98E5E700B9D960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
