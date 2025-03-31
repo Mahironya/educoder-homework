@@ -7,52 +7,67 @@
 		<key>C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>13</integer>
 		</dict>
 		<key>C5-3 第11关：编写递归函数方法求x的n次方 (要求n&gt;=0).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>22</integer>
 		</dict>
 		<key>C5-3 第12关：编写递归函数求小于等于n的所有正整数之和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>7</integer>
+		</dict>
+		<key>C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
 		</dict>
 		<key>C5-3 第3关：亲密数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>28</integer>
 		</dict>
 		<key>C5-3 第4关：用递归方法将一个正整数逆序输出.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>30</integer>
 		</dict>
 		<key>C5-3 第5关：递归实现Ackman函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>27</integer>
 		</dict>
 		<key>C5-3 第6关：定义求x的n次幂的函数，并返回计算结果.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>20</integer>
 		</dict>
 		<key>C5-3 第7关：调用求x的n次幂的函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>26</integer>
 		</dict>
 		<key>C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>17</integer>
 		</dict>
 		<key>C5-3 第9关：编写函数计算并输出多项式的值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>4</integer>
 		</dict>
 		<key>C5-3第1关：回文数计算.xcscheme_^#shared#^_</key>
 		<dict>
@@ -67,112 +82,112 @@
 		<key>test1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>2</integer>
 		</dict>
 		<key>第10关：千分位分隔符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>32</integer>
 		</dict>
 		<key>第11关：歌手评分系统.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>34</integer>
 		</dict>
 		<key>第12关：判断数字能不能被整除.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>3</integer>
 		</dict>
 		<key>第13关：判断区间内素数的个数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>5</integer>
 		</dict>
 		<key>第14关：判断区间内某个数字出现的次数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>9</integer>
 		</dict>
 		<key>第15关：判断完数的个数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>31</integer>
 		</dict>
 		<key>第16关：求矩阵最大值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>16</integer>
 		</dict>
 		<key>第17关：逆序输出数组.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>25</integer>
 		</dict>
 		<key>第18关：求数列的第n项及前n项之和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>21</integer>
 		</dict>
 		<key>第19关：数字之积.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>19</integer>
 		</dict>
 		<key>第1关 C循环-求各位数字之积.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>29</integer>
 		</dict>
 		<key>第20关：求a^b的个位数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>24</integer>
 		</dict>
 		<key>第21关：输出星号2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>8</integer>
 		</dict>
 		<key>第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>23</integer>
 		</dict>
 		<key>第3关：输入一批整数统计正负数个数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>11</integer>
 		</dict>
 		<key>第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>10</integer>
 		</dict>
 		<key>第6关：给一个不多于5的正整数，用循环求出它是几位数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>15</integer>
 		</dict>
 		<key>第7关：拆数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>14</integer>
 		</dict>
 		<key>第8关：数列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
 		</dict>
 		<key>第9关：进制转换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>33</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

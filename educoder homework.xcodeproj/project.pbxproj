@@ -43,6 +43,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A02424C2D998A63002C75E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A4ECAE52D9ACBBD0036A702 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +347,9 @@
 		9A0242212D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A02424E2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -380,6 +410,27 @@
 				"C5-3 第12关：编写递归函数求小于等于n的所有正整数之和/main.cpp",
 			);
 			target = 9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
+		};
+		9A0242582D998A66002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入/main.cpp",
+			);
+			target = 9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
+		};
+		9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来/main.cpp",
+			);
+			target = 9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */;
+		};
+		9A4ECAF12D9ACBC10036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现/main.cpp",
+			);
+			target = 9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */;
 		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -612,6 +663,9 @@
 				9A02422B2D997794002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
 				9A02423A2D998157002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
 				9A0242492D99873D002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
+				9A0242582D998A66002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */,
+				9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
+				9A4ECAF12D9ACBC10036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
 			);
 			path = "第五章 函数进阶";
 			sourceTree = "<group>";
@@ -669,6 +723,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A02423C2D998738002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02424B2D998A63002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4ECAD52D9A92860036A702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4ECAE42D9ACBBD0036A702 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -952,6 +1027,9 @@
 				9A0242212D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */,
 				9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */,
 				9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */,
+				9A02424E2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */,
+				9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */,
+				9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1041,6 +1119,63 @@
 			);
 			productName = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和";
 			productReference = 9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0242522D998A63002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" */;
+			buildPhases = (
+				9A02424A2D998A63002C75E2 /* Sources */,
+				9A02424B2D998A63002C75E2 /* Frameworks */,
+				9A02424C2D998A63002C75E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入";
+			productReference = 9A02424E2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4ECADE2D9A92860036A702 /* Build configuration list for PBXNativeTarget "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" */;
+			buildPhases = (
+				9A4ECAD42D9A92860036A702 /* Sources */,
+				9A4ECAD52D9A92860036A702 /* Frameworks */,
+				9A4ECAD62D9A92860036A702 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来";
+			productReference = 9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4ECAEB2D9ACBBE0036A702 /* Build configuration list for PBXNativeTarget "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" */;
+			buildPhases = (
+				9A4ECAE32D9ACBBD0036A702 /* Sources */,
+				9A4ECAE42D9ACBBD0036A702 /* Frameworks */,
+				9A4ECAE52D9ACBBD0036A702 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现";
+			productReference = 9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */ = {
@@ -1637,6 +1772,15 @@
 					9A02423E2D998738002C75E2 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A02424D2D998A63002C75E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A4ECAD72D9A92860036A702 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A4ECAE62D9ACBBD0036A702 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A6F7D112D90E24800B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -1777,6 +1921,9 @@
 				9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */,
 				9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */,
 				9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */,
+				9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */,
+				9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */,
+				9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */,
 			);
 		};
 /* End PBXProject section */
@@ -1804,6 +1951,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A02423B2D998738002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A02424A2D998A63002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4ECAD42D9A92860036A702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4ECAE32D9ACBBD0036A702 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2094,6 +2262,66 @@
 			name = Debug;
 		};
 		9A0242452D998738002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0242532D998A63002C75E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0242542D998A63002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A4ECADC2D9A92860036A702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A4ECADD2D9A92860036A702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A4ECAEC2D9ACBBE0036A702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A4ECAED2D9ACBBE0036A702 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2853,6 +3081,33 @@
 			buildConfigurations = (
 				9A0242442D998738002C75E2 /* Debug */,
 				9A0242452D998738002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0242522D998A63002C75E2 /* Build configuration list for PBXNativeTarget "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0242532D998A63002C75E2 /* Debug */,
+				9A0242542D998A63002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4ECADE2D9A92860036A702 /* Build configuration list for PBXNativeTarget "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4ECADC2D9A92860036A702 /* Debug */,
+				9A4ECADD2D9A92860036A702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4ECAEB2D9ACBBE0036A702 /* Build configuration list for PBXNativeTarget "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4ECAEC2D9ACBBE0036A702 /* Debug */,
+				9A4ECAED2D9ACBBE0036A702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

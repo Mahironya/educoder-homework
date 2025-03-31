@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2C506ACD-0ECC-474C-B3BC-3C7A79237E9C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E88C5F8C-5170-40FC-97F0-DBDC17E28E2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;--&#x5206;&#x5de5;&#x4e0e;&#x5408;&#x4f5c;/&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;&#x8fdb;&#x9636;/C5-3 &#x7b2c;13&#x5173;&#xff1a;&#x7f16;&#x5199;&#x9012;&#x5f52;&#x51fd;&#x6570;&#x5c06;&#x6240;&#x8f93;&#x5165;&#x7684;&#x6574;&#x6570;&#x4ee5;&#x76f8;&#x53cd;&#x987a;&#x5e8f;&#x6253;&#x5370;&#x51fa;&#x6765;&#xff0c;&#x6574;&#x6570;&#x4e3a;0&#x65f6;&#x7ec8;&#x6b62;&#x8f93;&#x5165;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "reversePrint()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D1D27D9-7D48-4715-9D7F-4E70D3BA2203"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;--&#x5206;&#x5de5;&#x4e0e;&#x5408;&#x4f5c;/&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;&#x8fdb;&#x9636;/C5-3 &#x7b2c;13&#x5173;&#xff1a;&#x7f16;&#x5199;&#x9012;&#x5f52;&#x51fd;&#x6570;&#x5c06;&#x6240;&#x8f93;&#x5165;&#x7684;&#x6574;&#x6570;&#x4ee5;&#x76f8;&#x53cd;&#x987a;&#x5e8f;&#x6253;&#x5370;&#x51fa;&#x6765;&#xff0c;&#x6574;&#x6570;&#x4e3a;0&#x65f6;&#x7ec8;&#x6b62;&#x8f93;&#x5165;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "reversePrint()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
