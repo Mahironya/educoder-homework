@@ -1,14 +1,17 @@
-//
-//  main.cpp
-//  C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现
-//
-//  Created by Joseph Lee on 3/31/25.
-//
-
 #include <iostream>
+using namespace std;
+int fib(int n){
+    if (n == 1) return 1;
+    if (n == 2) return 1;
+    return fib(n - 1) + fib(n - 2);
+    
+}
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+int main(){
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n + 1; ++i){
+        cout<<fib(i)<<" ";
+    }
 }
