@@ -52,6 +52,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A0A09CA2D9B805A006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A0A09D92D9B80E4006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +375,8 @@
 		9A0242302D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A02423F2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A02424E2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A09CC2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第17关：登月纸桥"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A09DB2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第23关：3 求函数值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -427,6 +447,20 @@
 				"C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入/main.cpp",
 			);
 			target = 9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
+		};
+		9A0A09D62D9B805E006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第17关：登月纸桥" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第17关：登月纸桥/main.cpp",
+			);
+			target = 9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */;
+		};
+		9A0A09E52D9B80E7006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第23关：3 求函数值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第23关：3 求函数值/main.cpp",
+			);
+			target = 9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */;
 		};
 		9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -684,6 +718,8 @@
 				9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
 				9A4ECAF12D9ACBC10036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
 				9A4ECB002D9AD2020036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第16关：合并为新数" target */,
+				9A0A09D62D9B805E006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第17关：登月纸桥" target */,
+				9A0A09E52D9B80E7006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第23关：3 求函数值" target */,
 			);
 			path = "第五章 函数进阶";
 			sourceTree = "<group>";
@@ -748,6 +784,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A02424B2D998A63002C75E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A09C92D9B805A006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A09D82D9B80E4006B76CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1056,6 +1106,8 @@
 				9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */,
 				9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */,
 				9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */,
+				9A0A09CC2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */,
+				9A0A09DB2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1164,6 +1216,44 @@
 			);
 			productName = "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入";
 			productReference = 9A02424E2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A09D22D9B805B006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第17关：登月纸桥" */;
+			buildPhases = (
+				9A0A09C82D9B805A006B76CB /* Sources */,
+				9A0A09C92D9B805A006B76CB /* Frameworks */,
+				9A0A09CA2D9B805A006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第17关：登月纸桥";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第17关：登月纸桥";
+			productReference = 9A0A09CC2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A09DF2D9B80E4006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第23关：3 求函数值" */;
+			buildPhases = (
+				9A0A09D72D9B80E4006B76CB /* Sources */,
+				9A0A09D82D9B80E4006B76CB /* Frameworks */,
+				9A0A09D92D9B80E4006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第23关：3 求函数值";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第23关：3 求函数值";
+			productReference = 9A0A09DB2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
@@ -1820,6 +1910,12 @@
 					9A02424D2D998A63002C75E2 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A0A09CB2D9B805A006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A0A09DA2D9B80E4006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A4ECAD72D9A92860036A702 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -1973,6 +2069,8 @@
 				9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */,
 				9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */,
 				9A4ECAF52D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */,
+				9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */,
+				9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */,
 			);
 		};
 /* End PBXProject section */
@@ -2007,6 +2105,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A02424A2D998A63002C75E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A09C82D9B805A006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A09D72D9B80E4006B76CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2338,6 +2450,46 @@
 			name = Debug;
 		};
 		9A0242542D998A63002C75E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A09D02D9B805B006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A09D12D9B805B006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A09E02D9B80E4006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A09E12D9B80E4006B76CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3166,6 +3318,24 @@
 			buildConfigurations = (
 				9A0242532D998A63002C75E2 /* Debug */,
 				9A0242542D998A63002C75E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A09D22D9B805B006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第17关：登月纸桥" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A09D02D9B805B006B76CB /* Debug */,
+				9A0A09D12D9B805B006B76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A09DF2D9B80E4006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第23关：3 求函数值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A09E02D9B80E4006B76CB /* Debug */,
+				9A0A09E12D9B80E4006B76CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
