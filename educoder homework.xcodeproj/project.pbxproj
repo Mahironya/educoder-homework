@@ -106,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A0A0A242DA0CD73006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,6 +426,7 @@
 		9A0A09F92DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第19关：拆开了输出整数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0A082DA02667006B76CB /* C5-3 第20关：递归求P函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第20关：递归求P函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第21关：1 求中间值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第22关：2 放鞭炮"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -453,98 +463,105 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9A02421C2D99755F002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */ = {
+		9A02421C2D99755F002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第9关：编写函数计算并输出多项式的值/main.cpp",
 			);
 			target = 9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */;
 		};
-		9A02422B2D997794002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */ = {
+		9A02422B2D997794002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数/main.cpp",
 			);
 			target = 9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */;
 		};
-		9A02423A2D998157002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */ = {
+		9A02423A2D998157002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)/main.cpp",
 			);
 			target = 9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */;
 		};
-		9A0242492D99873D002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */ = {
+		9A0242492D99873D002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第12关：编写递归函数求小于等于n的所有正整数之和/main.cpp",
 			);
 			target = 9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
 		};
-		9A0242582D998A66002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */ = {
+		9A0242582D998A66002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入/main.cpp",
 			);
 			target = 9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
 		};
-		9A0A09D62D9B805E006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第17关：登月纸桥" target */ = {
+		9A0A09D62D9B805E006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第17关：登月纸桥/main.cpp",
 			);
 			target = 9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */;
 		};
-		9A0A09E52D9B80E7006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第23关：3 求函数值" target */ = {
+		9A0A09E52D9B80E7006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第23关：3 求函数值/main.cpp",
 			);
 			target = 9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */;
 		};
-		9A0A09F42D9EB5EF006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第18关：打印日历" target */ = {
+		9A0A09F42D9EB5EF006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第18关：打印日历/main.cpp",
 			);
 			target = 9A0A09E92D9EB5E9006B76CB /* C5-3 第18关：打印日历 */;
 		};
-		9A0A0A032DA02402006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */ = {
+		9A0A0A032DA02402006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第19关：拆开了输出整数/main.cpp",
 			);
 			target = 9A0A09F82DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */;
 		};
-		9A0A0A122DA0266A006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第20关：递归求P函数" target */ = {
+		9A0A0A122DA0266A006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第20关：递归求P函数/main.cpp",
 			);
 			target = 9A0A0A072DA02667006B76CB /* C5-3 第20关：递归求P函数 */;
 		};
-		9A0A0A212DA03318006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第21关：1 求中间值" target */ = {
+		9A0A0A212DA03318006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第21关：1 求中间值/main.cpp",
 			);
 			target = 9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */;
 		};
-		9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
+		9A0A0A302DA0CD76006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第22关：2 放鞭炮/main.cpp",
+			);
+			target = 9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
+		};
+		9A4ECAE22D9A928A0036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来/main.cpp",
 			);
 			target = 9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */;
 		};
-		9A4ECAF12D9ACBC10036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */ = {
+		9A4ECAF12D9ACBC10036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现/main.cpp",
 			);
 			target = 9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */;
 		};
-		9A4ECB002D9AD2020036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第16关：合并为新数" target */ = {
+		9A4ECB002D9AD2020036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第16关：合并为新数/main.cpp",
@@ -628,56 +645,56 @@
 			);
 			target = 9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */;
 		};
-		9A6F7DD52D93CA6C00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第1关：回文数计算" target */ = {
+		9A6F7DD52D93CA6C00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第1关：回文数计算/main.cpp",
 			);
 			target = 9A6F7DCA2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */;
 		};
-		9A6F7DE42D97821200B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */ = {
+		9A6F7DE42D97821200B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第2关： 编写函数求表达式的值/main.cpp",
 			);
 			target = 9A6F7DD92D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */;
 		};
-		9A6F7DF32D97B8C900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第3关：亲密数" target */ = {
+		9A6F7DF32D97B8C900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第3关：亲密数/main.cpp",
 			);
 			target = 9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */;
 		};
-		9A6F7E152D98E5EA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */ = {
+		9A6F7E152D98E5EA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第4关：用递归方法将一个正整数逆序输出/main.cpp",
 			);
 			target = 9A6F7E0A2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */;
 		};
-		9A6F7E252D98EEEA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */ = {
+		9A6F7E252D98EEEA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第5关：递归实现Ackman函数/main.cpp",
 			);
 			target = 9A6F7E1A2D98EEE700B9D960 /* C5-3 第5关：递归实现Ackman函数 */;
 		};
-		9A6F7E342D99180100B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */ = {
+		9A6F7E342D99180100B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第6关：定义求x的n次幂的函数，并返回计算结果/main.cpp",
 			);
 			target = 9A6F7E292D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */;
 		};
-		9A6F7E432D99584900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */ = {
+		9A6F7E432D99584900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第7关：调用求x的n次幂的函数/main.cpp",
 			);
 			target = 9A6F7E382D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */;
 		};
-		9A6F7E522D99596000B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */ = {
+		9A6F7E522D99596000B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和/main.cpp",
@@ -767,33 +784,34 @@
 			path = test1;
 			sourceTree = "<group>";
 		};
-		9A6F7DC62D93CA2A00B9D960 /* 第五章 函数进阶 */ = {
+		9A6F7DC62D93CA2A00B9D960 /* C5-3 函数进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9A6F7DD52D93CA6C00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第1关：回文数计算" target */,
-				9A6F7DE42D97821200B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */,
-				9A6F7DF32D97B8C900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第3关：亲密数" target */,
-				9A6F7E152D98E5EA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */,
-				9A6F7E252D98EEEA00B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */,
-				9A6F7E342D99180100B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */,
-				9A6F7E432D99584900B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */,
-				9A6F7E522D99596000B9D960 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */,
-				9A02421C2D99755F002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */,
-				9A02422B2D997794002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
-				9A02423A2D998157002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
-				9A0242492D99873D002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
-				9A0242582D998A66002C75E2 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */,
-				9A4ECAE22D9A928A0036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
-				9A4ECAF12D9ACBC10036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
-				9A4ECB002D9AD2020036A702 /* Exceptions for "第五章 函数进阶" folder in "C5-3 第16关：合并为新数" target */,
-				9A0A09D62D9B805E006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第17关：登月纸桥" target */,
-				9A0A09E52D9B80E7006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第23关：3 求函数值" target */,
-				9A0A09F42D9EB5EF006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第18关：打印日历" target */,
-				9A0A0A032DA02402006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */,
-				9A0A0A122DA0266A006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第20关：递归求P函数" target */,
-				9A0A0A212DA03318006B76CB /* Exceptions for "第五章 函数进阶" folder in "C5-3 第21关：1 求中间值" target */,
+				9A6F7DD52D93CA6C00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */,
+				9A6F7DE42D97821200B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */,
+				9A6F7DF32D97B8C900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */,
+				9A6F7E152D98E5EA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */,
+				9A6F7E252D98EEEA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */,
+				9A6F7E342D99180100B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */,
+				9A6F7E432D99584900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */,
+				9A6F7E522D99596000B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */,
+				9A02421C2D99755F002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */,
+				9A02422B2D997794002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
+				9A02423A2D998157002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
+				9A0242492D99873D002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
+				9A0242582D998A66002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */,
+				9A4ECAE22D9A928A0036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
+				9A4ECAF12D9ACBC10036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
+				9A4ECB002D9AD2020036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */,
+				9A0A09D62D9B805E006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */,
+				9A0A09E52D9B80E7006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */,
+				9A0A09F42D9EB5EF006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */,
+				9A0A0A032DA02402006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */,
+				9A0A0A122DA0266A006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */,
+				9A0A0A212DA03318006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */,
+				9A0A0A302DA0CD76006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */,
 			);
-			path = "第五章 函数进阶";
+			path = "C5-3 函数进阶";
 			sourceTree = "<group>";
 		};
 		9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */ = {
@@ -898,6 +916,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0A142DA03315006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0A232DA0CD73006B76CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1149,7 +1174,7 @@
 		9A6F7DC52D93CA0100B9D960 /* 第五章 函数--分工与合作 */ = {
 			isa = PBXGroup;
 			children = (
-				9A6F7DC62D93CA2A00B9D960 /* 第五章 函数进阶 */,
+				9A6F7DC62D93CA2A00B9D960 /* C5-3 函数进阶 */,
 			);
 			path = "第五章 函数--分工与合作";
 			sourceTree = "<group>";
@@ -1212,6 +1237,7 @@
 				9A0A09F92DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */,
 				9A0A0A082DA02667006B76CB /* C5-3 第20关：递归求P函数 */,
 				9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
+				9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1434,6 +1460,25 @@
 			);
 			productName = "C5-3 第21关：1 求中间值";
 			productReference = 9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A0A2A2DA0CD73006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第22关：2 放鞭炮" */;
+			buildPhases = (
+				9A0A0A222DA0CD73006B76CB /* Sources */,
+				9A0A0A232DA0CD73006B76CB /* Frameworks */,
+				9A0A0A242DA0CD73006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-3 第22关：2 放鞭炮";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第22关：2 放鞭炮";
+			productReference = 9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
@@ -2108,6 +2153,9 @@
 					9A0A0A162DA03315006B76CB = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A0A0A252DA0CD73006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A4ECAD72D9A92860036A702 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -2267,6 +2315,7 @@
 				9A0A09F82DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */,
 				9A0A0A072DA02667006B76CB /* C5-3 第20关：递归求P函数 */,
 				9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
+				9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
 			);
 		};
 /* End PBXProject section */
@@ -2343,6 +2392,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0A132DA03315006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0A222DA0CD73006B76CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2794,6 +2850,26 @@
 			name = Debug;
 		};
 		9A0A0A1D2DA03315006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A0A2B2DA0CD73006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A0A2C2DA0CD73006B76CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3676,6 +3752,15 @@
 			buildConfigurations = (
 				9A0A0A1C2DA03315006B76CB /* Debug */,
 				9A0A0A1D2DA03315006B76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A0A2A2DA0CD73006B76CB /* Build configuration list for PBXNativeTarget "C5-3 第22关：2 放鞭炮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A0A2B2DA0CD73006B76CB /* Debug */,
+				9A0A0A2C2DA0CD73006B76CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
