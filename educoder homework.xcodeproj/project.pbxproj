@@ -568,80 +568,80 @@
 			);
 			target = 9A4ECAF52D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */;
 		};
-		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
+		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第11关：歌手评分系统/main.cpp",
+				"C4-4 第11关：歌手评分系统/main.cpp",
 			);
 			target = 9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */;
 		};
-		9A6F7D2B2D90E4F000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */ = {
+		9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第12关：判断数字能不能被整除/main.cpp",
+				"C4-4 第12关：判断数字能不能被整除/main.cpp",
 			);
 			target = 9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */;
 		};
-		9A6F7D3A2D90E76E00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */ = {
+		9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第13关：判断区间内素数的个数/main.cpp",
+				"C4-4 第13关：判断区间内素数的个数/main.cpp",
 			);
 			target = 9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */;
 		};
-		9A6F7D492D90E9E900B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */ = {
+		9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第14关：判断区间内某个数字出现的次数/main.cpp",
+				"C4-4 第14关：判断区间内某个数字出现的次数/main.cpp",
 			);
 			target = 9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */;
 		};
-		9A6F7D582D90F70000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */ = {
+		9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第15关：判断完数的个数/main.cpp",
+				"C4-4 第15关：判断完数的个数/main.cpp",
 			);
 			target = 9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */;
 		};
-		9A6F7D672D9181DD00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第19关：数字之积" target */ = {
+		9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第19关：数字之积" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第19关：数字之积/main.cpp",
+				"C4-4 第19关：数字之积/main.cpp",
 			);
 			target = 9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */;
 		};
-		9A6F7D762D918C8200B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第9关：进制转换" target */ = {
+		9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第9关：进制转换" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第9关：进制转换/main.cpp",
+				"C4-4 第9关：进制转换/main.cpp",
 			);
 			target = 9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */;
 		};
-		9A6F7D942D91AB5000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */ = {
+		9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第10关：千分位分隔符/main.cpp",
+				"C4-4 第10关：千分位分隔符/main.cpp",
 			);
 			target = 9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */;
 		};
-		9A6F7DA32D92941C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */ = {
+		9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第16关：求矩阵最大值/main.cpp",
+				"C4-4 第16关：求矩阵最大值/main.cpp",
 			);
 			target = 9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */;
 		};
-		9A6F7DB22D92A5D800B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */ = {
+		9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第17关：逆序输出数组/main.cpp",
+				"C4-4 第17关：逆序输出数组/main.cpp",
 			);
 			target = 9A6F7DA72D92A5D300B9D960 /* 第17关：逆序输出数组 */;
 		};
-		9A6F7DC12D92B02800B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */ = {
+		9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第18关：求数列的第n项及前n项之和/main.cpp",
+				"C4-4 第18关：求数列的第n项及前n项之和/main.cpp",
 			);
 			target = 9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */;
 		};
@@ -701,79 +701,84 @@
 			);
 			target = 9A6F7E472D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
 		};
-		9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
+		9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"n!计算 e 的值/main.cpp",
+				"C4-4 第2关n!计算 e 的值/main.cpp",
 			);
 			target = 9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
 		};
-		9AE78ABC2D8C31B5001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */ = {
+		9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第1关 C循环-求各位数字之积/main.cpp",
+				"C4-4 第1关 C循环-求各位数字之积/main.cpp",
 			);
 			target = 9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */;
 		};
-		9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */ = {
+		9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第3关：输入一批整数统计正负数个数/main.cpp",
+				"C4-4 第3关：输入一批整数统计正负数个数/main.cpp",
 			);
 			target = 9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
 		};
-		9AE78ADA2D8C3426001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */ = {
+		9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和/main.cpp",
+				"C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和/main.cpp",
 			);
 			target = 9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
 		};
-		9AE78AE92D8D245A001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */ = {
+		9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分/main.cpp",
+				"C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分/main.cpp",
 			);
 			target = 9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
 		};
-		9AE78AF82D8D42C2001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */ = {
+		9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第6关：给一个不多于5的正整数，用循环求出它是几位数/main.cpp",
+				"C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数/main.cpp",
 			);
 			target = 9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
 		};
-		9AE78B072D8D48F1001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第7关：拆数" target */ = {
+		9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第7关：拆数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第7关：拆数/main.cpp",
+				"C4-4 第7关：拆数/main.cpp",
 			);
 			target = 9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */;
 		};
-		9AE78B162D8D5CE8001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第8关：数列" target */ = {
+		9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第8关：数列" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第8关：数列/main.cpp",
+				"C4-4 第8关：数列/main.cpp",
 			);
 			target = 9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */;
 		};
-		9AE78B252D8D6B76001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */ = {
+		9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第20关：求a^b的个位数/main.cpp",
+				"C4-4 第20关：求a^b的个位数/main.cpp",
 			);
 			target = 9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */;
 		};
-		9AE78B342D8DBD50001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第21关：输出星号2" target */ = {
+		9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第21关：输出星号2" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"第21关：输出星号2/main.cpp",
+				"C4-4 第21关：输出星号2/main.cpp",
 			);
 			target = 9AE78B292D8DBC92001CEFFC /* 第21关：输出星号2 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "C5-2 函数-递归";
+			sourceTree = "<group>";
+		};
 		9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "用来临时测试代码";
@@ -814,32 +819,32 @@
 			path = "C5-3 函数进阶";
 			sourceTree = "<group>";
 		};
-		9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */ = {
+		9AE78A8F2D8C3121001CEFFC /* C4-4 循环结构程序设计进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9AE78AAD2D8C3179001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
-				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */,
-				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
-				9AE78ADA2D8C3426001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
-				9AE78AE92D8D245A001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */,
-				9AE78AF82D8D42C2001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
-				9AE78B072D8D48F1001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第7关：拆数" target */,
-				9AE78B162D8D5CE8001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第8关：数列" target */,
-				9AE78B252D8D6B76001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */,
-				9AE78B342D8DBD50001CEFFC /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第21关：输出星号2" target */,
-				9A6F7D1C2D90E24C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */,
-				9A6F7D2B2D90E4F000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */,
-				9A6F7D3A2D90E76E00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */,
-				9A6F7D492D90E9E900B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */,
-				9A6F7D582D90F70000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */,
-				9A6F7D672D9181DD00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第19关：数字之积" target */,
-				9A6F7D762D918C8200B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第9关：进制转换" target */,
-				9A6F7D942D91AB5000B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */,
-				9A6F7DA32D92941C00B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */,
-				9A6F7DB22D92A5D800B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */,
-				9A6F7DC12D92B02800B9D960 /* Exceptions for "第四章 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */,
+				9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
+				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */,
+				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
+				9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
+				9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */,
+				9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
+				9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第7关：拆数" target */,
+				9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第8关：数列" target */,
+				9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */,
+				9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第21关：输出星号2" target */,
+				9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */,
+				9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */,
+				9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */,
+				9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */,
+				9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */,
+				9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第19关：数字之积" target */,
+				9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第9关：进制转换" target */,
+				9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */,
+				9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */,
+				9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */,
+				9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */,
 			);
-			path = "第四章 循环结构程序设计进阶";
+			path = "C4-4 循环结构程序设计进阶";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -1174,6 +1179,7 @@
 		9A6F7DC52D93CA0100B9D960 /* 第五章 函数--分工与合作 */ = {
 			isa = PBXGroup;
 			children = (
+				9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */,
 				9A6F7DC62D93CA2A00B9D960 /* C5-3 函数进阶 */,
 			);
 			path = "第五章 函数--分工与合作";
@@ -1245,7 +1251,7 @@
 		9AE78A8E2D8C3115001CEFFC /* 第四章 循环结构 */ = {
 			isa = PBXGroup;
 			children = (
-				9AE78A8F2D8C3121001CEFFC /* 第四章 循环结构程序设计进阶 */,
+				9AE78A8F2D8C3121001CEFFC /* C4-4 循环结构程序设计进阶 */,
 			);
 			path = "第四章 循环结构";
 			sourceTree = "<group>";
