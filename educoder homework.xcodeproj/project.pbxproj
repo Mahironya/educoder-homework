@@ -115,6 +115,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A0A0AD82DA0DC65006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,21 +436,22 @@
 		9A0A0A082DA02667006B76CB /* C5-3 第20关：递归求P函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第20关：递归求P函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第21关：1 求中间值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第22关：2 放鞭炮"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Q-3第1关：寻找第二小数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第14关：判断区间内某个数字出现的次数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第15关：判断完数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第19关：数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第9关：进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D3F2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第14关：判断区间内某个数字出现的次数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D4E2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第15关：判断完数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D5D2D9181DA00B9D960 /* C4-4 第19关：数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第19关：数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D6C2D918C7F00B9D960 /* C4-4 第9关：进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第9关：进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D7F2D91941C00B9D960 /* test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第10关：千分位分隔符"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第16关：求矩阵最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7DA82D92A5D300B9D960 /* 第17关：逆序输出数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第17关：逆序输出数组"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6F7DB72D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第18关：求数列的第n项及前n项之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D8A2D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第10关：千分位分隔符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7D992D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第16关：求矩阵最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7DA82D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第17关：逆序输出数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6F7DB72D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第18关：求数列的第n项及前n项之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7DCB2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第1关：回文数计算"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7DDA2D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第2关： 编写函数求表达式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7DE92D97B8C500B9D960 /* C5-3 第3关：亲密数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第3关：亲密数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -450,326 +460,326 @@
 		9A6F7E2A2D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E392D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第7关：调用求x的n次幂的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AA32D8C3175001CEFFC /* n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "n!计算 e 的值"; path = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第6关：给一个不多于5的正整数，用循环求出它是几位数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第7关：拆数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第8关：数列"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE78B2A2D8DBC92001CEFFC /* 第21关：输出星号2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第21关：输出星号2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AA32D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AB22D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AC12D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AD02D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78ADF2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AEE2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78AFD2D8D48ED001CEFFC /* C4-4 第7关：拆数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第7关：拆数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78B0C2D8D5CE5001CEFFC /* C4-4 第8关：数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第8关：数列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第21关：输出星号2"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9A02421C2D99755F002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第9关：编写函数计算并输出多项式的值/main.cpp",
-			);
-			target = 9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */;
-		};
-		9A02422B2D997794002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数/main.cpp",
-			);
-			target = 9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */;
-		};
-		9A02423A2D998157002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)/main.cpp",
-			);
-			target = 9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */;
-		};
-		9A0242492D99873D002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第12关：编写递归函数求小于等于n的所有正整数之和/main.cpp",
-			);
-			target = 9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
-		};
-		9A0242582D998A66002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入/main.cpp",
-			);
-			target = 9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
-		};
-		9A0A09D62D9B805E006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第17关：登月纸桥/main.cpp",
-			);
-			target = 9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */;
-		};
-		9A0A09E52D9B80E7006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第23关：3 求函数值/main.cpp",
-			);
-			target = 9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */;
-		};
-		9A0A09F42D9EB5EF006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第18关：打印日历/main.cpp",
-			);
-			target = 9A0A09E92D9EB5E9006B76CB /* C5-3 第18关：打印日历 */;
-		};
-		9A0A0A032DA02402006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第19关：拆开了输出整数/main.cpp",
-			);
-			target = 9A0A09F82DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */;
-		};
-		9A0A0A122DA0266A006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第20关：递归求P函数/main.cpp",
-			);
-			target = 9A0A0A072DA02667006B76CB /* C5-3 第20关：递归求P函数 */;
-		};
-		9A0A0A212DA03318006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第21关：1 求中间值/main.cpp",
-			);
-			target = 9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */;
-		};
-		9A0A0A302DA0CD76006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第22关：2 放鞭炮/main.cpp",
-			);
-			target = 9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
-		};
-		9A4ECAE22D9A928A0036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来/main.cpp",
-			);
-			target = 9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */;
-		};
-		9A4ECAF12D9ACBC10036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现/main.cpp",
-			);
-			target = 9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */;
-		};
-		9A4ECB002D9AD2020036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C5-3 第16关：合并为新数/main.cpp",
-			);
-			target = 9A4ECAF52D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */;
-		};
-		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第11关：歌手评分系统/main.cpp",
-			);
-			target = 9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */;
-		};
-		9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第12关：判断数字能不能被整除/main.cpp",
-			);
-			target = 9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */;
-		};
-		9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第13关：判断区间内素数的个数/main.cpp",
-			);
-			target = 9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */;
-		};
-		9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第14关：判断区间内某个数字出现的次数/main.cpp",
-			);
-			target = 9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */;
-		};
-		9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第15关：判断完数的个数/main.cpp",
-			);
-			target = 9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */;
-		};
-		9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第19关：数字之积" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第19关：数字之积/main.cpp",
-			);
-			target = 9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */;
-		};
-		9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第9关：进制转换" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第9关：进制转换/main.cpp",
-			);
-			target = 9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */;
-		};
-		9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第10关：千分位分隔符/main.cpp",
-			);
-			target = 9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */;
-		};
-		9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第16关：求矩阵最大值/main.cpp",
-			);
-			target = 9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */;
-		};
-		9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第17关：逆序输出数组/main.cpp",
-			);
-			target = 9A6F7DA72D92A5D300B9D960 /* 第17关：逆序输出数组 */;
-		};
-		9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"C4-4 第18关：求数列的第n项及前n项之和/main.cpp",
-			);
-			target = 9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */;
-		};
-		9A6F7DD52D93CA6C00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */ = {
+		9A0A0ABE2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第1关：回文数计算/main.cpp",
 			);
 			target = 9A6F7DCA2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */;
 		};
-		9A6F7DE42D97821200B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */ = {
+		9A0A0ABF2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第2关： 编写函数求表达式的值/main.cpp",
 			);
 			target = 9A6F7DD92D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */;
 		};
-		9A6F7DF32D97B8C900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */ = {
+		9A0A0AC02DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第3关：亲密数/main.cpp",
 			);
 			target = 9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */;
 		};
-		9A6F7E152D98E5EA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */ = {
+		9A0A0AC12DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第4关：用递归方法将一个正整数逆序输出/main.cpp",
 			);
 			target = 9A6F7E0A2D98E5E700B9D960 /* C5-3 第4关：用递归方法将一个正整数逆序输出 */;
 		};
-		9A6F7E252D98EEEA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */ = {
+		9A0A0AC22DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第5关：递归实现Ackman函数/main.cpp",
 			);
 			target = 9A6F7E1A2D98EEE700B9D960 /* C5-3 第5关：递归实现Ackman函数 */;
 		};
-		9A6F7E342D99180100B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */ = {
+		9A0A0AC32DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第6关：定义求x的n次幂的函数，并返回计算结果/main.cpp",
 			);
 			target = 9A6F7E292D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */;
 		};
-		9A6F7E432D99584900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */ = {
+		9A0A0AC42DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第7关：调用求x的n次幂的函数/main.cpp",
 			);
 			target = 9A6F7E382D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */;
 		};
-		9A6F7E522D99596000B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */ = {
+		9A0A0AC52DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和/main.cpp",
 			);
 			target = 9A6F7E472D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
 		};
-		9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
+		9A0A0AC62DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第9关：编写函数计算并输出多项式的值/main.cpp",
+			);
+			target = 9A0242112D99755C002C75E2 /* C5-3 第9关：编写函数计算并输出多项式的值 */;
+		};
+		9A0A0AC72DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数/main.cpp",
+			);
+			target = 9A0242202D997791002C75E2 /* C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数 */;
+		};
+		9A0A0AC82DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)/main.cpp",
+			);
+			target = 9A02422F2D998153002C75E2 /* C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0) */;
+		};
+		9A0A0AC92DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第12关：编写递归函数求小于等于n的所有正整数之和/main.cpp",
+			);
+			target = 9A02423E2D998738002C75E2 /* C5-3 第12关：编写递归函数求小于等于n的所有正整数之和 */;
+		};
+		9A0A0ACA2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入/main.cpp",
+			);
+			target = 9A02424D2D998A63002C75E2 /* C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入 */;
+		};
+		9A0A0ACB2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来/main.cpp",
+			);
+			target = 9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */;
+		};
+		9A0A0ACC2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现/main.cpp",
+			);
+			target = 9A4ECAE62D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */;
+		};
+		9A0A0ACD2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第16关：合并为新数/main.cpp",
+			);
+			target = 9A4ECAF52D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */;
+		};
+		9A0A0ACE2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第17关：登月纸桥/main.cpp",
+			);
+			target = 9A0A09CB2D9B805A006B76CB /* C5-3 第17关：登月纸桥 */;
+		};
+		9A0A0ACF2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第23关：3 求函数值/main.cpp",
+			);
+			target = 9A0A09DA2D9B80E4006B76CB /* C5-3 第23关：3 求函数值 */;
+		};
+		9A0A0AD02DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第18关：打印日历/main.cpp",
+			);
+			target = 9A0A09E92D9EB5E9006B76CB /* C5-3 第18关：打印日历 */;
+		};
+		9A0A0AD12DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第19关：拆开了输出整数/main.cpp",
+			);
+			target = 9A0A09F82DA023F9006B76CB /* C5-3 第19关：拆开了输出整数 */;
+		};
+		9A0A0AD22DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第20关：递归求P函数/main.cpp",
+			);
+			target = 9A0A0A072DA02667006B76CB /* C5-3 第20关：递归求P函数 */;
+		};
+		9A0A0AD32DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第21关：1 求中间值/main.cpp",
+			);
+			target = 9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */;
+		};
+		9A0A0AD42DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-3 第22关：2 放鞭炮/main.cpp",
+			);
+			target = 9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
+		};
+		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第11关：歌手评分系统/main.cpp",
+			);
+			target = 9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */;
+		};
+		9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第12关：判断数字能不能被整除" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第12关：判断数字能不能被整除/main.cpp",
+			);
+			target = 9A6F7D202D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */;
+		};
+		9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第13关：判断区间内素数的个数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第13关：判断区间内素数的个数/main.cpp",
+			);
+			target = 9A6F7D2F2D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */;
+		};
+		9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第14关：判断区间内某个数字出现的次数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第14关：判断区间内某个数字出现的次数/main.cpp",
+			);
+			target = 9A6F7D3E2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */;
+		};
+		9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第15关：判断完数的个数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第15关：判断完数的个数/main.cpp",
+			);
+			target = 9A6F7D4D2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */;
+		};
+		9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第19关：数字之积" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第19关：数字之积/main.cpp",
+			);
+			target = 9A6F7D5C2D9181DA00B9D960 /* C4-4 第19关：数字之积 */;
+		};
+		9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第9关：进制转换" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第9关：进制转换/main.cpp",
+			);
+			target = 9A6F7D6B2D918C7F00B9D960 /* C4-4 第9关：进制转换 */;
+		};
+		9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第10关：千分位分隔符" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第10关：千分位分隔符/main.cpp",
+			);
+			target = 9A6F7D892D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */;
+		};
+		9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第16关：求矩阵最大值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第16关：求矩阵最大值/main.cpp",
+			);
+			target = 9A6F7D982D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */;
+		};
+		9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第17关：逆序输出数组" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第17关：逆序输出数组/main.cpp",
+			);
+			target = 9A6F7DA72D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */;
+		};
+		9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第18关：求数列的第n项及前n项之和" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C4-4 第18关：求数列的第n项及前n项之和/main.cpp",
+			);
+			target = 9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */;
+		};
+		9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第2关n!计算 e 的值/main.cpp",
 			);
-			target = 9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
+			target = 9AE78AA22D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
 		};
-		9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */ = {
+		9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第1关 C循环-求各位数字之积" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第1关 C循环-求各位数字之积/main.cpp",
 			);
-			target = 9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */;
+			target = 9AE78AB12D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */;
 		};
-		9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */ = {
+		9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第3关：输入一批整数统计正负数个数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第3关：输入一批整数统计正负数个数/main.cpp",
 			);
-			target = 9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
+			target = 9AE78AC02D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */;
 		};
-		9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */ = {
+		9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和/main.cpp",
 			);
-			target = 9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
+			target = 9AE78ACF2D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
 		};
-		9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */ = {
+		9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分/main.cpp",
 			);
-			target = 9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
+			target = 9AE78ADE2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
 		};
-		9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */ = {
+		9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数/main.cpp",
 			);
-			target = 9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
+			target = 9AE78AED2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
 		};
-		9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第7关：拆数" target */ = {
+		9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第7关：拆数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第7关：拆数/main.cpp",
 			);
-			target = 9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */;
+			target = 9AE78AFC2D8D48ED001CEFFC /* C4-4 第7关：拆数 */;
 		};
-		9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第8关：数列" target */ = {
+		9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第8关：数列" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第8关：数列/main.cpp",
 			);
-			target = 9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */;
+			target = 9AE78B0B2D8D5CE5001CEFFC /* C4-4 第8关：数列 */;
 		};
-		9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */ = {
+		9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第20关：求a^b的个位数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第20关：求a^b的个位数/main.cpp",
 			);
-			target = 9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */;
+			target = 9AE78B1A2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */;
 		};
-		9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第21关：输出星号2" target */ = {
+		9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第21关：输出星号2" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C4-4 第21关：输出星号2/main.cpp",
 			);
-			target = 9AE78B292D8DBC92001CEFFC /* 第21关：输出星号2 */;
+			target = 9AE78B292D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -777,6 +787,51 @@
 		9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "C5-2 函数-递归";
+			sourceTree = "<group>";
+		};
+		9A0A0AA62DA0D4A1006B76CB /* C5-3 函数进阶 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A0A0ABE2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */,
+				9A0A0ABF2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */,
+				9A0A0AC02DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */,
+				9A0A0AC12DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */,
+				9A0A0AC22DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */,
+				9A0A0AC32DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */,
+				9A0A0AC42DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */,
+				9A0A0AC52DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */,
+				9A0A0AC62DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */,
+				9A0A0AC72DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
+				9A0A0AC82DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
+				9A0A0AC92DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
+				9A0A0ACA2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */,
+				9A0A0ACB2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
+				9A0A0ACC2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
+				9A0A0ACD2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */,
+				9A0A0ACE2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */,
+				9A0A0ACF2DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */,
+				9A0A0AD02DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */,
+				9A0A0AD12DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */,
+				9A0A0AD22DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */,
+				9A0A0AD32DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */,
+				9A0A0AD42DA0D4A1006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */,
+			);
+			path = "C5-3 函数进阶";
+			sourceTree = "<group>";
+		};
+		9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Q-3 趣味编程";
+			sourceTree = "<group>";
+		};
+		9A0A0AE52DA0DCA9006B76CB /* Q-2 蓝桥杯题库 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Q-2 蓝桥杯题库";
+			sourceTree = "<group>";
+		};
+		9A0A0AE62DA0DCB6006B76CB /* Q-1 全国二级计算机考试分析 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Q-1 全国二级计算机考试分析";
 			sourceTree = "<group>";
 		};
 		9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */ = {
@@ -789,60 +844,30 @@
 			path = test1;
 			sourceTree = "<group>";
 		};
-		9A6F7DC62D93CA2A00B9D960 /* C5-3 函数进阶 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				9A6F7DD52D93CA6C00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第1关：回文数计算" target */,
-				9A6F7DE42D97821200B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第2关： 编写函数求表达式的值" target */,
-				9A6F7DF32D97B8C900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第3关：亲密数" target */,
-				9A6F7E152D98E5EA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第4关：用递归方法将一个正整数逆序输出" target */,
-				9A6F7E252D98EEEA00B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第5关：递归实现Ackman函数" target */,
-				9A6F7E342D99180100B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果" target */,
-				9A6F7E432D99584900B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第7关：调用求x的n次幂的函数" target */,
-				9A6F7E522D99596000B9D960 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和" target */,
-				9A02421C2D99755F002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第9关：编写函数计算并输出多项式的值" target */,
-				9A02422B2D997794002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数" target */,
-				9A02423A2D998157002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第11关：编写递归函数方法求x的n次方 (要求n>=0)" target */,
-				9A0242492D99873D002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第12关：编写递归函数求小于等于n的所有正整数之和" target */,
-				9A0242582D998A66002C75E2 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第13关：编写递归函数将所输入的整数以相反顺序打印出来，整数为0时终止输入" target */,
-				9A4ECAE22D9A928A0036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" target */,
-				9A4ECAF12D9ACBC10036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现" target */,
-				9A4ECB002D9AD2020036A702 /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第16关：合并为新数" target */,
-				9A0A09D62D9B805E006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第17关：登月纸桥" target */,
-				9A0A09E52D9B80E7006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第23关：3 求函数值" target */,
-				9A0A09F42D9EB5EF006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第18关：打印日历" target */,
-				9A0A0A032DA02402006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第19关：拆开了输出整数" target */,
-				9A0A0A122DA0266A006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第20关：递归求P函数" target */,
-				9A0A0A212DA03318006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第21关：1 求中间值" target */,
-				9A0A0A302DA0CD76006B76CB /* Exceptions for "C5-3 函数进阶" folder in "C5-3 第22关：2 放鞭炮" target */,
-			);
-			path = "C5-3 函数进阶";
-			sourceTree = "<group>";
-		};
 		9AE78A8F2D8C3121001CEFFC /* C4-4 循环结构程序设计进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
-				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第1关 C循环-求各位数字之积" target */,
-				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第3关：输入一批整数统计正负数个数" target */,
-				9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
-				9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */,
-				9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
-				9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第7关：拆数" target */,
-				9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第8关：数列" target */,
-				9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第20关：求a^b的个位数" target */,
-				9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第21关：输出星号2" target */,
-				9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第11关：歌手评分系统" target */,
-				9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第12关：判断数字能不能被整除" target */,
-				9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第13关：判断区间内素数的个数" target */,
-				9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第14关：判断区间内某个数字出现的次数" target */,
-				9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第15关：判断完数的个数" target */,
-				9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第19关：数字之积" target */,
-				9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第9关：进制转换" target */,
-				9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第10关：千分位分隔符" target */,
-				9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第16关：求矩阵最大值" target */,
-				9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第17关：逆序输出数组" target */,
-				9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "第18关：求数列的第n项及前n项之和" target */,
+				9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */,
+				9AE78ABC2D8C31B5001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第1关 C循环-求各位数字之积" target */,
+				9AE78ACB2D8C31D4001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第3关：输入一批整数统计正负数个数" target */,
+				9AE78ADA2D8C3426001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" target */,
+				9AE78AE92D8D245A001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" target */,
+				9AE78AF82D8D42C2001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数" target */,
+				9AE78B072D8D48F1001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第7关：拆数" target */,
+				9AE78B162D8D5CE8001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第8关：数列" target */,
+				9AE78B252D8D6B76001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第20关：求a^b的个位数" target */,
+				9AE78B342D8DBD50001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第21关：输出星号2" target */,
+				9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */,
+				9A6F7D2B2D90E4F000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第12关：判断数字能不能被整除" target */,
+				9A6F7D3A2D90E76E00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第13关：判断区间内素数的个数" target */,
+				9A6F7D492D90E9E900B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第14关：判断区间内某个数字出现的次数" target */,
+				9A6F7D582D90F70000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第15关：判断完数的个数" target */,
+				9A6F7D672D9181DD00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第19关：数字之积" target */,
+				9A6F7D762D918C8200B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第9关：进制转换" target */,
+				9A6F7D942D91AB5000B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第10关：千分位分隔符" target */,
+				9A6F7DA32D92941C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第16关：求矩阵最大值" target */,
+				9A6F7DB22D92A5D800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第17关：逆序输出数组" target */,
+				9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第18关：求数列的第n项及前n项之和" target */,
 			);
 			path = "C4-4 循环结构程序设计进阶";
 			sourceTree = "<group>";
@@ -928,6 +953,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0A232DA0CD73006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AD72DA0DC65006B76CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1168,6 +1200,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0A0AD52DA0DC41006B76CB /* 其他拓展编程🧑‍💻 */ = {
+			isa = PBXGroup;
+			children = (
+				9A0A0AE62DA0DCB6006B76CB /* Q-1 全国二级计算机考试分析 */,
+				9A0A0AE52DA0DCA9006B76CB /* Q-2 蓝桥杯题库 */,
+				9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */,
+			);
+			path = "其他拓展编程🧑‍💻";
+			sourceTree = "<group>";
+		};
 		9A6F7D7A2D91940F00B9D960 /* 临时测试代码 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1180,7 +1222,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */,
-				9A6F7DC62D93CA2A00B9D960 /* C5-3 函数进阶 */,
+				9A0A0AA62DA0D4A1006B76CB /* C5-3 函数进阶 */,
 			);
 			path = "第五章 函数--分工与合作";
 			sourceTree = "<group>";
@@ -1192,35 +1234,36 @@
 				9A6F7D7A2D91940F00B9D960 /* 临时测试代码 */,
 				9AE78A8E2D8C3115001CEFFC /* 第四章 循环结构 */,
 				9A6F7DC52D93CA0100B9D960 /* 第五章 函数--分工与合作 */,
+				9A0A0AD52DA0DC41006B76CB /* 其他拓展编程🧑‍💻 */,
 			);
 			sourceTree = "<group>";
 		};
 		9AE78A852D8C2937001CEFFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AE78AA32D8C3175001CEFFC /* n!计算 e 的值 */,
-				9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
-				9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
-				9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
-				9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
-				9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
-				9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */,
-				9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */,
-				9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
-				9AE78B2A2D8DBC92001CEFFC /* 第21关：输出星号2 */,
-				9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */,
-				9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */,
-				9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */,
-				9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */,
-				9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
-				9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */,
-				9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */,
+				9AE78AA32D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
+				9AE78AB22D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */,
+				9AE78AC12D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */,
+				9AE78AD02D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
+				9AE78ADF2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
+				9AE78AEE2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
+				9AE78AFD2D8D48ED001CEFFC /* C4-4 第7关：拆数 */,
+				9AE78B0C2D8D5CE5001CEFFC /* C4-4 第8关：数列 */,
+				9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */,
+				9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */,
+				9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */,
+				9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */,
+				9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */,
+				9A6F7D3F2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */,
+				9A6F7D4E2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */,
+				9A6F7D5D2D9181DA00B9D960 /* C4-4 第19关：数字之积 */,
+				9A6F7D6C2D918C7F00B9D960 /* C4-4 第9关：进制转换 */,
 				9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */,
 				9A6F7D7F2D91941C00B9D960 /* test1 */,
-				9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */,
-				9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */,
-				9A6F7DA82D92A5D300B9D960 /* 第17关：逆序输出数组 */,
-				9A6F7DB72D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */,
+				9A6F7D8A2D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */,
+				9A6F7D992D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */,
+				9A6F7DA82D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */,
+				9A6F7DB72D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */,
 				9A6F7DCB2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */,
 				9A6F7DDA2D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */,
 				9A6F7DE92D97B8C500B9D960 /* C5-3 第3关：亲密数 */,
@@ -1244,6 +1287,7 @@
 				9A0A0A082DA02667006B76CB /* C5-3 第20关：递归求P函数 */,
 				9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
 				9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
+				9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1487,6 +1531,30 @@
 			productReference = 9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A0ADE2DA0DC65006B76CB /* Build configuration list for PBXNativeTarget "Q-3第1关：寻找第二小数" */;
+			buildPhases = (
+				9A0A0AD62DA0DC65006B76CB /* Sources */,
+				9A0A0AD72DA0DC65006B76CB /* Frameworks */,
+				9A0A0AD82DA0DC65006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */,
+				9A0A0AE52DA0DCA9006B76CB /* Q-2 蓝桥杯题库 */,
+				9A0A0AE62DA0DCB6006B76CB /* Q-1 全国二级计算机考试分析 */,
+			);
+			name = "Q-3第1关：寻找第二小数";
+			packageProductDependencies = (
+			);
+			productName = "Q第1关：寻找第二小数";
+			productReference = 9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A4ECADE2D9A92860036A702 /* Build configuration list for PBXNativeTarget "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" */;
@@ -1544,9 +1612,9 @@
 			productReference = 9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */ = {
+		9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */;
+			buildConfigurationList = 9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第11关：歌手评分系统" */;
 			buildPhases = (
 				9A6F7D0E2D90E24800B9D960 /* Sources */,
 				9A6F7D0F2D90E24800B9D960 /* Frameworks */,
@@ -1556,16 +1624,16 @@
 			);
 			dependencies = (
 			);
-			name = "第11关：歌手评分系统";
+			name = "C4-4 第11关：歌手评分系统";
 			packageProductDependencies = (
 			);
 			productName = "第11关：歌手评分系统";
-			productReference = 9A6F7D122D90E24800B9D960 /* 第11关：歌手评分系统 */;
+			productReference = 9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */ = {
+		9A6F7D202D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "第12关：判断数字能不能被整除" */;
+			buildConfigurationList = 9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第12关：判断数字能不能被整除" */;
 			buildPhases = (
 				9A6F7D1D2D90E4E700B9D960 /* Sources */,
 				9A6F7D1E2D90E4E700B9D960 /* Frameworks */,
@@ -1575,16 +1643,16 @@
 			);
 			dependencies = (
 			);
-			name = "第12关：判断数字能不能被整除";
+			name = "C4-4 第12关：判断数字能不能被整除";
 			packageProductDependencies = (
 			);
 			productName = "第12关：判断数字能不能被整除";
-			productReference = 9A6F7D212D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */;
+			productReference = 9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */ = {
+		9A6F7D2F2D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "第13关：判断区间内素数的个数" */;
+			buildConfigurationList = 9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第13关：判断区间内素数的个数" */;
 			buildPhases = (
 				9A6F7D2C2D90E76900B9D960 /* Sources */,
 				9A6F7D2D2D90E76900B9D960 /* Frameworks */,
@@ -1594,16 +1662,16 @@
 			);
 			dependencies = (
 			);
-			name = "第13关：判断区间内素数的个数";
+			name = "C4-4 第13关：判断区间内素数的个数";
 			packageProductDependencies = (
 			);
 			productName = "第13关：判断区间内素数的个数";
-			productReference = 9A6F7D302D90E76900B9D960 /* 第13关：判断区间内素数的个数 */;
+			productReference = 9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */ = {
+		9A6F7D3E2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "第14关：判断区间内某个数字出现的次数" */;
+			buildConfigurationList = 9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第14关：判断区间内某个数字出现的次数" */;
 			buildPhases = (
 				9A6F7D3B2D90E9E700B9D960 /* Sources */,
 				9A6F7D3C2D90E9E700B9D960 /* Frameworks */,
@@ -1613,16 +1681,16 @@
 			);
 			dependencies = (
 			);
-			name = "第14关：判断区间内某个数字出现的次数";
+			name = "C4-4 第14关：判断区间内某个数字出现的次数";
 			packageProductDependencies = (
 			);
 			productName = "第14关：判断区间内某个数字出现的次数";
-			productReference = 9A6F7D3F2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */;
+			productReference = 9A6F7D3F2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */ = {
+		9A6F7D4D2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "第15关：判断完数的个数" */;
+			buildConfigurationList = 9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第15关：判断完数的个数" */;
 			buildPhases = (
 				9A6F7D4A2D90F6FD00B9D960 /* Sources */,
 				9A6F7D4B2D90F6FD00B9D960 /* Frameworks */,
@@ -1632,16 +1700,16 @@
 			);
 			dependencies = (
 			);
-			name = "第15关：判断完数的个数";
+			name = "C4-4 第15关：判断完数的个数";
 			packageProductDependencies = (
 			);
 			productName = "第15关：判断完数的个数";
-			productReference = 9A6F7D4E2D90F6FD00B9D960 /* 第15关：判断完数的个数 */;
+			productReference = 9A6F7D4E2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */ = {
+		9A6F7D5C2D9181DA00B9D960 /* C4-4 第19关：数字之积 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "第19关：数字之积" */;
+			buildConfigurationList = 9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第19关：数字之积" */;
 			buildPhases = (
 				9A6F7D592D9181DA00B9D960 /* Sources */,
 				9A6F7D5A2D9181DA00B9D960 /* Frameworks */,
@@ -1651,16 +1719,16 @@
 			);
 			dependencies = (
 			);
-			name = "第19关：数字之积";
+			name = "C4-4 第19关：数字之积";
 			packageProductDependencies = (
 			);
 			productName = "第19关：数字之积";
-			productReference = 9A6F7D5D2D9181DA00B9D960 /* 第19关：数字之积 */;
+			productReference = 9A6F7D5D2D9181DA00B9D960 /* C4-4 第19关：数字之积 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */ = {
+		9A6F7D6B2D918C7F00B9D960 /* C4-4 第9关：进制转换 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "第9关：进制转换" */;
+			buildConfigurationList = 9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第9关：进制转换" */;
 			buildPhases = (
 				9A6F7D682D918C7F00B9D960 /* Sources */,
 				9A6F7D692D918C7F00B9D960 /* Frameworks */,
@@ -1670,11 +1738,11 @@
 			);
 			dependencies = (
 			);
-			name = "第9关：进制转换";
+			name = "C4-4 第9关：进制转换";
 			packageProductDependencies = (
 			);
 			productName = "第9关：进制转换";
-			productReference = 9A6F7D6C2D918C7F00B9D960 /* 第9关：进制转换 */;
+			productReference = 9A6F7D6C2D918C7F00B9D960 /* C4-4 第9关：进制转换 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7D7E2D91941C00B9D960 /* test1 */ = {
@@ -1699,9 +1767,9 @@
 			productReference = 9A6F7D7F2D91941C00B9D960 /* test1 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */ = {
+		9A6F7D892D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D8E2D91AB4E00B9D960 /* Build configuration list for PBXNativeTarget "第10关：千分位分隔符" */;
+			buildConfigurationList = 9A6F7D8E2D91AB4E00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第10关：千分位分隔符" */;
 			buildPhases = (
 				9A6F7D862D91AB4E00B9D960 /* Sources */,
 				9A6F7D872D91AB4E00B9D960 /* Frameworks */,
@@ -1711,16 +1779,16 @@
 			);
 			dependencies = (
 			);
-			name = "第10关：千分位分隔符";
+			name = "C4-4 第10关：千分位分隔符";
 			packageProductDependencies = (
 			);
 			productName = "第10关：千分位分隔符";
-			productReference = 9A6F7D8A2D91AB4E00B9D960 /* 第10关：千分位分隔符 */;
+			productReference = 9A6F7D8A2D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */ = {
+		9A6F7D982D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "第16关：求矩阵最大值" */;
+			buildConfigurationList = 9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第16关：求矩阵最大值" */;
 			buildPhases = (
 				9A6F7D952D92941700B9D960 /* Sources */,
 				9A6F7D962D92941700B9D960 /* Frameworks */,
@@ -1730,16 +1798,16 @@
 			);
 			dependencies = (
 			);
-			name = "第16关：求矩阵最大值";
+			name = "C4-4 第16关：求矩阵最大值";
 			packageProductDependencies = (
 			);
 			productName = "第16关：求矩阵最大值";
-			productReference = 9A6F7D992D92941700B9D960 /* 第16关：求矩阵最大值 */;
+			productReference = 9A6F7D992D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7DA72D92A5D300B9D960 /* 第17关：逆序输出数组 */ = {
+		9A6F7DA72D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7DAC2D92A5D300B9D960 /* Build configuration list for PBXNativeTarget "第17关：逆序输出数组" */;
+			buildConfigurationList = 9A6F7DAC2D92A5D300B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第17关：逆序输出数组" */;
 			buildPhases = (
 				9A6F7DA42D92A5D300B9D960 /* Sources */,
 				9A6F7DA52D92A5D300B9D960 /* Frameworks */,
@@ -1749,16 +1817,16 @@
 			);
 			dependencies = (
 			);
-			name = "第17关：逆序输出数组";
+			name = "C4-4 第17关：逆序输出数组";
 			packageProductDependencies = (
 			);
 			productName = "第17关：逆序输出数组";
-			productReference = 9A6F7DA82D92A5D300B9D960 /* 第17关：逆序输出数组 */;
+			productReference = 9A6F7DA82D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */ = {
+		9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6F7DBB2D92B02500B9D960 /* Build configuration list for PBXNativeTarget "第18关：求数列的第n项及前n项之和" */;
+			buildConfigurationList = 9A6F7DBB2D92B02500B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第18关：求数列的第n项及前n项之和" */;
 			buildPhases = (
 				9A6F7DB32D92B02400B9D960 /* Sources */,
 				9A6F7DB42D92B02400B9D960 /* Frameworks */,
@@ -1768,11 +1836,11 @@
 			);
 			dependencies = (
 			);
-			name = "第18关：求数列的第n项及前n项之和";
+			name = "C4-4 第18关：求数列的第n项及前n项之和";
 			packageProductDependencies = (
 			);
 			productName = "第18关：求数列的第n项及前n项之和";
-			productReference = 9A6F7DB72D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */;
+			productReference = 9A6F7DB72D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7DCA2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */ = {
@@ -1927,9 +1995,9 @@
 			productReference = 9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
+		9AE78AA22D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
+			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
 			buildPhases = (
 				9AE78A9F2D8C3175001CEFFC /* Sources */,
 				9AE78AA02D8C3175001CEFFC /* Frameworks */,
@@ -1939,16 +2007,16 @@
 			);
 			dependencies = (
 			);
-			name = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值";
+			name = "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值";
 			packageProductDependencies = (
 			);
 			productName = "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值";
-			productReference = 9AE78AA32D8C3175001CEFFC /* n!计算 e 的值 */;
+			productReference = 9AE78AA32D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */ = {
+		9AE78AB12D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "第1关 C循环-求各位数字之积" */;
+			buildConfigurationList = 9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第1关 C循环-求各位数字之积" */;
 			buildPhases = (
 				9AE78AAE2D8C31B2001CEFFC /* Sources */,
 				9AE78AAF2D8C31B2001CEFFC /* Frameworks */,
@@ -1958,16 +2026,16 @@
 			);
 			dependencies = (
 			);
-			name = "第1关 C循环-求各位数字之积";
+			name = "C4-4 第1关 C循环-求各位数字之积";
 			packageProductDependencies = (
 			);
 			productName = "第1关 C循环-求各位数字之积";
-			productReference = 9AE78AB22D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */;
+			productReference = 9AE78AB22D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */ = {
+		9AE78AC02D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "第3关：输入一批整数统计正负数个数" */;
+			buildConfigurationList = 9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第3关：输入一批整数统计正负数个数" */;
 			buildPhases = (
 				9AE78ABD2D8C31D1001CEFFC /* Sources */,
 				9AE78ABE2D8C31D1001CEFFC /* Frameworks */,
@@ -1977,16 +2045,16 @@
 			);
 			dependencies = (
 			);
-			name = "第3关：输入一批整数统计正负数个数";
+			name = "C4-4 第3关：输入一批整数统计正负数个数";
 			packageProductDependencies = (
 			);
 			productName = "第3关：输入一批整数统计正负数个数";
-			productReference = 9AE78AC12D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */;
+			productReference = 9AE78AC12D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {
+		9AE78ACF2D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */;
+			buildConfigurationList = 9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */;
 			buildPhases = (
 				9AE78ACC2D8C3420001CEFFC /* Sources */,
 				9AE78ACD2D8C3420001CEFFC /* Frameworks */,
@@ -1996,16 +2064,16 @@
 			);
 			dependencies = (
 			);
-			name = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和";
+			name = "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和";
 			packageProductDependencies = (
 			);
 			productName = "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和";
-			productReference = 9AE78AD02D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
+			productReference = 9AE78AD02D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */ = {
+		9AE78ADE2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AE32D8D2457001CEFFC /* Build configuration list for PBXNativeTarget "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" */;
+			buildConfigurationList = 9AE78AE32D8D2457001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" */;
 			buildPhases = (
 				9AE78ADB2D8D2457001CEFFC /* Sources */,
 				9AE78ADC2D8D2457001CEFFC /* Frameworks */,
@@ -2015,16 +2083,16 @@
 			);
 			dependencies = (
 			);
-			name = "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分";
+			name = "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分";
 			packageProductDependencies = (
 			);
 			productName = "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分";
-			productReference = 9AE78ADF2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
+			productReference = 9AE78ADF2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {
+		9AE78AED2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "第6关：给一个不多于5的正整数，用循环求出它是几位数" */;
+			buildConfigurationList = 9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数" */;
 			buildPhases = (
 				9AE78AEA2D8D42BE001CEFFC /* Sources */,
 				9AE78AEB2D8D42BE001CEFFC /* Frameworks */,
@@ -2034,16 +2102,16 @@
 			);
 			dependencies = (
 			);
-			name = "第6关：给一个不多于5的正整数，用循环求出它是几位数";
+			name = "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数";
 			packageProductDependencies = (
 			);
 			productName = "第6关：给一个不多于5的正整数，用循环求出它是几位数";
-			productReference = 9AE78AEE2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
+			productReference = 9AE78AEE2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */ = {
+		9AE78AFC2D8D48ED001CEFFC /* C4-4 第7关：拆数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "第7关：拆数" */;
+			buildConfigurationList = 9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第7关：拆数" */;
 			buildPhases = (
 				9AE78AF92D8D48ED001CEFFC /* Sources */,
 				9AE78AFA2D8D48ED001CEFFC /* Frameworks */,
@@ -2053,16 +2121,16 @@
 			);
 			dependencies = (
 			);
-			name = "第7关：拆数";
+			name = "C4-4 第7关：拆数";
 			packageProductDependencies = (
 			);
 			productName = "第7关：拆数";
-			productReference = 9AE78AFD2D8D48ED001CEFFC /* 第7关：拆数 */;
+			productReference = 9AE78AFD2D8D48ED001CEFFC /* C4-4 第7关：拆数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */ = {
+		9AE78B0B2D8D5CE5001CEFFC /* C4-4 第8关：数列 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78B102D8D5CE5001CEFFC /* Build configuration list for PBXNativeTarget "第8关：数列" */;
+			buildConfigurationList = 9AE78B102D8D5CE5001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第8关：数列" */;
 			buildPhases = (
 				9AE78B082D8D5CE5001CEFFC /* Sources */,
 				9AE78B092D8D5CE5001CEFFC /* Frameworks */,
@@ -2072,16 +2140,16 @@
 			);
 			dependencies = (
 			);
-			name = "第8关：数列";
+			name = "C4-4 第8关：数列";
 			packageProductDependencies = (
 			);
 			productName = "第8关：数列";
-			productReference = 9AE78B0C2D8D5CE5001CEFFC /* 第8关：数列 */;
+			productReference = 9AE78B0C2D8D5CE5001CEFFC /* C4-4 第8关：数列 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */ = {
+		9AE78B1A2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "第20关：求a^b的个位数" */;
+			buildConfigurationList = 9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第20关：求a^b的个位数" */;
 			buildPhases = (
 				9AE78B172D8D6B6B001CEFFC /* Sources */,
 				9AE78B182D8D6B6B001CEFFC /* Frameworks */,
@@ -2091,16 +2159,16 @@
 			);
 			dependencies = (
 			);
-			name = "第20关：求a^b的个位数";
+			name = "C4-4 第20关：求a^b的个位数";
 			packageProductDependencies = (
 			);
 			productName = "第20关：求a^b的个位数";
-			productReference = 9AE78B1B2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */;
+			productReference = 9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */;
 			productType = "com.apple.product-type.tool";
 		};
-		9AE78B292D8DBC92001CEFFC /* 第21关：输出星号2 */ = {
+		9AE78B292D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AE78B2E2D8DBC92001CEFFC /* Build configuration list for PBXNativeTarget "第21关：输出星号2" */;
+			buildConfigurationList = 9AE78B2E2D8DBC92001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第21关：输出星号2" */;
 			buildPhases = (
 				9AE78B262D8DBC92001CEFFC /* Sources */,
 				9AE78B272D8DBC92001CEFFC /* Frameworks */,
@@ -2110,11 +2178,11 @@
 			);
 			dependencies = (
 			);
-			name = "第21关：输出星号2";
+			name = "C4-4 第21关：输出星号2";
 			packageProductDependencies = (
 			);
 			productName = "第21关：输出星号2";
-			productReference = 9AE78B2A2D8DBC92001CEFFC /* 第21关：输出星号2 */;
+			productReference = 9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -2160,6 +2228,9 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					9A0A0A252DA0CD73006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A0A0AD92DA0DC65006B76CB = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					9A4ECAD72D9A92860036A702 = {
@@ -2277,28 +2348,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AE78AA22D8C3175001CEFFC /* 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
-				9AE78AB12D8C31B2001CEFFC /* 第1关 C循环-求各位数字之积 */,
-				9AE78AC02D8C31D1001CEFFC /* 第3关：输入一批整数统计正负数个数 */,
-				9AE78ACF2D8C3420001CEFFC /* 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
-				9AE78ADE2D8D2457001CEFFC /* 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
-				9AE78AED2D8D42BE001CEFFC /* 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
-				9AE78AFC2D8D48ED001CEFFC /* 第7关：拆数 */,
-				9AE78B0B2D8D5CE5001CEFFC /* 第8关：数列 */,
-				9AE78B1A2D8D6B6B001CEFFC /* 第20关：求a^b的个位数 */,
-				9AE78B292D8DBC92001CEFFC /* 第21关：输出星号2 */,
-				9A6F7D112D90E24800B9D960 /* 第11关：歌手评分系统 */,
-				9A6F7D202D90E4E700B9D960 /* 第12关：判断数字能不能被整除 */,
-				9A6F7D2F2D90E76900B9D960 /* 第13关：判断区间内素数的个数 */,
-				9A6F7D3E2D90E9E700B9D960 /* 第14关：判断区间内某个数字出现的次数 */,
-				9A6F7D4D2D90F6FD00B9D960 /* 第15关：判断完数的个数 */,
-				9A6F7D5C2D9181DA00B9D960 /* 第19关：数字之积 */,
-				9A6F7D6B2D918C7F00B9D960 /* 第9关：进制转换 */,
+				9AE78AA22D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */,
+				9AE78AB12D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */,
+				9AE78AC02D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */,
+				9AE78ACF2D8C3420001CEFFC /* C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和 */,
+				9AE78ADE2D8D2457001CEFFC /* C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分 */,
+				9AE78AED2D8D42BE001CEFFC /* C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数 */,
+				9AE78AFC2D8D48ED001CEFFC /* C4-4 第7关：拆数 */,
+				9AE78B0B2D8D5CE5001CEFFC /* C4-4 第8关：数列 */,
+				9AE78B1A2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */,
+				9AE78B292D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */,
+				9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */,
+				9A6F7D202D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */,
+				9A6F7D2F2D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */,
+				9A6F7D3E2D90E9E700B9D960 /* C4-4 第14关：判断区间内某个数字出现的次数 */,
+				9A6F7D4D2D90F6FD00B9D960 /* C4-4 第15关：判断完数的个数 */,
+				9A6F7D5C2D9181DA00B9D960 /* C4-4 第19关：数字之积 */,
+				9A6F7D6B2D918C7F00B9D960 /* C4-4 第9关：进制转换 */,
 				9A6F7D7E2D91941C00B9D960 /* test1 */,
-				9A6F7D892D91AB4E00B9D960 /* 第10关：千分位分隔符 */,
-				9A6F7D982D92941700B9D960 /* 第16关：求矩阵最大值 */,
-				9A6F7DA72D92A5D300B9D960 /* 第17关：逆序输出数组 */,
-				9A6F7DB62D92B02400B9D960 /* 第18关：求数列的第n项及前n项之和 */,
+				9A6F7D892D91AB4E00B9D960 /* C4-4 第10关：千分位分隔符 */,
+				9A6F7D982D92941700B9D960 /* C4-4 第16关：求矩阵最大值 */,
+				9A6F7DA72D92A5D300B9D960 /* C4-4 第17关：逆序输出数组 */,
+				9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */,
 				9A6F7DCA2D93CA6800B9D960 /* C5-3 第1关：回文数计算 */,
 				9A6F7DD92D97820F00B9D960 /* C5-3 第2关： 编写函数求表达式的值 */,
 				9A6F7DE82D97B8C500B9D960 /* C5-3 第3关：亲密数 */,
@@ -2322,6 +2393,7 @@
 				9A0A0A072DA02667006B76CB /* C5-3 第20关：递归求P函数 */,
 				9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
 				9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
+				9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
 			);
 		};
 /* End PBXProject section */
@@ -2405,6 +2477,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0A222DA0CD73006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AD62DA0DC65006B76CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2876,6 +2955,26 @@
 			name = Debug;
 		};
 		9A0A0A2C2DA0CD73006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A0ADF2DA0DC65006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A0AE02DA0DC65006B76CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3771,6 +3870,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A0A0ADE2DA0DC65006B76CB /* Build configuration list for PBXNativeTarget "Q-3第1关：寻找第二小数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A0ADF2DA0DC65006B76CB /* Debug */,
+				9A0A0AE02DA0DC65006B76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A4ECADE2D9A92860036A702 /* Build configuration list for PBXNativeTarget "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3798,7 +3906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "第11关：歌手评分系统" */ = {
+		9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第11关：歌手评分系统" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D162D90E24800B9D960 /* Debug */,
@@ -3807,7 +3915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "第12关：判断数字能不能被整除" */ = {
+		9A6F7D252D90E4E700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第12关：判断数字能不能被整除" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D262D90E4E700B9D960 /* Debug */,
@@ -3816,7 +3924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "第13关：判断区间内素数的个数" */ = {
+		9A6F7D342D90E76900B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第13关：判断区间内素数的个数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D352D90E76900B9D960 /* Debug */,
@@ -3825,7 +3933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "第14关：判断区间内某个数字出现的次数" */ = {
+		9A6F7D432D90E9E700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第14关：判断区间内某个数字出现的次数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D442D90E9E700B9D960 /* Debug */,
@@ -3834,7 +3942,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "第15关：判断完数的个数" */ = {
+		9A6F7D522D90F6FD00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第15关：判断完数的个数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D532D90F6FD00B9D960 /* Debug */,
@@ -3843,7 +3951,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "第19关：数字之积" */ = {
+		9A6F7D612D9181DA00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第19关：数字之积" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D622D9181DA00B9D960 /* Debug */,
@@ -3852,7 +3960,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "第9关：进制转换" */ = {
+		9A6F7D702D918C7F00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第9关：进制转换" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D712D918C7F00B9D960 /* Debug */,
@@ -3870,7 +3978,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D8E2D91AB4E00B9D960 /* Build configuration list for PBXNativeTarget "第10关：千分位分隔符" */ = {
+		9A6F7D8E2D91AB4E00B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第10关：千分位分隔符" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D8F2D91AB4E00B9D960 /* Debug */,
@@ -3879,7 +3987,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "第16关：求矩阵最大值" */ = {
+		9A6F7D9D2D92941700B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第16关：求矩阵最大值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7D9E2D92941700B9D960 /* Debug */,
@@ -3888,7 +3996,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7DAC2D92A5D300B9D960 /* Build configuration list for PBXNativeTarget "第17关：逆序输出数组" */ = {
+		9A6F7DAC2D92A5D300B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第17关：逆序输出数组" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7DAD2D92A5D300B9D960 /* Debug */,
@@ -3897,7 +4005,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6F7DBB2D92B02500B9D960 /* Build configuration list for PBXNativeTarget "第18关：求数列的第n项及前n项之和" */ = {
+		9A6F7DBB2D92B02500B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第18关：求数列的第n项及前n项之和" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A6F7DBC2D92B02500B9D960 /* Debug */,
@@ -3987,7 +4095,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */ = {
+		9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AA82D8C3175001CEFFC /* Debug */,
@@ -3996,7 +4104,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "第1关 C循环-求各位数字之积" */ = {
+		9AE78AB62D8C31B2001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第1关 C循环-求各位数字之积" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AB72D8C31B2001CEFFC /* Debug */,
@@ -4005,7 +4113,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "第3关：输入一批整数统计正负数个数" */ = {
+		9AE78AC52D8C31D1001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第3关：输入一批整数统计正负数个数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AC62D8C31D1001CEFFC /* Debug */,
@@ -4014,7 +4122,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */ = {
+		9AE78AD42D8C3420001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第4关：随机输入一批整数，编程计算并且输出这批整数中5个正整数的和" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AD52D8C3420001CEFFC /* Debug */,
@@ -4023,7 +4131,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AE32D8D2457001CEFFC /* Build configuration list for PBXNativeTarget "第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" */ = {
+		9AE78AE32D8D2457001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第5关：输入某班C语言考试成绩，人数未知，用-1作为结束标志，若大于100分，则重新输入，计算全班的最高分、最低分与平均分" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AE42D8D2457001CEFFC /* Debug */,
@@ -4032,7 +4140,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "第6关：给一个不多于5的正整数，用循环求出它是几位数" */ = {
+		9AE78AF22D8D42BE001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第6关：给一个不多于5的正整数，用循环求出它是几位数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78AF32D8D42BE001CEFFC /* Debug */,
@@ -4041,7 +4149,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "第7关：拆数" */ = {
+		9AE78B012D8D48ED001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第7关：拆数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78B022D8D48ED001CEFFC /* Debug */,
@@ -4050,7 +4158,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78B102D8D5CE5001CEFFC /* Build configuration list for PBXNativeTarget "第8关：数列" */ = {
+		9AE78B102D8D5CE5001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第8关：数列" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78B112D8D5CE5001CEFFC /* Debug */,
@@ -4059,7 +4167,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "第20关：求a^b的个位数" */ = {
+		9AE78B1F2D8D6B6B001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第20关：求a^b的个位数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78B202D8D6B6B001CEFFC /* Debug */,
@@ -4068,7 +4176,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE78B2E2D8DBC92001CEFFC /* Build configuration list for PBXNativeTarget "第21关：输出星号2" */ = {
+		9AE78B2E2D8DBC92001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第21关：输出星号2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE78B2F2D8DBC92001CEFFC /* Debug */,
