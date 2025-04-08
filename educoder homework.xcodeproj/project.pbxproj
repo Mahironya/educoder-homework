@@ -124,6 +124,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A0A0AEA2DA179DF006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A0A0AFA2DA2CF0B006B76CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,6 +455,8 @@
 		9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第21关：1 求中间值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第22关：2 放鞭炮"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Q-3第1关：寻找第二小数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A0AEC2DA179E0006B76CB /* Q-3 第125关：31 筛选法求素数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Q-3 第125关：31 筛选法求素数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第12关：汉诺塔攻略"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -634,6 +654,27 @@
 			);
 			target = 9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */;
 		};
+		9A0A0AF62DA179E4006B76CB /* Exceptions for "Q-3 趣味编程" folder in "Q-3第1关：寻找第二小数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Q-3 第125关：31 筛选法求素数/main.cpp",
+			);
+			target = 9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */;
+		};
+		9A0A0AF72DA179E4006B76CB /* Exceptions for "Q-3 趣味编程" folder in "Q-3 第125关：31 筛选法求素数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Q-3 第125关：31 筛选法求素数/main.cpp",
+			);
+			target = 9A0A0AEB2DA179DF006B76CB /* Q-3 第125关：31 筛选法求素数 */;
+		};
+		9A0A0B062DA2CF34006B76CB /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第12关：汉诺塔攻略" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第12关：汉诺塔攻略/main.cpp",
+			);
+			target = 9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */;
+		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -786,6 +827,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A0A0B062DA2CF34006B76CB /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第12关：汉诺塔攻略" target */,
+			);
 			path = "C5-2 函数-递归";
 			sourceTree = "<group>";
 		};
@@ -821,6 +865,10 @@
 		};
 		9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A0A0AF62DA179E4006B76CB /* Exceptions for "Q-3 趣味编程" folder in "Q-3第1关：寻找第二小数" target */,
+				9A0A0AF72DA179E4006B76CB /* Exceptions for "Q-3 趣味编程" folder in "Q-3 第125关：31 筛选法求素数" target */,
+			);
 			path = "Q-3 趣味编程";
 			sourceTree = "<group>";
 		};
@@ -960,6 +1008,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0AD72DA0DC65006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AE92DA179DF006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AF92DA2CF0B006B76CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1288,6 +1350,8 @@
 				9A0A0A172DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
 				9A0A0A262DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
 				9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
+				9A0A0AEC2DA179E0006B76CB /* Q-3 第125关：31 筛选法求素数 */,
+				9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1553,6 +1617,44 @@
 			);
 			productName = "Q第1关：寻找第二小数";
 			productReference = 9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0A0AEB2DA179DF006B76CB /* Q-3 第125关：31 筛选法求素数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A0AF02DA179E0006B76CB /* Build configuration list for PBXNativeTarget "Q-3 第125关：31 筛选法求素数" */;
+			buildPhases = (
+				9A0A0AE82DA179DF006B76CB /* Sources */,
+				9A0A0AE92DA179DF006B76CB /* Frameworks */,
+				9A0A0AEA2DA179DF006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Q-3 第125关：31 筛选法求素数";
+			packageProductDependencies = (
+			);
+			productName = "Q-3 第125关：31 筛选法求素数";
+			productReference = 9A0A0AEC2DA179E0006B76CB /* Q-3 第125关：31 筛选法求素数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A0B002DA2CF0B006B76CB /* Build configuration list for PBXNativeTarget "C5-2 第12关：汉诺塔攻略" */;
+			buildPhases = (
+				9A0A0AF82DA2CF0B006B76CB /* Sources */,
+				9A0A0AF92DA2CF0B006B76CB /* Frameworks */,
+				9A0A0AFA2DA2CF0B006B76CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第12关：汉诺塔攻略";
+			packageProductDependencies = (
+			);
+			productName = "C5-3 第12关：汉诺塔攻略";
+			productReference = 9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
@@ -2233,6 +2335,12 @@
 					9A0A0AD92DA0DC65006B76CB = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A0A0AEB2DA179DF006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A0A0AFB2DA2CF0B006B76CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A4ECAD72D9A92860036A702 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -2394,6 +2502,8 @@
 				9A0A0A162DA03315006B76CB /* C5-3 第21关：1 求中间值 */,
 				9A0A0A252DA0CD73006B76CB /* C5-3 第22关：2 放鞭炮 */,
 				9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
+				9A0A0AEB2DA179DF006B76CB /* Q-3 第125关：31 筛选法求素数 */,
+				9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */,
 			);
 		};
 /* End PBXProject section */
@@ -2484,6 +2594,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0AD62DA0DC65006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AE82DA179DF006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0A0AF82DA2CF0B006B76CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2975,6 +3099,46 @@
 			name = Debug;
 		};
 		9A0A0AE02DA0DC65006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A0AF12DA179E0006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A0AF22DA179E0006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0A0B012DA2CF0B006B76CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0A0B022DA2CF0B006B76CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3875,6 +4039,24 @@
 			buildConfigurations = (
 				9A0A0ADF2DA0DC65006B76CB /* Debug */,
 				9A0A0AE02DA0DC65006B76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A0AF02DA179E0006B76CB /* Build configuration list for PBXNativeTarget "Q-3 第125关：31 筛选法求素数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A0AF12DA179E0006B76CB /* Debug */,
+				9A0A0AF22DA179E0006B76CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A0B002DA2CF0B006B76CB /* Build configuration list for PBXNativeTarget "C5-2 第12关：汉诺塔攻略" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0A0B012DA2CF0B006B76CB /* Debug */,
+				9A0A0B022DA2CF0B006B76CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

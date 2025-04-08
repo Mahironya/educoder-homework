@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>C5-2 第12关：汉诺塔攻略.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
 		<key>C5-3 第10关：编写函数将两个两位数的正整数合并形成一个整数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -119,7 +124,12 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Q第1关：寻找第二小数.xcscheme_^#shared#^_</key>
+		<key>Q-3 第125关：31 筛选法求素数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>Q-3 第1关：寻找第二小数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>45</integer>
@@ -237,6 +247,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9A0A0AFB2DA2CF0B006B76CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9AE78A832D8C2937001CEFFC</key>
 		<dict>
 			<key>primary</key>
