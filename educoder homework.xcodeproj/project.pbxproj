@@ -169,6 +169,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A50B5322DA90F4C00AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B5412DA9583E00AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B5502DA975B600AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B55F2DA97E4100AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B56E2DA9842700AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B57D2DA986B000AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A50B58C2DA98AFF00AA3832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +412,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A9900452DA7A33D0053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A9900542DA7A6530053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A9900632DA7C6A60053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A9900722DA7CEB90053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A9900812DA7D7000053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AE78AA12D8C3175001CEFFC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +568,13 @@
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B5342DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第1关：计算学生年龄"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B5432DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第2关：求n的阶乘n!"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B5522DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B5612DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第4关：递归求斐波那契数列的第n项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B5702DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第5关：递归求解最大公约数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第7关：猴子吃桃"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第8关：从自然数中取3个数进行组合之循环算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -480,6 +595,11 @@
 		9A6F7E2A2D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E392D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第7关：调用求x的n次幂的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9900472DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第13关：用递归方法求勒让德多项式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9900562DA7A6530053192D /* C5-2 第11关：百马百担 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第11关：百马百担"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9900652DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第10关：母牛繁殖问题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9900742DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第9关：从自然数中取3个数进行组合之递归算法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9900832DA7D7000053192D /* C5-2 第6关：十进制转r进制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第6关：十进制转r进制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -675,6 +795,55 @@
 			);
 			target = 9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */;
 		};
+		9A50B53E2DA90F5000AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第1关：计算学生年龄" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第1关：计算学生年龄/main.cpp",
+			);
+			target = 9A50B5332DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */;
+		};
+		9A50B54D2DA9584300AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第2关：求n的阶乘n!" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第2关：求n的阶乘n!/main.cpp",
+			);
+			target = 9A50B5422DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */;
+		};
+		9A50B55C2DA975B800AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字/main.cpp",
+			);
+			target = 9A50B5512DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */;
+		};
+		9A50B56B2DA97E4500AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第4关：递归求斐波那契数列的第n项" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第4关：递归求斐波那契数列的第n项/main.cpp",
+			);
+			target = 9A50B5602DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */;
+		};
+		9A50B57A2DA9842A00AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第5关：递归求解最大公约数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第5关：递归求解最大公约数/main.cpp",
+			);
+			target = 9A50B56F2DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */;
+		};
+		9A50B5892DA986B400AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第7关：猴子吃桃" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第7关：猴子吃桃/main.cpp",
+			);
+			target = 9A50B57E2DA986B000AA3832 /* C5-2 第7关：猴子吃桃 */;
+		};
+		9A50B5982DA98B0200AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第8关：从自然数中取3个数进行组合之循环算法" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第8关：从自然数中取3个数进行组合之循环算法/main.cpp",
+			);
+			target = 9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */;
+		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -751,6 +920,41 @@
 				"C4-4 第18关：求数列的第n项及前n项之和/main.cpp",
 			);
 			target = 9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */;
+		};
+		9A9900512DA7A3410053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第13关：用递归方法求勒让德多项式的值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第13关：用递归方法求勒让德多项式的值/main.cpp",
+			);
+			target = 9A9900462DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */;
+		};
+		9A9900602DA7A6570053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第11关：百马百担" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第11关：百马百担/main.cpp",
+			);
+			target = 9A9900552DA7A6530053192D /* C5-2 第11关：百马百担 */;
+		};
+		9A99006F2DA7C6A90053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第10关：母牛繁殖问题" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第10关：母牛繁殖问题/main.cpp",
+			);
+			target = 9A9900642DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */;
+		};
+		9A99007E2DA7CEBB0053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第9关：从自然数中取3个数进行组合之递归算法" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第9关：从自然数中取3个数进行组合之递归算法/main.cpp",
+			);
+			target = 9A9900732DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */;
+		};
+		9A99008D2DA7D7030053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第6关：十进制转r进制" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-2 第6关：十进制转r进制/main.cpp",
+			);
+			target = 9A9900822DA7D7000053192D /* C5-2 第6关：十进制转r进制 */;
 		};
 		9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -829,6 +1033,18 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				9A0A0B062DA2CF34006B76CB /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第12关：汉诺塔攻略" target */,
+				9A9900512DA7A3410053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第13关：用递归方法求勒让德多项式的值" target */,
+				9A9900602DA7A6570053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第11关：百马百担" target */,
+				9A99006F2DA7C6A90053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第10关：母牛繁殖问题" target */,
+				9A99007E2DA7CEBB0053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第9关：从自然数中取3个数进行组合之递归算法" target */,
+				9A99008D2DA7D7030053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第6关：十进制转r进制" target */,
+				9A50B53E2DA90F5000AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第1关：计算学生年龄" target */,
+				9A50B54D2DA9584300AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第2关：求n的阶乘n!" target */,
+				9A50B55C2DA975B800AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字" target */,
+				9A50B56B2DA97E4500AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第4关：递归求斐波那契数列的第n项" target */,
+				9A50B57A2DA9842A00AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第5关：递归求解最大公约数" target */,
+				9A50B5892DA986B400AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第7关：猴子吃桃" target */,
+				9A50B5982DA98B0200AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第8关：从自然数中取3个数进行组合之循环算法" target */,
 			);
 			path = "C5-2 函数-递归";
 			sourceTree = "<group>";
@@ -1049,6 +1265,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A50B5312DA90F4C00AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B5402DA9583E00AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B54F2DA975B600AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B55E2DA97E4100AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B56D2DA9842700AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B57C2DA986B000AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B58B2DA98AFF00AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A6F7D0F2D90E24800B9D960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1183,6 +1448,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7E452D99595D00B9D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900442DA7A33D0053192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900532DA7A6530053192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900622DA7C6A60053192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900712DA7CEB90053192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900802DA7D7000053192D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1352,6 +1652,18 @@
 				9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
 				9A0A0AEC2DA179E0006B76CB /* Q-3 第125关：31 筛选法求素数 */,
 				9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */,
+				9A9900472DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */,
+				9A9900562DA7A6530053192D /* C5-2 第11关：百马百担 */,
+				9A9900652DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */,
+				9A9900742DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */,
+				9A9900832DA7D7000053192D /* C5-2 第6关：十进制转r进制 */,
+				9A50B5342DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */,
+				9A50B5432DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */,
+				9A50B5522DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */,
+				9A50B5612DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */,
+				9A50B5702DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */,
+				9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */,
+				9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1712,6 +2024,139 @@
 			);
 			productName = "C5-3 第16关：合并为新数";
 			productReference = 9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B5332DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B53A2DA90F4C00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第1关：计算学生年龄" */;
+			buildPhases = (
+				9A50B5302DA90F4C00AA3832 /* Sources */,
+				9A50B5312DA90F4C00AA3832 /* Frameworks */,
+				9A50B5322DA90F4C00AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第1关：计算学生年龄";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第1关：计算学生年龄";
+			productReference = 9A50B5342DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B5422DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5472DA9583E00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第2关：求n的阶乘n!" */;
+			buildPhases = (
+				9A50B53F2DA9583E00AA3832 /* Sources */,
+				9A50B5402DA9583E00AA3832 /* Frameworks */,
+				9A50B5412DA9583E00AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第2关：求n的阶乘n!";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第2关：求n的阶乘n!";
+			productReference = 9A50B5432DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B5512DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5562DA975B600AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字" */;
+			buildPhases = (
+				9A50B54E2DA975B600AA3832 /* Sources */,
+				9A50B54F2DA975B600AA3832 /* Frameworks */,
+				9A50B5502DA975B600AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字";
+			productReference = 9A50B5522DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B5602DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5652DA97E4100AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第4关：递归求斐波那契数列的第n项" */;
+			buildPhases = (
+				9A50B55D2DA97E4100AA3832 /* Sources */,
+				9A50B55E2DA97E4100AA3832 /* Frameworks */,
+				9A50B55F2DA97E4100AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第4关：递归求斐波那契数列的第n项";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第4关：递归求斐波那契数列的第n项";
+			productReference = 9A50B5612DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B56F2DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5742DA9842700AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第5关：递归求解最大公约数" */;
+			buildPhases = (
+				9A50B56C2DA9842700AA3832 /* Sources */,
+				9A50B56D2DA9842700AA3832 /* Frameworks */,
+				9A50B56E2DA9842700AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第5关：递归求解最大公约数";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第5关：递归求解最大公约数";
+			productReference = 9A50B5702DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B57E2DA986B000AA3832 /* C5-2 第7关：猴子吃桃 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5832DA986B100AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第7关：猴子吃桃" */;
+			buildPhases = (
+				9A50B57B2DA986B000AA3832 /* Sources */,
+				9A50B57C2DA986B000AA3832 /* Frameworks */,
+				9A50B57D2DA986B000AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第7关：猴子吃桃";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第7关：猴子吃桃";
+			productReference = 9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A50B5922DA98AFF00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第8关：从自然数中取3个数进行组合之循环算法" */;
+			buildPhases = (
+				9A50B58A2DA98AFF00AA3832 /* Sources */,
+				9A50B58B2DA98AFF00AA3832 /* Frameworks */,
+				9A50B58C2DA98AFF00AA3832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第8关：从自然数中取3个数进行组合之循环算法";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第8关：从自然数中取3个数进行组合之循环算法";
+			productReference = 9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {
@@ -2097,6 +2542,101 @@
 			productReference = 9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9A9900462DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99004D2DA7A33D0053192D /* Build configuration list for PBXNativeTarget "C5-2 第13关：用递归方法求勒让德多项式的值" */;
+			buildPhases = (
+				9A9900432DA7A33D0053192D /* Sources */,
+				9A9900442DA7A33D0053192D /* Frameworks */,
+				9A9900452DA7A33D0053192D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第13关：用递归方法求勒让德多项式的值";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第13关：用递归方法求勒让德多项式的值";
+			productReference = 9A9900472DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A9900552DA7A6530053192D /* C5-2 第11关：百马百担 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99005A2DA7A6530053192D /* Build configuration list for PBXNativeTarget "C5-2 第11关：百马百担" */;
+			buildPhases = (
+				9A9900522DA7A6530053192D /* Sources */,
+				9A9900532DA7A6530053192D /* Frameworks */,
+				9A9900542DA7A6530053192D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第11关：百马百担";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第11关：百马百担";
+			productReference = 9A9900562DA7A6530053192D /* C5-2 第11关：百马百担 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A9900642DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9900692DA7C6A60053192D /* Build configuration list for PBXNativeTarget "C5-2 第10关：母牛繁殖问题" */;
+			buildPhases = (
+				9A9900612DA7C6A60053192D /* Sources */,
+				9A9900622DA7C6A60053192D /* Frameworks */,
+				9A9900632DA7C6A60053192D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第10关：母牛繁殖问题";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第10关：母牛繁殖问题";
+			productReference = 9A9900652DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A9900732DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9900782DA7CEB90053192D /* Build configuration list for PBXNativeTarget "C5-2 第9关：从自然数中取3个数进行组合之递归算法" */;
+			buildPhases = (
+				9A9900702DA7CEB90053192D /* Sources */,
+				9A9900712DA7CEB90053192D /* Frameworks */,
+				9A9900722DA7CEB90053192D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第9关：从自然数中取3个数进行组合之递归算法";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第9关：从自然数中取3个数进行组合之递归算法";
+			productReference = 9A9900742DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A9900822DA7D7000053192D /* C5-2 第6关：十进制转r进制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9900872DA7D7000053192D /* Build configuration list for PBXNativeTarget "C5-2 第6关：十进制转r进制" */;
+			buildPhases = (
+				9A99007F2DA7D7000053192D /* Sources */,
+				9A9900802DA7D7000053192D /* Frameworks */,
+				9A9900812DA7D7000053192D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-2 第6关：十进制转r进制";
+			packageProductDependencies = (
+			);
+			productName = "C5-2 第6关：十进制转r进制";
+			productReference = 9A9900832DA7D7000053192D /* C5-2 第6关：十进制转r进制 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9AE78AA22D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE78AA72D8C3175001CEFFC /* Build configuration list for PBXNativeTarget "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" */;
@@ -2350,6 +2890,27 @@
 					9A4ECAF52D9AD1FF0036A702 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A50B5332DA90F4C00AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B5422DA9583E00AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B5512DA975B600AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B5602DA97E4100AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B56F2DA9842700AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B57E2DA986B000AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A50B58D2DA98AFF00AA3832 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A6F7D112D90E24800B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -2408,6 +2969,21 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					9A6F7E472D99595D00B9D960 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A9900462DA7A33D0053192D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A9900552DA7A6530053192D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A9900642DA7C6A60053192D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A9900732DA7CEB90053192D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A9900822DA7D7000053192D = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					9AE78AA22D8C3175001CEFFC = {
@@ -2504,6 +3080,18 @@
 				9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */,
 				9A0A0AEB2DA179DF006B76CB /* Q-3 第125关：31 筛选法求素数 */,
 				9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */,
+				9A9900462DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */,
+				9A9900552DA7A6530053192D /* C5-2 第11关：百马百担 */,
+				9A9900642DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */,
+				9A9900732DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */,
+				9A9900822DA7D7000053192D /* C5-2 第6关：十进制转r进制 */,
+				9A50B5332DA90F4C00AA3832 /* C5-2 第1关：计算学生年龄 */,
+				9A50B5422DA9583E00AA3832 /* C5-2 第2关：求n的阶乘n! */,
+				9A50B5512DA975B600AA3832 /* C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字 */,
+				9A50B5602DA97E4100AA3832 /* C5-2 第4关：递归求斐波那契数列的第n项 */,
+				9A50B56F2DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */,
+				9A50B57E2DA986B000AA3832 /* C5-2 第7关：猴子吃桃 */,
+				9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
 			);
 		};
 /* End PBXProject section */
@@ -2629,6 +3217,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A4ECAF22D9AD1FF0036A702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B5302DA90F4C00AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B53F2DA9583E00AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B54E2DA975B600AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B55D2DA97E4100AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B56C2DA9842700AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B57B2DA986B000AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A50B58A2DA98AFF00AA3832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2769,6 +3406,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A6F7E442D99595D00B9D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900432DA7A33D0053192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900522DA7A6530053192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900612DA7C6A60053192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9900702DA7CEB90053192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99007F2DA7D7000053192D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3208,6 +3880,146 @@
 			};
 			name = Release;
 		};
+		9A50B5382DA90F4C00AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5392DA90F4C00AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5482DA9583E00AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5492DA9583E00AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5572DA975B600AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5582DA975B600AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5662DA97E4100AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5672DA97E4100AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5752DA9842700AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5762DA9842700AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5842DA986B100AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5852DA986B100AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A50B5932DA98AFF00AA3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A50B5942DA98AFF00AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9A6F7D162D90E24800B9D960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3599,6 +4411,106 @@
 			name = Debug;
 		};
 		9A6F7E4E2D99595D00B9D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A99004B2DA7A33D0053192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A99004C2DA7A33D0053192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A99005B2DA7A6530053192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A99005C2DA7A6530053192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A99006A2DA7C6A60053192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A99006B2DA7C6A60053192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A9900792DA7CEB90053192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A99007A2DA7CEB90053192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A9900882DA7D7000053192D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A9900892DA7D7000053192D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4088,6 +5000,69 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A50B53A2DA90F4C00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第1关：计算学生年龄" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5382DA90F4C00AA3832 /* Debug */,
+				9A50B5392DA90F4C00AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5472DA9583E00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第2关：求n的阶乘n!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5482DA9583E00AA3832 /* Debug */,
+				9A50B5492DA9583E00AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5562DA975B600AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第3关：输入一个正整数，要求如下：①用递归按逆序输出各位数字②用递归分别顺序输出每一位数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5572DA975B600AA3832 /* Debug */,
+				9A50B5582DA975B600AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5652DA97E4100AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第4关：递归求斐波那契数列的第n项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5662DA97E4100AA3832 /* Debug */,
+				9A50B5672DA97E4100AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5742DA9842700AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第5关：递归求解最大公约数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5752DA9842700AA3832 /* Debug */,
+				9A50B5762DA9842700AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5832DA986B100AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第7关：猴子吃桃" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5842DA986B100AA3832 /* Debug */,
+				9A50B5852DA986B100AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A50B5922DA98AFF00AA3832 /* Build configuration list for PBXNativeTarget "C5-2 第8关：从自然数中取3个数进行组合之循环算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A50B5932DA98AFF00AA3832 /* Debug */,
+				9A50B5942DA98AFF00AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A6F7D182D90E24800B9D960 /* Build configuration list for PBXNativeTarget "C4-4 第11关：歌手评分系统" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4264,6 +5239,51 @@
 			buildConfigurations = (
 				9A6F7E4D2D99595D00B9D960 /* Debug */,
 				9A6F7E4E2D99595D00B9D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99004D2DA7A33D0053192D /* Build configuration list for PBXNativeTarget "C5-2 第13关：用递归方法求勒让德多项式的值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99004B2DA7A33D0053192D /* Debug */,
+				9A99004C2DA7A33D0053192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99005A2DA7A6530053192D /* Build configuration list for PBXNativeTarget "C5-2 第11关：百马百担" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99005B2DA7A6530053192D /* Debug */,
+				9A99005C2DA7A6530053192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9900692DA7C6A60053192D /* Build configuration list for PBXNativeTarget "C5-2 第10关：母牛繁殖问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99006A2DA7C6A60053192D /* Debug */,
+				9A99006B2DA7C6A60053192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9900782DA7CEB90053192D /* Build configuration list for PBXNativeTarget "C5-2 第9关：从自然数中取3个数进行组合之递归算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9900792DA7CEB90053192D /* Debug */,
+				9A99007A2DA7CEB90053192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9900872DA7D7000053192D /* Build configuration list for PBXNativeTarget "C5-2 第6关：十进制转r进制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9900882DA7D7000053192D /* Debug */,
+				9A9900892DA7D7000053192D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

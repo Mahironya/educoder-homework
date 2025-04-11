@@ -36,5 +36,35 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECBF9739-673A-432B-9A97-184151EBCB4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;--&#x5206;&#x5de5;&#x4e0e;&#x5408;&#x4f5c;/C5-2 &#x51fd;&#x6570;-&#x9012;&#x5f52;/C5-2 &#x7b2c;11&#x5173;&#xff1a;&#x767e;&#x9a6c;&#x767e;&#x62c5;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EEB675D-F1F1-4619-A236-5841D89577B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7b2c;&#x4e94;&#x7ae0; &#x51fd;&#x6570;--&#x5206;&#x5de5;&#x4e0e;&#x5408;&#x4f5c;/C5-2 &#x51fd;&#x6570;-&#x9012;&#x5f52;/C5-2 &#x7b2c;10&#x5173;&#xff1a;&#x6bcd;&#x725b;&#x7e41;&#x6b96;&#x95ee;&#x9898;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
