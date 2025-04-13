@@ -1098,11 +1098,6 @@
 			path = "Q-1 全国二级计算机考试分析";
 			sourceTree = "<group>";
 		};
-		9A50B5992DAA8DA900AA3832 /* C5-1 函数 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "C5-1 函数";
-			sourceTree = "<group>";
-		};
 		9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "用来临时测试代码";
@@ -1588,7 +1583,6 @@
 		9A6F7DC52D93CA0100B9D960 /* 第五章 函数--分工与合作 */ = {
 			isa = PBXGroup;
 			children = (
-				9A50B5992DAA8DA900AA3832 /* C5-1 函数 */,
 				9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */,
 				9A0A0AA62DA0D4A1006B76CB /* C5-3 函数进阶 */,
 			);
