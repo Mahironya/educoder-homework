@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
+		<key>C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>60</integer>
+		</dict>
 		<key>C5-2 第10关：母牛繁殖问题.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

@@ -547,6 +547,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7CE72DABA481003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -610,6 +619,7 @@
 		9AE78B0C2D8D5CE5001CEFFC /* C4-4 第8关：数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第8关：数列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第21关：输出星号2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1026,6 +1036,13 @@
 			);
 			target = 9AE78B292D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 		};
+		9AFC7CF32DABA484003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数/main.cpp",
+			);
+			target = 9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1134,6 +1151,14 @@
 				9A6F7DC12D92B02800B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第18关：求数列的第n项及前n项之和" target */,
 			);
 			path = "C4-4 循环结构程序设计进阶";
+			sourceTree = "<group>";
+		};
+		9AFC7CE42DABA462003A2411 /* C5-1 函数 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9AFC7CF32DABA484003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" target */,
+			);
+			path = "C5-1 函数";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -1559,6 +1584,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7CE62DABA481003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1583,6 +1615,7 @@
 		9A6F7DC52D93CA0100B9D960 /* 第五章 函数--分工与合作 */ = {
 			isa = PBXGroup;
 			children = (
+				9AFC7CE42DABA462003A2411 /* C5-1 函数 */,
 				9A0A0A312DA0D07C006B76CB /* C5-2 函数-递归 */,
 				9A0A0AA62DA0D4A1006B76CB /* C5-3 函数进阶 */,
 			);
@@ -1664,6 +1697,7 @@
 				9A50B5702DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */,
 				9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */,
 				9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
+				9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2827,6 +2861,25 @@
 			productReference = 9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7CED2DABA482003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" */;
+			buildPhases = (
+				9AFC7CE52DABA481003A2411 /* Sources */,
+				9AFC7CE62DABA481003A2411 /* Frameworks */,
+				9AFC7CE72DABA481003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数";
+			packageProductDependencies = (
+			);
+			productName = "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数";
+			productReference = 9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3016,6 +3069,9 @@
 					9AE78B292D8DBC92001CEFFC = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7CE82DABA481003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -3092,6 +3148,7 @@
 				9A50B56F2DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */,
 				9A50B57E2DA986B000AA3832 /* C5-2 第7关：猴子吃桃 */,
 				9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
+				9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */,
 			);
 		};
 /* End PBXProject section */
@@ -3511,6 +3568,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AE78B262D8DBC92001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7CE52DABA481003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4835,6 +4899,26 @@
 			};
 			name = Release;
 		};
+		9AFC7CEE2DABA482003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7CEF2DABA482003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5383,6 +5467,15 @@
 			buildConfigurations = (
 				9AE78B2F2D8DBC92001CEFFC /* Debug */,
 				9AE78B302D8DBC92001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7CED2DABA482003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7CEE2DABA482003A2411 /* Debug */,
+				9AFC7CEF2DABA482003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
