@@ -114,6 +114,26 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>C5-1 第2关：求一元二次方程的根.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
+		<key>C5-1 第3关：求a！+ b！ + c！的值.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
+		<key>C5-1 第4关：写一个判断一个正整数是否为素数的函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
+		<key>C5-1 第5关：验证哥德巴赫猜想.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>64</integer>
+		</dict>
 		<key>C5-2 第10关：母牛繁殖问题.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

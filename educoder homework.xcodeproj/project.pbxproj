@@ -556,6 +556,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7CF62DABA549003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7D052DABA58F003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7D142DABAAE3003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7D232DABAF52003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -620,6 +656,10 @@
 		9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第21关：输出星号2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7CF82DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第2关：求一元二次方程的根"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7D072DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第3关：求a！+ b！ + c！的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7D162DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第4关：写一个判断一个正整数是否为素数的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7D252DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第5关：验证哥德巴赫猜想"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1043,6 +1083,34 @@
 			);
 			target = 9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */;
 		};
+		9AFC7D022DABA54D003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第2关：求一元二次方程的根" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-1 第2关：求一元二次方程的根/main.cpp",
+			);
+			target = 9AFC7CF72DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */;
+		};
+		9AFC7D112DABA592003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第3关：求a！+ b！ + c！的值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-1 第3关：求a！+ b！ + c！的值/main.cpp",
+			);
+			target = 9AFC7D062DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */;
+		};
+		9AFC7D202DABAAE5003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第4关：写一个判断一个正整数是否为素数的函数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-1 第4关：写一个判断一个正整数是否为素数的函数/main.cpp",
+			);
+			target = 9AFC7D152DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */;
+		};
+		9AFC7D2F2DABAF55003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第5关：验证哥德巴赫猜想" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C5-1 第5关：验证哥德巴赫猜想/main.cpp",
+			);
+			target = 9AFC7D242DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1157,6 +1225,10 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				9AFC7CF32DABA484003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" target */,
+				9AFC7D022DABA54D003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第2关：求一元二次方程的根" target */,
+				9AFC7D112DABA592003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第3关：求a！+ b！ + c！的值" target */,
+				9AFC7D202DABAAE5003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第4关：写一个判断一个正整数是否为素数的函数" target */,
+				9AFC7D2F2DABAF55003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第5关：验证哥德巴赫猜想" target */,
 			);
 			path = "C5-1 函数";
 			sourceTree = "<group>";
@@ -1591,6 +1663,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7CF52DABA549003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D042DABA58F003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D132DABAAE3003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D222DABAF52003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1698,6 +1798,10 @@
 				9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */,
 				9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
 				9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */,
+				9AFC7CF82DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */,
+				9AFC7D072DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */,
+				9AFC7D162DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */,
+				9AFC7D252DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2880,6 +2984,82 @@
 			productReference = 9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7CF72DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7CFC2DABA549003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第2关：求一元二次方程的根" */;
+			buildPhases = (
+				9AFC7CF42DABA549003A2411 /* Sources */,
+				9AFC7CF52DABA549003A2411 /* Frameworks */,
+				9AFC7CF62DABA549003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-1 第2关：求一元二次方程的根";
+			packageProductDependencies = (
+			);
+			productName = "C5-1 第2关：求一元二次方程的根";
+			productReference = 9AFC7CF82DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7D062DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7D0B2DABA58F003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第3关：求a！+ b！ + c！的值" */;
+			buildPhases = (
+				9AFC7D032DABA58F003A2411 /* Sources */,
+				9AFC7D042DABA58F003A2411 /* Frameworks */,
+				9AFC7D052DABA58F003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-1 第3关：求a！+ b！ + c！的值";
+			packageProductDependencies = (
+			);
+			productName = "C5-1 第3关：求a！+ b！ + c！的值";
+			productReference = 9AFC7D072DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7D152DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7D1A2DABAAE3003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第4关：写一个判断一个正整数是否为素数的函数" */;
+			buildPhases = (
+				9AFC7D122DABAAE3003A2411 /* Sources */,
+				9AFC7D132DABAAE3003A2411 /* Frameworks */,
+				9AFC7D142DABAAE3003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-1 第4关：写一个判断一个正整数是否为素数的函数";
+			packageProductDependencies = (
+			);
+			productName = "C5-1 第4关：写一个判断一个正整数是否为素数的函数";
+			productReference = 9AFC7D162DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7D242DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7D292DABAF52003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第5关：验证哥德巴赫猜想" */;
+			buildPhases = (
+				9AFC7D212DABAF52003A2411 /* Sources */,
+				9AFC7D222DABAF52003A2411 /* Frameworks */,
+				9AFC7D232DABAF52003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C5-1 第5关：验证哥德巴赫猜想";
+			packageProductDependencies = (
+			);
+			productName = "C5-1 第5关：验证哥德巴赫猜想";
+			productReference = 9AFC7D252DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3072,6 +3252,18 @@
 					9AFC7CE82DABA481003A2411 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7CF72DABA549003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7D062DABA58F003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7D152DABAAE3003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7D242DABAF52003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -3149,6 +3341,10 @@
 				9A50B57E2DA986B000AA3832 /* C5-2 第7关：猴子吃桃 */,
 				9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */,
 				9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */,
+				9AFC7CF72DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */,
+				9AFC7D062DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */,
+				9AFC7D152DABAAE3003A2411 /* C5-1 第4关：写一个判断一个正整数是否为素数的函数 */,
+				9AFC7D242DABAF52003A2411 /* C5-1 第5关：验证哥德巴赫猜想 */,
 			);
 		};
 /* End PBXProject section */
@@ -3575,6 +3771,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AFC7CE52DABA481003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7CF42DABA549003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D032DABA58F003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D122DABAAE3003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7D212DABAF52003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4919,6 +5143,86 @@
 			};
 			name = Release;
 		};
+		9AFC7CFD2DABA549003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7CFE2DABA549003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7D0C2DABA58F003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7D0D2DABA58F003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7D1B2DABAAE3003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7D1C2DABAAE3003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7D2A2DABAF52003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7D2B2DABAF52003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5476,6 +5780,42 @@
 			buildConfigurations = (
 				9AFC7CEE2DABA482003A2411 /* Debug */,
 				9AFC7CEF2DABA482003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7CFC2DABA549003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第2关：求一元二次方程的根" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7CFD2DABA549003A2411 /* Debug */,
+				9AFC7CFE2DABA549003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7D0B2DABA58F003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第3关：求a！+ b！ + c！的值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7D0C2DABA58F003A2411 /* Debug */,
+				9AFC7D0D2DABA58F003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7D1A2DABAAE3003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第4关：写一个判断一个正整数是否为素数的函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7D1B2DABAAE3003A2411 /* Debug */,
+				9AFC7D1C2DABAAE3003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7D292DABAF52003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第5关：验证哥德巴赫猜想" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7D2A2DABAF52003A2411 /* Debug */,
+				9AFC7D2B2DABAF52003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
