@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
+		<key>C5-1 第10关：利用静态局部变量编写函数计算n的阶乘.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>66</integer>
+		</dict>
 		<key>C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,26 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>64</integer>
+		</dict>
+		<key>C5-1 第6关：写一个函数完成求和功能.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>65</integer>
+		</dict>
+		<key>C5-1 第7关：调用求阶乘函数计算并输出p=m!/(n!*(m-n)!) 的值.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
+		<key>C5-1 第8关：递归求阶乘数列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>C5-1 第9关：用递归方法将一个正整数转换成字符串输出.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>67</integer>
 		</dict>
 		<key>C5-2 第10关：母牛繁殖问题.xcscheme_^#shared#^_</key>
 		<dict>
@@ -313,6 +338,21 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>C6-1 第1关：求Fibonacci数列的前12个数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
+		<key>C6-1 第2关：比较相邻两个元素求最大值.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>71</integer>
+		</dict>
+		<key>C6-1 第3关：用筛选法求100以内所有素数的和.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>72</integer>
 		</dict>
 		<key>Q-3 第125关：31 筛选法求素数.xcscheme_^#shared#^_</key>
 		<dict>
