@@ -664,6 +664,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7DAC2DAE057D003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7DBB2DAE10AD003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -740,6 +758,8 @@
 		9AFC7D812DAC953E003A2411 /* C6-1 第1关：求Fibonacci数列的前12个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第1关：求Fibonacci数列的前12个数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7D902DACDBCD003A2411 /* C6-1 第2关：比较相邻两个元素求最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第2关：比较相邻两个元素求最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7D9F2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第3关：用筛选法求100以内所有素数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7DAE2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第4关：计算矩阵对角线元素之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第5关：冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1247,6 +1267,20 @@
 			);
 			target = 9AFC7D9E2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */;
 		};
+		9AFC7DB82DAE0580003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第4关：计算矩阵对角线元素之和" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第4关：计算矩阵对角线元素之和/main.cpp",
+			);
+			target = 9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */;
+		};
+		9AFC7DC72DAE10B0003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第5关：冒泡排序" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第5关：冒泡排序/main.cpp",
+			);
+			target = 9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1380,6 +1414,8 @@
 				9AFC7D8B2DAC9540003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第1关：求Fibonacci数列的前12个数" target */,
 				9AFC7D9A2DACDBD1003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第2关：比较相邻两个元素求最大值" target */,
 				9AFC7DA92DAD6DCA003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第3关：用筛选法求100以内所有素数的和" target */,
+				9AFC7DB82DAE0580003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第4关：计算矩阵对角线元素之和" target */,
+				9AFC7DC72DAE10B0003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第5关：冒泡排序" target */,
 			);
 			path = "C6-1 数组";
 			sourceTree = "<group>";
@@ -1898,6 +1934,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7DAB2DAE057D003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DBA2DAE10AD003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2018,6 +2068,8 @@
 				9AFC7D812DAC953E003A2411 /* C6-1 第1关：求Fibonacci数列的前12个数 */,
 				9AFC7D902DACDBCD003A2411 /* C6-1 第2关：比较相邻两个元素求最大值 */,
 				9AFC7D9F2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */,
+				9AFC7DAE2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */,
+				9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3436,6 +3488,44 @@
 			productReference = 9AFC7D9F2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7DB22DAE057D003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第4关：计算矩阵对角线元素之和" */;
+			buildPhases = (
+				9AFC7DAA2DAE057D003A2411 /* Sources */,
+				9AFC7DAB2DAE057D003A2411 /* Frameworks */,
+				9AFC7DAC2DAE057D003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第4关：计算矩阵对角线元素之和";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第4关：计算矩阵对角线元素之和";
+			productReference = 9AFC7DAE2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7DC12DAE10AD003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第5关：冒泡排序" */;
+			buildPhases = (
+				9AFC7DB92DAE10AD003A2411 /* Sources */,
+				9AFC7DBA2DAE10AD003A2411 /* Frameworks */,
+				9AFC7DBB2DAE10AD003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第5关：冒泡排序";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第5关：冒泡排序";
+			productReference = 9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3664,6 +3754,12 @@
 					9AFC7D9E2DAD6DC8003A2411 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7DAD2DAE057D003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7DBC2DAE10AD003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -3753,6 +3849,8 @@
 				9AFC7D802DAC953E003A2411 /* C6-1 第1关：求Fibonacci数列的前12个数 */,
 				9AFC7D8F2DACDBCD003A2411 /* C6-1 第2关：比较相邻两个元素求最大值 */,
 				9AFC7D9E2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */,
+				9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */,
+				9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -4263,6 +4361,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AFC7D9B2DAD6DC8003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DAA2DAE057D003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DB92DAE10AD003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5847,6 +5959,46 @@
 			};
 			name = Release;
 		};
+		9AFC7DB32DAE057D003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7DB42DAE057D003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7DC22DAE10AD003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7DC32DAE10AD003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6512,6 +6664,24 @@
 			buildConfigurations = (
 				9AFC7DA42DAD6DC8003A2411 /* Debug */,
 				9AFC7DA52DAD6DC8003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7DB22DAE057D003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第4关：计算矩阵对角线元素之和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7DB32DAE057D003A2411 /* Debug */,
+				9AFC7DB42DAE057D003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7DC12DAE10AD003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第5关：冒泡排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7DC22DAE10AD003A2411 /* Debug */,
+				9AFC7DC32DAE10AD003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
