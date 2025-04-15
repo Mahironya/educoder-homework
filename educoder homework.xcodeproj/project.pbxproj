@@ -682,6 +682,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7DCA2DAE8807003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -760,6 +769,7 @@
 		9AFC7D9F2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第3关：用筛选法求100以内所有素数的和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7DAE2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第4关：计算矩阵对角线元素之和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第5关：冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7DCC2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1281,6 +1291,13 @@
 			);
 			target = 9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */;
 		};
+		9AFC7DD62DAE8809003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序/main.cpp",
+			);
+			target = 9AFC7DCB2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1416,6 +1433,7 @@
 				9AFC7DA92DAD6DCA003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第3关：用筛选法求100以内所有素数的和" target */,
 				9AFC7DB82DAE0580003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第4关：计算矩阵对角线元素之和" target */,
 				9AFC7DC72DAE10B0003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第5关：冒泡排序" target */,
+				9AFC7DD62DAE8809003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序" target */,
 			);
 			path = "C6-1 数组";
 			sourceTree = "<group>";
@@ -1948,6 +1966,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7DC92DAE8807003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2070,6 +2095,7 @@
 				9AFC7D9F2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */,
 				9AFC7DAE2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */,
 				9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
+				9AFC7DCC2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3526,6 +3552,25 @@
 			productReference = 9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7DCB2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7DD02DAE8807003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序" */;
+			buildPhases = (
+				9AFC7DC82DAE8807003A2411 /* Sources */,
+				9AFC7DC92DAE8807003A2411 /* Frameworks */,
+				9AFC7DCA2DAE8807003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序";
+			productReference = 9AFC7DCC2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3760,6 +3805,9 @@
 					9AFC7DBC2DAE10AD003A2411 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7DCB2DAE8807003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -3851,6 +3899,7 @@
 				9AFC7D9E2DAD6DC8003A2411 /* C6-1 第3关：用筛选法求100以内所有素数的和 */,
 				9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */,
 				9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
+				9AFC7DCB2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */,
 			);
 		};
 /* End PBXProject section */
@@ -4375,6 +4424,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AFC7DB92DAE10AD003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DC82DAE8807003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5999,6 +6055,26 @@
 			};
 			name = Release;
 		};
+		9AFC7DD12DAE8807003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7DD22DAE8807003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6682,6 +6758,15 @@
 			buildConfigurations = (
 				9AFC7DC22DAE10AD003A2411 /* Debug */,
 				9AFC7DC32DAE10AD003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7DD02DAE8807003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7DD12DAE8807003A2411 /* Debug */,
+				9AFC7DD22DAE8807003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
