@@ -339,6 +339,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
 		<key>C6-1 第1关：求Fibonacci数列的前12个数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -373,6 +383,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>76</integer>
+		</dict>
+		<key>C6-1 第8关：顺序查找.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>C6-1 第9关：杨辉三角.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
 		</dict>
 		<key>Q-3 第125关：31 筛选法求素数.xcscheme_^#shared#^_</key>
 		<dict>

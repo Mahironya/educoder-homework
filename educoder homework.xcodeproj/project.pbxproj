@@ -700,6 +700,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7DE82DAF9016003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7DF72DAF9D49003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7E062DAFA1BA003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AFC7E152DB0DDE5003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -780,6 +816,10 @@
 		9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第5关：冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7DCC2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7DDB2DAF85E6003A2411 /* C6-1 第7关：简单选择排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第7关：简单选择排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7DEA2DAF9016003A2411 /* C6-1 第8关：顺序查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第8关：顺序查找"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7DF92DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第9关：杨辉三角"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7E082DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1290,7 +1330,7 @@
 		9AFC7DB82DAE0580003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第4关：计算矩阵对角线元素之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"C6-1 第4关：计算矩阵对角线元素之和/main.cpp",
+				"C6-1 第5关：冒泡排序/main 2.cpp",
 			);
 			target = 9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */;
 		};
@@ -1314,6 +1354,34 @@
 				"C6-1 第7关：简单选择排序/main.cpp",
 			);
 			target = 9AFC7DDA2DAF85E6003A2411 /* C6-1 第7关：简单选择排序 */;
+		};
+		9AFC7DF42DAF9019003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第8关：顺序查找" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第8关：顺序查找/main.cpp",
+			);
+			target = 9AFC7DE92DAF9016003A2411 /* C6-1 第8关：顺序查找 */;
+		};
+		9AFC7E032DAF9D4C003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第9关：杨辉三角" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第9关：杨辉三角/main.cpp",
+			);
+			target = 9AFC7DF82DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */;
+		};
+		9AFC7E122DAFA1BD003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出/main.cpp",
+			);
+			target = 9AFC7E072DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */;
+		};
+		9AFC7E212DB0DDE8003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第11关：计算数组中元素的最大值及其所在的行列下标值/main.cpp",
+			);
+			target = 9AFC7E162DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -1452,6 +1520,10 @@
 				9AFC7DC72DAE10B0003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第5关：冒泡排序" target */,
 				9AFC7DD62DAE8809003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序" target */,
 				9AFC7DE52DAF85E9003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第7关：简单选择排序" target */,
+				9AFC7DF42DAF9019003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第8关：顺序查找" target */,
+				9AFC7E032DAF9D4C003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第9关：杨辉三角" target */,
+				9AFC7E122DAFA1BD003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出" target */,
+				9AFC7E212DB0DDE8003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值" target */,
 			);
 			path = "C6-1 数组";
 			sourceTree = "<group>";
@@ -1998,6 +2070,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7DE72DAF9016003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DF62DAF9D49003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7E052DAFA1BA003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7E142DB0DDE5003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2122,6 +2222,10 @@
 				9AFC7DBD2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
 				9AFC7DCC2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */,
 				9AFC7DDB2DAF85E6003A2411 /* C6-1 第7关：简单选择排序 */,
+				9AFC7DEA2DAF9016003A2411 /* C6-1 第8关：顺序查找 */,
+				9AFC7DF92DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */,
+				9AFC7E082DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */,
+				9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3616,6 +3720,82 @@
 			productReference = 9AFC7DDB2DAF85E6003A2411 /* C6-1 第7关：简单选择排序 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7DE92DAF9016003A2411 /* C6-1 第8关：顺序查找 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7DEE2DAF9016003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第8关：顺序查找" */;
+			buildPhases = (
+				9AFC7DE62DAF9016003A2411 /* Sources */,
+				9AFC7DE72DAF9016003A2411 /* Frameworks */,
+				9AFC7DE82DAF9016003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第8关：顺序查找";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第8关：顺序查找";
+			productReference = 9AFC7DEA2DAF9016003A2411 /* C6-1 第8关：顺序查找 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7DF82DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7DFD2DAF9D49003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第9关：杨辉三角" */;
+			buildPhases = (
+				9AFC7DF52DAF9D49003A2411 /* Sources */,
+				9AFC7DF62DAF9D49003A2411 /* Frameworks */,
+				9AFC7DF72DAF9D49003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第9关：杨辉三角";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第9关：杨辉三角";
+			productReference = 9AFC7DF92DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7E072DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7E0C2DAFA1BB003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出" */;
+			buildPhases = (
+				9AFC7E042DAFA1BA003A2411 /* Sources */,
+				9AFC7E052DAFA1BA003A2411 /* Frameworks */,
+				9AFC7E062DAFA1BA003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出";
+			productReference = 9AFC7E082DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AFC7E162DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7E1B2DB0DDE5003A2411 /* Build configuration list for PBXNativeTarget "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值" */;
+			buildPhases = (
+				9AFC7E132DB0DDE5003A2411 /* Sources */,
+				9AFC7E142DB0DDE5003A2411 /* Frameworks */,
+				9AFC7E152DB0DDE5003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值";
+			packageProductDependencies = (
+			);
+			productName = "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值";
+			productReference = 9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3856,6 +4036,18 @@
 					9AFC7DDA2DAF85E6003A2411 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7DE92DAF9016003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7DF82DAF9D49003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7E072DAFA1BA003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AFC7E162DB0DDE5003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -3949,6 +4141,10 @@
 				9AFC7DBC2DAE10AD003A2411 /* C6-1 第5关：冒泡排序 */,
 				9AFC7DCB2DAE8807003A2411 /* C6-1 第6关：编写程序将一个给定的整数插到原本有序的整数序列中，使结果序列仍然有序 */,
 				9AFC7DDA2DAF85E6003A2411 /* C6-1 第7关：简单选择排序 */,
+				9AFC7DE92DAF9016003A2411 /* C6-1 第8关：顺序查找 */,
+				9AFC7DF82DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */,
+				9AFC7E072DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */,
+				9AFC7E162DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */,
 			);
 		};
 /* End PBXProject section */
@@ -4487,6 +4683,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AFC7DD72DAF85E6003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DE62DAF9016003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7DF52DAF9D49003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7E042DAFA1BA003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7E132DB0DDE5003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -6151,6 +6375,86 @@
 			};
 			name = Release;
 		};
+		9AFC7DEF2DAF9016003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7DF02DAF9016003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7DFE2DAF9D49003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7DFF2DAF9D49003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7E0D2DAFA1BB003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7E0E2DAFA1BB003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFC7E1C2DB0DDE5003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7E1D2DB0DDE5003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6852,6 +7156,42 @@
 			buildConfigurations = (
 				9AFC7DE02DAF85E7003A2411 /* Debug */,
 				9AFC7DE12DAF85E7003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7DEE2DAF9016003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第8关：顺序查找" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7DEF2DAF9016003A2411 /* Debug */,
+				9AFC7DF02DAF9016003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7DFD2DAF9D49003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第9关：杨辉三角" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7DFE2DAF9D49003A2411 /* Debug */,
+				9AFC7DFF2DAF9D49003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7E0C2DAFA1BB003A2411 /* Build configuration list for PBXNativeTarget "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7E0D2DAFA1BB003A2411 /* Debug */,
+				9AFC7E0E2DAFA1BB003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7E1B2DB0DDE5003A2411 /* Build configuration list for PBXNativeTarget "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7E1C2DB0DDE5003A2411 /* Debug */,
+				9AFC7E1D2DB0DDE5003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
