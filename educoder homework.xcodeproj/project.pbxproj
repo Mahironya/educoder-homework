@@ -412,6 +412,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A796D4E2DB38DEB006FFFE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A9900452DA7A33D0053192D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -736,6 +745,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AFC7E252DB1E7A0003A2411 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -784,6 +802,7 @@
 		9A6F7E2A2D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E392D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第7关：调用求x的n次幂的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A796D502DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900472DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第13关：用递归方法求勒让德多项式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900562DA7A6530053192D /* C5-2 第11关：百马百担 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第11关：百马百担"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900652DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第10关：母牛繁殖问题"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -820,6 +839,7 @@
 		9AFC7DF92DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第9关：杨辉三角"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7E082DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFC7E272DB1E7A0003A2411 /* P1002 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P1002; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -1131,6 +1151,13 @@
 			);
 			target = 9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */;
 		};
+		9A796D5A2DB38DEE006FFFE9 /* Exceptions for "C6-1 数组" folder in "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号/main.cpp",
+			);
+			target = 9A796D4F2DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */;
+		};
 		9A9900512DA7A3410053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第13关：用递归方法求勒让德多项式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -1330,7 +1357,7 @@
 		9AFC7DB82DAE0580003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第4关：计算矩阵对角线元素之和" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"C6-1 第5关：冒泡排序/main 2.cpp",
+				"C6-1 第4关：计算矩阵对角线元素之和/main.cpp",
 			);
 			target = 9AFC7DAD2DAE057D003A2411 /* C6-1 第4关：计算矩阵对角线元素之和 */;
 		};
@@ -1382,6 +1409,20 @@
 				"C6-1 第11关：计算数组中元素的最大值及其所在的行列下标值/main.cpp",
 			);
 			target = 9AFC7E162DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */;
+		};
+		9AFC7E312DB1E7A2003A2411 /* Exceptions for "luogu" folder in "Q-3第1关：寻找第二小数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				P1002/main.cpp,
+			);
+			target = 9A0A0AD92DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */;
+		};
+		9AFC7E322DB1E7A2003A2411 /* Exceptions for "luogu" folder in "P1002" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				P1002/main.cpp,
+			);
+			target = 9AFC7E262DB1E7A0003A2411 /* P1002 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -1524,8 +1565,18 @@
 				9AFC7E032DAF9D4C003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第9关：杨辉三角" target */,
 				9AFC7E122DAFA1BD003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出" target */,
 				9AFC7E212DB0DDE8003A2411 /* Exceptions for "C6-1 数组" folder in "C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值" target */,
+				9A796D5A2DB38DEE006FFFE9 /* Exceptions for "C6-1 数组" folder in "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号" target */,
 			);
 			path = "C6-1 数组";
+			sourceTree = "<group>";
+		};
+		9AFC7E222DB1E791003A2411 /* luogu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9AFC7E312DB1E7A2003A2411 /* Exceptions for "luogu" folder in "Q-3第1关：寻找第二小数" target */,
+				9AFC7E322DB1E7A2003A2411 /* Exceptions for "luogu" folder in "P1002" target */,
+			);
+			path = luogu;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -1846,6 +1897,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A796D4D2DB38DEB006FFFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9900442DA7A33D0053192D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2098,12 +2156,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AFC7E242DB1E7A0003A2411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9A0A0AD52DA0DC41006B76CB /* 其他拓展编程🧑‍💻 */ = {
 			isa = PBXGroup;
 			children = (
+				9AFC7E222DB1E791003A2411 /* luogu */,
 				9A0A0AE62DA0DCB6006B76CB /* Q-1 全国二级计算机考试分析 */,
 				9A0A0AE52DA0DCA9006B76CB /* Q-2 蓝桥杯题库 */,
 				9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */,
@@ -2226,6 +2292,8 @@
 				9AFC7DF92DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */,
 				9AFC7E082DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */,
 				9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */,
+				9AFC7E272DB1E7A0003A2411 /* P1002 */,
+				9A796D502DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2493,6 +2561,7 @@
 				9A0A0AE12DA0DC83006B76CB /* Q-3 趣味编程 */,
 				9A0A0AE52DA0DCA9006B76CB /* Q-2 蓝桥杯题库 */,
 				9A0A0AE62DA0DCB6006B76CB /* Q-1 全国二级计算机考试分析 */,
+				9AFC7E222DB1E791003A2411 /* luogu */,
 			);
 			name = "Q-3第1关：寻找第二小数";
 			packageProductDependencies = (
@@ -3110,6 +3179,25 @@
 			);
 			productName = "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和";
 			productReference = 9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A796D4F2DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A796D542DB38DEB006FFFE9 /* Build configuration list for PBXNativeTarget "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号" */;
+			buildPhases = (
+				9A796D4C2DB38DEB006FFFE9 /* Sources */,
+				9A796D4D2DB38DEB006FFFE9 /* Frameworks */,
+				9A796D4E2DB38DEB006FFFE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号";
+			productReference = 9A796D502DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A9900462DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {
@@ -3796,6 +3884,25 @@
 			productReference = 9AFC7E172DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AFC7E262DB1E7A0003A2411 /* P1002 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFC7E2B2DB1E7A0003A2411 /* Build configuration list for PBXNativeTarget "P1002" */;
+			buildPhases = (
+				9AFC7E232DB1E7A0003A2411 /* Sources */,
+				9AFC7E242DB1E7A0003A2411 /* Frameworks */,
+				9AFC7E252DB1E7A0003A2411 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P1002;
+			packageProductDependencies = (
+			);
+			productName = P1002;
+			productReference = 9AFC7E272DB1E7A0003A2411 /* P1002 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3940,6 +4047,9 @@
 					9A6F7E472D99595D00B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A796D4F2DB38DEB006FFFE9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A9900462DA7A33D0053192D = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -4048,6 +4158,9 @@
 					9AFC7E162DB0DDE5003A2411 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9AFC7E262DB1E7A0003A2411 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 9AE78A7F2D8C2937001CEFFC /* Build configuration list for PBXProject "educoder homework" */;
@@ -4145,6 +4258,8 @@
 				9AFC7DF82DAF9D49003A2411 /* C6-1 第9关：杨辉三角 */,
 				9AFC7E072DAFA1BA003A2411 /* C6-1 第10关：在一个数组中查找最小值，将最小值与第1个数组元素交换输出 */,
 				9AFC7E162DB0DDE5003A2411 /* C6-1  第11关：计算数组中元素的最大值及其所在的行列下标值 */,
+				9AFC7E262DB1E7A0003A2411 /* P1002 */,
+				9A796D4F2DB38DEB006FFFE9 /* C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号 */,
 			);
 		};
 /* End PBXProject section */
@@ -4465,6 +4580,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A796D4C2DB38DEB006FFFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9900432DA7A33D0053192D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4711,6 +4833,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AFC7E132DB0DDE5003A2411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFC7E232DB1E7A0003A2411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5620,6 +5749,26 @@
 			};
 			name = Release;
 		};
+		9A796D552DB38DEB006FFFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A796D562DB38DEB006FFFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9A99004B2DA7A33D0053192D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6455,6 +6604,26 @@
 			};
 			name = Release;
 		};
+		9AFC7E2C2DB1E7A0003A2411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFC7E2D2DB1E7A0003A2411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6863,6 +7032,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A796D542DB38DEB006FFFE9 /* Build configuration list for PBXNativeTarget "C6-1 第12关：编写函数输入输出M行N列的二维数组所有元素的值并且求最大元素的值及其所在的行号和列号" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A796D552DB38DEB006FFFE9 /* Debug */,
+				9A796D562DB38DEB006FFFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A99004D2DA7A33D0053192D /* Build configuration list for PBXNativeTarget "C5-2 第13关：用递归方法求勒让德多项式的值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -7192,6 +7370,15 @@
 			buildConfigurations = (
 				9AFC7E1C2DB0DDE5003A2411 /* Debug */,
 				9AFC7E1D2DB0DDE5003A2411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFC7E2B2DB1E7A0003A2411 /* Build configuration list for PBXNativeTarget "P1002" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFC7E2C2DB1E7A0003A2411 /* Debug */,
+				9AFC7E2D2DB1E7A0003A2411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
