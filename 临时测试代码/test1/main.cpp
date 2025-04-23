@@ -2,24 +2,23 @@
 
 #include <iostream>
 #include <cmath>
+#define N 100
 using namespace std;
-int main(){
-    /*
-    5 4
-    5 3
-    5 2
-    5 1
-    4 3
-    4 2
-    4 1
-    3 2
-    3 1
-    2 1
-     */
-    for (int i = 5; i >=2 ; --i){
-        for (int j = i-1; j >= 1; --j){
-            cout<<i<<" "<<j<<endl;
-        }
+void test(int *p, int *n){
+    cout<<"*p = "<<*p<<endl;
+    int num;
+    *n = 0;
+    while (cin >> num && num != 0){
+        p[*n] = num;
+        cout<<"*p = "<<*p<<endl;
+        *n += 1;
     }
+}
+int main(){
+    int array[N];
+    int len;
+    test(array, &len);
+    cout<<"len = "<<len;
+    return 0;
 }
 
