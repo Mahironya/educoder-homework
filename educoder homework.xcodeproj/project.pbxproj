@@ -142,6 +142,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A3155E12DBF7ADD00257C98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A33D16A2DB3A6A6002963D1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,7 +448,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A78A5F42DBF2040002D221E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A8E2C6D2DB7E797004FBA91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A8E2C7C2DB87071004FBA91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A8E2C8B2DB8A29C004FBA91 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -485,6 +521,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9A9900812DA7D7000053192D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AA666A92DBF4F27005419B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -799,6 +844,7 @@
 		9A0A0ADA2DA0DC65006B76CB /* Q-3第1关：寻找第二小数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Q-3第1关：寻找第二小数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0AEC2DA179E0006B76CB /* Q-3 第125关：31 筛选法求素数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Q-3 第125关：31 筛选法求素数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第12关：汉诺塔攻略"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3155E32DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第19关：矩阵转置"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D16C2DB3A6A6002963D1 /* C6-1 第12关 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第12关"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D17B2DB3AA78002963D1 /* C6-1 第13关：有15个数按小由 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第13关：有15个数按小由"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D2872DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第14关：编写函数进行一维数组输入输出和求平均值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -832,12 +878,16 @@
 		9A6F7E2A2D9917FE00B9D960 /* C5-3 第6关：定义求x的n次幂的函数，并返回计算结果 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第6关：定义求x的n次幂的函数，并返回计算结果"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E392D99584600B9D960 /* C5-3 第7关：调用求x的n次幂的函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第7关：调用求x的n次幂的函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A78A5F62DBF2040002D221E /* pointer&ref */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pointer&ref"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8E2C6F2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第15关：编写函数输入一批整数逆序存放后输出"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8E2C7E2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第16关：直接插入排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8E2C8D2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第17关：鞍点"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900472DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第13关：用递归方法求勒让德多项式的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900562DA7A6530053192D /* C5-2 第11关：百马百担 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第11关：百马百担"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900652DA7C6A60053192D /* C5-2 第10关：母牛繁殖问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第10关：母牛繁殖问题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900742DA7CEB90053192D /* C5-2 第9关：从自然数中取3个数进行组合之递归算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第9关：从自然数中取3个数进行组合之递归算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9900832DA7D7000053192D /* C5-2 第6关：十进制转r进制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第6关：十进制转r进制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA666AB2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AA32D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AB22D8C31B2001CEFFC /* C4-4 第1关 C循环-求各位数字之积 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第1关 C循环-求各位数字之积"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78AC12D8C31D1001CEFFC /* C4-4 第3关：输入一批整数统计正负数个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第3关：输入一批整数统计正负数个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1055,6 +1105,13 @@
 			);
 			target = 9A0A0AFB2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */;
 		};
+		9A3155ED2DBF7AE000257C98 /* Exceptions for "C6-1 数组" folder in "C6-1 第19关：矩阵转置" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第19关：矩阵转置/main.cpp",
+			);
+			target = 9A3155E22DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */;
+		};
 		9A33D1762DB3A6A8002963D1 /* Exceptions for "C6-1 数组" folder in "C6-1 第12关" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -1202,12 +1259,40 @@
 			);
 			target = 9A6F7DB62D92B02400B9D960 /* C4-4 第18关：求数列的第n项及前n项之和 */;
 		};
+		9A78A6052DBF2048002D221E /* Exceptions for "pointer&ref" folder in "test1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.cpp,
+			);
+			target = 9A6F7D7E2D91941C00B9D960 /* test1 */;
+		};
+		9A78A6062DBF2048002D221E /* Exceptions for "pointer&ref" folder in "pointer&ref" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.cpp,
+			);
+			target = 9A78A5F52DBF2040002D221E /* pointer&ref */;
+		};
 		9A8E2C792DB7E79A004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第15关：编写函数输入一批整数逆序存放后输出" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"C6-1 第15关：编写函数输入一批整数逆序存放后输出/main.cpp",
 			);
 			target = 9A8E2C6E2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */;
+		};
+		9A8E2C882DB87074004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第16关：直接插入排序" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第16关：直接插入排序/main.cpp",
+			);
+			target = 9A8E2C7D2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */;
+		};
+		9A8E2C972DB8A2A7004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第17关：鞍点" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第17关：鞍点/main.cpp",
+			);
+			target = 9A8E2C8C2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */;
 		};
 		9A9900512DA7A3410053192D /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第13关：用递归方法求勒让德多项式的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1243,6 +1328,13 @@
 				"C5-2 第6关：十进制转r进制/main.cpp",
 			);
 			target = 9A9900822DA7D7000053192D /* C5-2 第6关：十进制转r进制 */;
+		};
+		9AA666B52DBF4F2D005419B9 /* Exceptions for "C6-1 数组" folder in "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩/main.cpp",
+			);
+			target = 9AA666AA2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */;
 		};
 		9AE78AAD2D8C3179001CEFFC /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1547,6 +1639,11 @@
 			path = "Q-1 全国二级计算机考试分析";
 			sourceTree = "<group>";
 		};
+		9A3155EE2DBFC92000257C98 /* C6-2 数组进阶 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "C6-2 数组进阶";
+			sourceTree = "<group>";
+		};
 		9A6F7D792D9193E400B9D960 /* 用来临时测试代码 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "用来临时测试代码";
@@ -1555,6 +1652,15 @@
 		9A6F7D802D91941C00B9D960 /* test1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = test1;
+			sourceTree = "<group>";
+		};
+		9A78A6032DBF2047002D221E /* pointer&ref */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A78A6052DBF2048002D221E /* Exceptions for "pointer&ref" folder in "test1" target */,
+				9A78A6062DBF2048002D221E /* Exceptions for "pointer&ref" folder in "pointer&ref" target */,
+			);
+			path = "pointer&ref";
 			sourceTree = "<group>";
 		};
 		9AE78A8F2D8C3121001CEFFC /* C4-4 循环结构程序设计进阶 */ = {
@@ -1620,6 +1726,10 @@
 				9A33D1852DB3AA7A002963D1 /* Exceptions for "C6-1 数组" folder in "C6-1 第13关：有15个数按小由" target */,
 				9A33D2912DB3DE6F002963D1 /* Exceptions for "C6-1 数组" folder in "C6-1 第14关：编写函数进行一维数组输入输出和求平均值" target */,
 				9A8E2C792DB7E79A004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第15关：编写函数输入一批整数逆序存放后输出" target */,
+				9A8E2C882DB87074004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第16关：直接插入排序" target */,
+				9A8E2C972DB8A2A7004FBA91 /* Exceptions for "C6-1 数组" folder in "C6-1 第17关：鞍点" target */,
+				9AA666B52DBF4F2D005419B9 /* Exceptions for "C6-1 数组" folder in "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩" target */,
+				9A3155ED2DBF7AE000257C98 /* Exceptions for "C6-1 数组" folder in "C6-1 第19关：矩阵转置" target */,
 			);
 			path = "C6-1 数组";
 			sourceTree = "<group>";
@@ -1735,6 +1845,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0AF92DA2CF0B006B76CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3155E02DBF7ADD00257C98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1972,7 +2089,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A78A5F32DBF2040002D221E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A8E2C6C2DB7E797004FBA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8E2C7B2DB87071004FBA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8E2C8A2DB8A29C004FBA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2008,6 +2146,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A9900802DA7D7000053192D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA666A82DBF4F27005419B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2256,6 +2401,7 @@
 			isa = PBXGroup;
 			children = (
 				9A6F7D802D91941C00B9D960 /* test1 */,
+				9A78A6032DBF2047002D221E /* pointer&ref */,
 			);
 			path = "临时测试代码";
 			sourceTree = "<group>";
@@ -2372,6 +2518,11 @@
 				9A33D17B2DB3AA78002963D1 /* C6-1 第13关：有15个数按小由 */,
 				9A33D2872DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */,
 				9A8E2C6F2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */,
+				9A8E2C7E2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */,
+				9A8E2C8D2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */,
+				9A78A5F62DBF2040002D221E /* pointer&ref */,
+				9AA666AB2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */,
+				9A3155E32DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2388,6 +2539,7 @@
 			isa = PBXGroup;
 			children = (
 				9AFC7D7C2DAC9421003A2411 /* C6-1 数组 */,
+				9A3155EE2DBFC92000257C98 /* C6-2 数组进阶 */,
 			);
 			path = "第六章 用数组处理批量数据";
 			sourceTree = "<group>";
@@ -2684,6 +2836,25 @@
 			);
 			productName = "C5-3 第12关：汉诺塔攻略";
 			productReference = 9A0A0AFC2DA2CF0B006B76CB /* C5-2 第12关：汉诺塔攻略 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A3155E22DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3155E92DBF7ADE00257C98 /* Build configuration list for PBXNativeTarget "C6-1 第19关：矩阵转置" */;
+			buildPhases = (
+				9A3155DF2DBF7ADD00257C98 /* Sources */,
+				9A3155E02DBF7ADD00257C98 /* Frameworks */,
+				9A3155E12DBF7ADD00257C98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第19关：矩阵转置";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第19关：矩阵转置";
+			productReference = 9A3155E32DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A33D16B2DB3A6A6002963D1 /* C6-1 第12关 */ = {
@@ -3080,6 +3251,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				9A6F7D802D91941C00B9D960 /* test1 */,
+				9A78A6032DBF2047002D221E /* pointer&ref */,
 			);
 			name = test1;
 			packageProductDependencies = (
@@ -3316,6 +3488,25 @@
 			productReference = 9A6F7E482D99595D00B9D960 /* C5-3 第8关：编写函数计算并输出n(包括n)以内能被5或9整除的所有自然数的倒数之和 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9A78A5F52DBF2040002D221E /* pointer&ref */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A78A5FC2DBF2040002D221E /* Build configuration list for PBXNativeTarget "pointer&ref" */;
+			buildPhases = (
+				9A78A5F22DBF2040002D221E /* Sources */,
+				9A78A5F32DBF2040002D221E /* Frameworks */,
+				9A78A5F42DBF2040002D221E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointer&ref";
+			packageProductDependencies = (
+			);
+			productName = "pointer&ref";
+			productReference = 9A78A5F62DBF2040002D221E /* pointer&ref */;
+			productType = "com.apple.product-type.tool";
+		};
 		9A8E2C6E2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A8E2C752DB7E797004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第15关：编写函数输入一批整数逆序存放后输出" */;
@@ -3333,6 +3524,44 @@
 			);
 			productName = "C6-1 第15关：编写函数输入一批整数逆序存放后输出";
 			productReference = 9A8E2C6F2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A8E2C7D2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8E2C822DB87071004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第16关：直接插入排序" */;
+			buildPhases = (
+				9A8E2C7A2DB87071004FBA91 /* Sources */,
+				9A8E2C7B2DB87071004FBA91 /* Frameworks */,
+				9A8E2C7C2DB87071004FBA91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第16关：直接插入排序";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第16关：直接插入排序";
+			productReference = 9A8E2C7E2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A8E2C8C2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8E2C912DB8A29C004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第17关：鞍点" */;
+			buildPhases = (
+				9A8E2C892DB8A29C004FBA91 /* Sources */,
+				9A8E2C8A2DB8A29C004FBA91 /* Frameworks */,
+				9A8E2C8B2DB8A29C004FBA91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第17关：鞍点";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第17关：鞍点";
+			productReference = 9A8E2C8D2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A9900462DA7A33D0053192D /* C5-2 第13关：用递归方法求勒让德多项式的值 */ = {
@@ -3428,6 +3657,25 @@
 			);
 			productName = "C5-2 第6关：十进制转r进制";
 			productReference = 9A9900832DA7D7000053192D /* C5-2 第6关：十进制转r进制 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AA666AA2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA666B12DBF4F27005419B9 /* Build configuration list for PBXNativeTarget "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩" */;
+			buildPhases = (
+				9AA666A72DBF4F27005419B9 /* Sources */,
+				9AA666A82DBF4F27005419B9 /* Frameworks */,
+				9AA666A92DBF4F27005419B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩";
+			packageProductDependencies = (
+			);
+			productName = "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩";
+			productReference = 9AA666AB2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9AE78AA22D8C3175001CEFFC /* C4-4 第2关 按公式e=1+1/1!+1/2!+1/3!+…+1/n!计算 e 的值 */ = {
@@ -4092,6 +4340,9 @@
 					9A0A0AFB2DA2CF0B006B76CB = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A3155E22DBF7ADD00257C98 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A33D16B2DB3A6A6002963D1 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -4191,7 +4442,16 @@
 					9A6F7E472D99595D00B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A78A5F52DBF2040002D221E = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A8E2C6E2DB7E797004FBA91 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A8E2C7D2DB87071004FBA91 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A8E2C8C2DB8A29C004FBA91 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					9A9900462DA7A33D0053192D = {
@@ -4207,6 +4467,9 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					9A9900822DA7D7000053192D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AA666AA2DBF4F27005419B9 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					9AE78AA22D8C3175001CEFFC = {
@@ -4407,6 +4670,11 @@
 				9A33D17A2DB3AA78002963D1 /* C6-1 第13关：有15个数按小由 */,
 				9A33D2862DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */,
 				9A8E2C6E2DB7E797004FBA91 /* C6-1 第15关：编写函数输入一批整数逆序存放后输出 */,
+				9A8E2C7D2DB87071004FBA91 /* C6-1 第16关：直接插入排序 */,
+				9A8E2C8C2DB8A29C004FBA91 /* C6-1 第17关：鞍点 */,
+				9A78A5F52DBF2040002D221E /* pointer&ref */,
+				9AA666AA2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */,
+				9A3155E22DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */,
 			);
 		};
 /* End PBXProject section */
@@ -4511,6 +4779,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A0A0AF82DA2CF0B006B76CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3155DF2DBF7ADD00257C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4748,7 +5023,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A78A5F22DBF2040002D221E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A8E2C6B2DB7E797004FBA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8E2C7A2DB87071004FBA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8E2C892DB8A29C004FBA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4784,6 +5080,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A99007F2DA7D7000053192D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA666A72DBF4F27005419B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5308,6 +5611,26 @@
 			name = Debug;
 		};
 		9A0A0B022DA2CF0B006B76CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3155E72DBF7ADE00257C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3155E82DBF7ADE00257C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -5977,6 +6300,26 @@
 			};
 			name = Release;
 		};
+		9A78A5FA2DBF2040002D221E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A78A5FB2DBF2040002D221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9A8E2C732DB7E797004FBA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5988,6 +6331,46 @@
 			name = Debug;
 		};
 		9A8E2C742DB7E797004FBA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A8E2C832DB87071004FBA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A8E2C842DB87071004FBA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A8E2C922DB8A29C004FBA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A8E2C932DB8A29C004FBA91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -6088,6 +6471,26 @@
 			name = Debug;
 		};
 		9A9900892DA7D7000053192D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AA666AF2DBF4F27005419B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA666B02DBF4F27005419B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -6990,6 +7393,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A3155E92DBF7ADE00257C98 /* Build configuration list for PBXNativeTarget "C6-1 第19关：矩阵转置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3155E72DBF7ADE00257C98 /* Debug */,
+				9A3155E82DBF7ADE00257C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A33D1702DB3A6A6002963D1 /* Build configuration list for PBXNativeTarget "C6-1 第12关" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -7287,11 +7699,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A78A5FC2DBF2040002D221E /* Build configuration list for PBXNativeTarget "pointer&ref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A78A5FA2DBF2040002D221E /* Debug */,
+				9A78A5FB2DBF2040002D221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A8E2C752DB7E797004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第15关：编写函数输入一批整数逆序存放后输出" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A8E2C732DB7E797004FBA91 /* Debug */,
 				9A8E2C742DB7E797004FBA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8E2C822DB87071004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第16关：直接插入排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8E2C832DB87071004FBA91 /* Debug */,
+				9A8E2C842DB87071004FBA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8E2C912DB8A29C004FBA91 /* Build configuration list for PBXNativeTarget "C6-1 第17关：鞍点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8E2C922DB8A29C004FBA91 /* Debug */,
+				9A8E2C932DB8A29C004FBA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -7337,6 +7776,15 @@
 			buildConfigurations = (
 				9A9900882DA7D7000053192D /* Debug */,
 				9A9900892DA7D7000053192D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA666B12DBF4F27005419B9 /* Build configuration list for PBXNativeTarget "C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA666AF2DBF4F27005419B9 /* Debug */,
+				9AA666B02DBF4F27005419B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

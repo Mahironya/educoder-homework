@@ -1,24 +1,15 @@
-
-
 #include <iostream>
-#include <cmath>
-#define N 100
 using namespace std;
-void test(int *p, int *n){
-    cout<<"*p = "<<*p<<endl;
-    int num;
-    *n = 0;
-    while (cin >> num && num != 0){
-        p[*n] = num;
-        cout<<"*p = "<<*p<<endl;
-        *n += 1;
-    }
-}
 int main(){
-    int array[N];
-    int len;
-    test(array, &len);
-    cout<<"len = "<<len;
-    return 0;
+    // a pointer is just a address
+    int var = 8;
+    int* ptr = &var; //using "&" to get the memory address
+    *ptr = 114514;
+    cout<<var<<endl;
+    char* buffer = new char[8];
+    memset(buffer, 0, 8);
+    char** ptr2 = &buffer;
+    cout<<ptr2<<endl;
+    cin.get();
 }
 
