@@ -178,6 +178,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A39A2EF2DDB20270003BE5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A3BB3462DCB0B7D00693051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A3BB3552DCB0F3B00693051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A3BB3642DCB137300693051 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A4ECAD62D9A92860036A702 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,6 +664,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9AEB19062DCCA58E00F87E72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9AEB19152DCCE83A00F87E72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9AFC7CE72DABA481003A2411 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -848,6 +902,10 @@
 		9A33D16C2DB3A6A6002963D1 /* C6-1 第12关 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第12关"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D17B2DB3AA78002963D1 /* C6-1 第13关：有15个数按小由 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第13关：有15个数按小由"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D2872DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第14关：编写函数进行一维数组输入输出和求平均值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第6关：编写函数交换数组a和数组b中的对应元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3BB3482DCB0B7D00693051 /* C6-2 第1关：查找整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第1关：查找整数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3BB3572DCB0F3B00693051 /* C6-2 第2关：删除最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第2关：删除最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3BB3662DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAD82D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAE72D9ACBBD0036A702 /* C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第15关：编写程序输入整数N，打印Fibonacci数列的前N项，要求用递归函数实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4ECAF62D9AD1FF0036A702 /* C5-3 第16关：合并为新数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-3 第16关：合并为新数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -898,6 +956,8 @@
 		9AE78B0C2D8D5CE5001CEFFC /* C4-4 第8关：数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第8关：数列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B1B2D8D6B6B001CEFFC /* C4-4 第20关：求a^b的个位数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第20关：求a^b的个位数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第21关：输出星号2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEB19082DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第4关：求正整数n之内的所有完数及其因子"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEB19172DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7CE92DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7CF82DABA549003A2411 /* C5-1 第2关：求一元二次方程的根 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第2关：求一元二次方程的根"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFC7D072DABA58F003A2411 /* C5-1 第3关：求a！+ b！ + c！的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-1 第3关：求a！+ b！ + c！的值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1132,6 +1192,34 @@
 				"C6-1 第14关：编写函数进行一维数组输入输出和求平均值/main.cpp",
 			);
 			target = 9A33D2862DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */;
+		};
+		9A39A2FB2DDB20290003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第6关：编写函数交换数组a和数组b中的对应元素/main.cpp",
+			);
+			target = 9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */;
+		};
+		9A3BB3522DCB0B8000693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第1关：查找整数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第1关：查找整数/main.cpp",
+			);
+			target = 9A3BB3472DCB0B7D00693051 /* C6-2 第1关：查找整数 */;
+		};
+		9A3BB3612DCB0F3E00693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第2关：删除最大值" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第2关：删除最大值/main.cpp",
+			);
+			target = 9A3BB3562DCB0F3B00693051 /* C6-2 第2关：删除最大值 */;
+		};
+		9A3BB3702DCB137500693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天/main.cpp",
+			);
+			target = 9A3BB3652DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */;
 		};
 		9A50B53E2DA90F5000AA3832 /* Exceptions for "C5-2 函数-递归" folder in "C5-2 第1关：计算学生年龄" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1406,6 +1494,20 @@
 			);
 			target = 9AE78B292D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 		};
+		9AEB19122DCCA59100F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第4关：求正整数n之内的所有完数及其因子" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第4关：求正整数n之内的所有完数及其因子/main.cpp",
+			);
+			target = 9AEB19072DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */;
+		};
+		9AEB19212DCCE84000F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序/main.cpp",
+			);
+			target = 9AEB19162DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */;
+		};
 		9AFC7CF32DABA484003A2411 /* Exceptions for "C5-1 函数" folder in "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -1641,6 +1743,14 @@
 		};
 		9A3155EE2DBFC92000257C98 /* C6-2 数组进阶 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A3BB3522DCB0B8000693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第1关：查找整数" target */,
+				9A3BB3612DCB0F3E00693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第2关：删除最大值" target */,
+				9A3BB3702DCB137500693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天" target */,
+				9AEB19122DCCA59100F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第4关：求正整数n之内的所有完数及其因子" target */,
+				9AEB19212DCCE84000F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序" target */,
+				9A39A2FB2DDB20290003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" target */,
+			);
 			path = "C6-2 数组进阶";
 			sourceTree = "<group>";
 		};
@@ -1873,6 +1983,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A33D2842DB3DE6C002963D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A2EE2DDB20270003BE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3452DCB0B7D00693051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3542DCB0F3B00693051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3632DCB137300693051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2229,6 +2367,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AEB19052DCCA58E00F87E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB19142DCCE83A00F87E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9AFC7CE62DABA481003A2411 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2523,6 +2675,12 @@
 				9A78A5F62DBF2040002D221E /* pointer&ref */,
 				9AA666AB2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */,
 				9A3155E32DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */,
+				9A3BB3482DCB0B7D00693051 /* C6-2 第1关：查找整数 */,
+				9A3BB3572DCB0F3B00693051 /* C6-2 第2关：删除最大值 */,
+				9A3BB3662DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */,
+				9AEB19082DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */,
+				9AEB19172DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */,
+				9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2912,6 +3070,82 @@
 			);
 			productName = "C6-1 第14关：编写函数进行一维数组输入输出和求平均值";
 			productReference = 9A33D2872DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A39A2F72DDB20270003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" */;
+			buildPhases = (
+				9A39A2ED2DDB20270003BE5A /* Sources */,
+				9A39A2EE2DDB20270003BE5A /* Frameworks */,
+				9A39A2EF2DDB20270003BE5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第6关：编写函数交换数组a和数组b中的对应元素";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第6关：编写函数交换数组a和数组b中的对应元素";
+			productReference = 9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A3BB3472DCB0B7D00693051 /* C6-2 第1关：查找整数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3BB34E2DCB0B7D00693051 /* Build configuration list for PBXNativeTarget "C6-2 第1关：查找整数" */;
+			buildPhases = (
+				9A3BB3442DCB0B7D00693051 /* Sources */,
+				9A3BB3452DCB0B7D00693051 /* Frameworks */,
+				9A3BB3462DCB0B7D00693051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第1关：查找整数";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第1关：查找整数";
+			productReference = 9A3BB3482DCB0B7D00693051 /* C6-2 第1关：查找整数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A3BB3562DCB0F3B00693051 /* C6-2 第2关：删除最大值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3BB35B2DCB0F3B00693051 /* Build configuration list for PBXNativeTarget "C6-2 第2关：删除最大值" */;
+			buildPhases = (
+				9A3BB3532DCB0F3B00693051 /* Sources */,
+				9A3BB3542DCB0F3B00693051 /* Frameworks */,
+				9A3BB3552DCB0F3B00693051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第2关：删除最大值";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第2关：删除最大值";
+			productReference = 9A3BB3572DCB0F3B00693051 /* C6-2 第2关：删除最大值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A3BB3652DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3BB36A2DCB137300693051 /* Build configuration list for PBXNativeTarget "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天" */;
+			buildPhases = (
+				9A3BB3622DCB137300693051 /* Sources */,
+				9A3BB3632DCB137300693051 /* Frameworks */,
+				9A3BB3642DCB137300693051 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天";
+			productReference = 9A3BB3662DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A4ECAD72D9A92860036A702 /* C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来 */ = {
@@ -3868,6 +4102,44 @@
 			productReference = 9AE78B2A2D8DBC92001CEFFC /* C4-4 第21关：输出星号2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		9AEB19072DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEB190E2DCCA58E00F87E72 /* Build configuration list for PBXNativeTarget "C6-2 第4关：求正整数n之内的所有完数及其因子" */;
+			buildPhases = (
+				9AEB19042DCCA58E00F87E72 /* Sources */,
+				9AEB19052DCCA58E00F87E72 /* Frameworks */,
+				9AEB19062DCCA58E00F87E72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第4关：求正整数n之内的所有完数及其因子";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第4关：求正整数n之内的所有完数及其因子";
+			productReference = 9AEB19082DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9AEB19162DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEB191B2DCCE83A00F87E72 /* Build configuration list for PBXNativeTarget "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序" */;
+			buildPhases = (
+				9AEB19132DCCE83A00F87E72 /* Sources */,
+				9AEB19142DCCE83A00F87E72 /* Frameworks */,
+				9AEB19152DCCE83A00F87E72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序";
+			productReference = 9AEB19172DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */;
+			productType = "com.apple.product-type.tool";
+		};
 		9AFC7CE82DABA481003A2411 /* C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AFC7CED2DABA482003A2411 /* Build configuration list for PBXNativeTarget "C5-1 第1关：用两个函数分别求两个数的最大公约数和最小公倍数" */;
@@ -4352,6 +4624,18 @@
 					9A33D2862DB3DE6C002963D1 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A39A2F02DDB20270003BE5A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A3BB3472DCB0B7D00693051 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A3BB3562DCB0F3B00693051 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A3BB3652DCB137300693051 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A4ECAD72D9A92860036A702 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -4500,6 +4784,12 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					9AE78B292D8DBC92001CEFFC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AEB19072DCCA58E00F87E72 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AEB19162DCCE83A00F87E72 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 					9AFC7CE82DABA481003A2411 = {
@@ -4675,6 +4965,12 @@
 				9A78A5F52DBF2040002D221E /* pointer&ref */,
 				9AA666AA2DBF4F27005419B9 /* C6-1 第18关：输入5个学生的数学、语文、英语3门课程的成绩 */,
 				9A3155E22DBF7ADD00257C98 /* C6-1 第19关：矩阵转置 */,
+				9A3BB3472DCB0B7D00693051 /* C6-2 第1关：查找整数 */,
+				9A3BB3562DCB0F3B00693051 /* C6-2 第2关：删除最大值 */,
+				9A3BB3652DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */,
+				9AEB19072DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */,
+				9AEB19162DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */,
+				9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
 			);
 		};
 /* End PBXProject section */
@@ -4807,6 +5103,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A33D2832DB3DE6C002963D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A2ED2DDB20270003BE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3442DCB0B7D00693051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3532DCB0F3B00693051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3BB3622DCB137300693051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5157,6 +5481,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9AE78B262D8DBC92001CEFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB19042DCCA58E00F87E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEB19132DCCE83A00F87E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5691,6 +6029,86 @@
 			name = Debug;
 		};
 		9A33D28C2DB3DE6C002963D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A39A2F52DDB20270003BE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A39A2F62DDB20270003BE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3BB34C2DCB0B7D00693051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3BB34D2DCB0B7D00693051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3BB35C2DCB0F3B00693051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3BB35D2DCB0F3B00693051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3BB36B2DCB137300693051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3BB36C2DCB137300693051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -6815,6 +7233,46 @@
 			};
 			name = Release;
 		};
+		9AEB190C2DCCA58E00F87E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AEB190D2DCCA58E00F87E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AEB191C2DCCE83A00F87E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AEB191D2DCCE83A00F87E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9AFC7CEE2DABA482003A2411 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7429,6 +7887,42 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9A39A2F72DDB20270003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A39A2F52DDB20270003BE5A /* Debug */,
+				9A39A2F62DDB20270003BE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3BB34E2DCB0B7D00693051 /* Build configuration list for PBXNativeTarget "C6-2 第1关：查找整数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BB34C2DCB0B7D00693051 /* Debug */,
+				9A3BB34D2DCB0B7D00693051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3BB35B2DCB0F3B00693051 /* Build configuration list for PBXNativeTarget "C6-2 第2关：删除最大值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BB35C2DCB0F3B00693051 /* Debug */,
+				9A3BB35D2DCB0F3B00693051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3BB36A2DCB137300693051 /* Build configuration list for PBXNativeTarget "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BB36B2DCB137300693051 /* Debug */,
+				9A3BB36C2DCB137300693051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9A4ECADE2D9A92860036A702 /* Build configuration list for PBXNativeTarget "C5-3 第14关：编写递归函数将所输入的5个字符，以相反顺序打印出来" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -7884,6 +8378,24 @@
 			buildConfigurations = (
 				9AE78B2F2D8DBC92001CEFFC /* Debug */,
 				9AE78B302D8DBC92001CEFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEB190E2DCCA58E00F87E72 /* Build configuration list for PBXNativeTarget "C6-2 第4关：求正整数n之内的所有完数及其因子" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEB190C2DCCA58E00F87E72 /* Debug */,
+				9AEB190D2DCCA58E00F87E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEB191B2DCCE83A00F87E72 /* Build configuration list for PBXNativeTarget "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEB191C2DCCE83A00F87E72 /* Debug */,
+				9AEB191D2DCCE83A00F87E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
