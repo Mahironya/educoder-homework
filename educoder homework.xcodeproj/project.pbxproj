@@ -187,6 +187,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A39A2FE2DDB2E4A0003BE5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A39A30D2DDB75C20003BE5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A3BB3462DCB0B7D00693051 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -903,6 +921,8 @@
 		9A33D17B2DB3AA78002963D1 /* C6-1 第13关：有15个数按小由 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第13关：有15个数按小由"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A33D2872DB3DE6C002963D1 /* C6-1 第14关：编写函数进行一维数组输入输出和求平均值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-1 第14关：编写函数进行一维数组输入输出和求平均值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第6关：编写函数交换数组a和数组b中的对应元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A39A3002DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A39A30F2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3BB3482DCB0B7D00693051 /* C6-2 第1关：查找整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第1关：查找整数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3BB3572DCB0F3B00693051 /* C6-2 第2关：删除最大值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第2关：删除最大值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3BB3662DCB137300693051 /* C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第3关：学习-用循环和数组实现输入某年某月某日，判断这一天是这一年的第几天"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1199,6 +1219,20 @@
 				"C6-2 第6关：编写函数交换数组a和数组b中的对应元素/main.cpp",
 			);
 			target = 9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */;
+		};
+		9A39A30A2DDB2E4C0003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组/main.cpp",
+			);
+			target = 9A39A2FF2DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */;
+		};
+		9A39A3192DDB75C50003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩/main.cpp",
+			);
+			target = 9A39A30E2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */;
 		};
 		9A3BB3522DCB0B8000693051 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第1关：查找整数" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1750,6 +1784,8 @@
 				9AEB19122DCCA59100F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第4关：求正整数n之内的所有完数及其因子" target */,
 				9AEB19212DCCE84000F87E72 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序" target */,
 				9A39A2FB2DDB20290003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" target */,
+				9A39A30A2DDB2E4C0003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组" target */,
+				9A39A3192DDB75C50003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩" target */,
 			);
 			path = "C6-2 数组进阶";
 			sourceTree = "<group>";
@@ -1990,6 +2026,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A39A2EE2DDB20270003BE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A2FD2DDB2E4A0003BE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A30C2DDB75C20003BE5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2681,6 +2731,8 @@
 				9AEB19082DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */,
 				9AEB19172DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */,
 				9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
+				9A39A3002DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */,
+				9A39A30F2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3089,6 +3141,44 @@
 			);
 			productName = "C6-2 第6关：编写函数交换数组a和数组b中的对应元素";
 			productReference = 9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A39A2FF2DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A39A3042DDB2E4A0003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组" */;
+			buildPhases = (
+				9A39A2FC2DDB2E4A0003BE5A /* Sources */,
+				9A39A2FD2DDB2E4A0003BE5A /* Frameworks */,
+				9A39A2FE2DDB2E4A0003BE5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组";
+			productReference = 9A39A3002DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A39A30E2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A39A3132DDB75C30003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩" */;
+			buildPhases = (
+				9A39A30B2DDB75C20003BE5A /* Sources */,
+				9A39A30C2DDB75C20003BE5A /* Frameworks */,
+				9A39A30D2DDB75C20003BE5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩";
+			productReference = 9A39A30F2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A3BB3472DCB0B7D00693051 /* C6-2 第1关：查找整数 */ = {
@@ -4627,6 +4717,12 @@
 					9A39A2F02DDB20270003BE5A = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A39A2FF2DDB2E4A0003BE5A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A39A30E2DDB75C20003BE5A = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A3BB3472DCB0B7D00693051 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -4971,6 +5067,8 @@
 				9AEB19072DCCA58E00F87E72 /* C6-2 第4关：求正整数n之内的所有完数及其因子 */,
 				9AEB19162DCCE83A00F87E72 /* C6-2 第5关：任意输入n个从小到大的整数的数列，然后输入一个整数插入到数列中，使数列保持从小到大的顺序 */,
 				9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
+				9A39A2FF2DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */,
+				9A39A30E2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */,
 			);
 		};
 /* End PBXProject section */
@@ -5110,6 +5208,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A39A2ED2DDB20270003BE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A2FC2DDB2E4A0003BE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A39A30B2DDB75C20003BE5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -6049,6 +6161,46 @@
 			name = Debug;
 		};
 		9A39A2F62DDB20270003BE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A39A3052DDB2E4A0003BE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A39A3062DDB2E4A0003BE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A39A3142DDB75C30003BE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A39A3152DDB75C30003BE5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -7892,6 +8044,24 @@
 			buildConfigurations = (
 				9A39A2F52DDB20270003BE5A /* Debug */,
 				9A39A2F62DDB20270003BE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A39A3042DDB2E4A0003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A39A3052DDB2E4A0003BE5A /* Debug */,
+				9A39A3062DDB2E4A0003BE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A39A3132DDB75C30003BE5A /* Build configuration list for PBXNativeTarget "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A39A3142DDB75C30003BE5A /* Debug */,
+				9A39A3152DDB75C30003BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
