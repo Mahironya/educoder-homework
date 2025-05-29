@@ -474,6 +474,11 @@
 			<key>orderHint</key>
 			<integer>42</integer>
 		</dict>
+		<key>C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
 		<key>P1002.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

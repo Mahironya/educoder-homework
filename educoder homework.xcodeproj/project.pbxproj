@@ -322,6 +322,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A5F50FD2DE6B9C50061DE93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -936,6 +945,7 @@
 		9A50B5702DA9842700AA3832 /* C5-2 第5关：递归求解最大公约数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第5关：递归求解最大公约数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A50B57F2DA986B100AA3832 /* C5-2 第7关：猴子吃桃 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第7关：猴子吃桃"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C5-2 第8关：从自然数中取3个数进行组合之循环算法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5F50FF2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1303,6 +1313,13 @@
 				"C5-2 第8关：从自然数中取3个数进行组合之循环算法/main.cpp",
 			);
 			target = 9A50B58D2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */;
+		};
+		9A5F51092DE6B9C80061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。/main.cpp",
+			);
+			target = 9A5F50FE2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */;
 		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1786,6 +1803,7 @@
 				9A39A2FB2DDB20290003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第6关：编写函数交换数组a和数组b中的对应元素" target */,
 				9A39A30A2DDB2E4C0003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组" target */,
 				9A39A3192DDB75C50003BE5A /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩" target */,
+				9A5F51092DE6B9C80061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。" target */,
 			);
 			path = "C6-2 数组进阶";
 			sourceTree = "<group>";
@@ -2131,6 +2149,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A50B58B2DA98AFF00AA3832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F50FC2DE6B9C50061DE93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2733,6 +2758,7 @@
 				9A39A2F12DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
 				9A39A3002DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */,
 				9A39A30F2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */,
+				9A5F50FF2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3426,6 +3452,25 @@
 			);
 			productName = "C5-2 第8关：从自然数中取3个数进行组合之循环算法";
 			productReference = 9A50B58E2DA98AFF00AA3832 /* C5-2 第8关：从自然数中取3个数进行组合之循环算法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A5F50FE2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5F51052DE6B9C50061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。" */;
+			buildPhases = (
+				9A5F50FB2DE6B9C50061DE93 /* Sources */,
+				9A5F50FC2DE6B9C50061DE93 /* Frameworks */,
+				9A5F50FD2DE6B9C50061DE93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。";
+			productReference = 9A5F50FF2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {
@@ -4762,6 +4807,9 @@
 					9A50B58D2DA98AFF00AA3832 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A5F50FE2DE6B9C50061DE93 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A6F7D112D90E24800B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -5069,6 +5117,7 @@
 				9A39A2F02DDB20270003BE5A /* C6-2 第6关：编写函数交换数组a和数组b中的对应元素 */,
 				9A39A2FF2DDB2E4A0003BE5A /* C6-2 第7关：编写函数将两个有序的数组合并成一个有序数组 */,
 				9A39A30E2DDB75C20003BE5A /* C6-2 第8关：一个学习小组有5人, 每个人有3门课的考试成绩，求每个人的总分和该学习小组各门课的平均成绩 */,
+				9A5F50FE2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */,
 			);
 		};
 /* End PBXProject section */
@@ -5313,6 +5362,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A50B58A2DA98AFF00AA3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F50FB2DE6B9C50061DE93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -6461,6 +6517,26 @@
 			name = Debug;
 		};
 		9A50B5942DA98AFF00AA3832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A5F51032DE6B9C50061DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5F51042DE6B9C50061DE93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -8179,6 +8255,15 @@
 			buildConfigurations = (
 				9A50B5932DA98AFF00AA3832 /* Debug */,
 				9A50B5942DA98AFF00AA3832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5F51052DE6B9C50061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5F51032DE6B9C50061DE93 /* Debug */,
+				9A5F51042DE6B9C50061DE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
