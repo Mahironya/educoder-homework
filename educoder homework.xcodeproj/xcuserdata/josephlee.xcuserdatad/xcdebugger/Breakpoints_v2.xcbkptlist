@@ -146,5 +146,21 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36CAE6DA-8341-46A9-B4D0-AC14D806FDCC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7b2c;&#x516d;&#x7ae0; &#x7528;&#x6570;&#x7ec4;&#x5904;&#x7406;&#x6279;&#x91cf;&#x6570;&#x636e;/C6-2 &#x6570;&#x7ec4;&#x8fdb;&#x9636;/C6-2 &#x7b2c;23&#x5173;&#xff1a;&#x961f;&#x5217;&#x53d8;&#x6362;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "rotateLeft(, n, m)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

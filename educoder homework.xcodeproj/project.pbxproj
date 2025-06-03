@@ -349,6 +349,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A5F52602DEDBDBD0061DE93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A5F526F2DEEDDFA0061DE93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9A5F527E2DEF2F860061DE93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		9A6F7D102D90E24800B9D960 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -967,6 +994,9 @@
 		9A5F510E2DE7FB6A0061DE93 /* C6-2 第10关：练习-输入n个互不相同的整数并存在数组中，找出最大元素，并删除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第10关：练习-输入n个互不相同的整数并存在数组中，找出最大元素，并删除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5F51152DE7FB6C0061DE93 /* educoder homework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "educoder homework.xcodeproj"; path = "第六章 用数组处理批量数据/C6-2 数组进阶/educoder homework.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9A5F52532DE98BD50061DE93 /* C6-2 第13关：将两个有序的数组合并成一个有序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第13关：将两个有序的数组合并成一个有序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5F52622DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第23关：队列变换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5F52712DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第11关：删除数组零元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5F52802DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D122D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第11关：歌手评分系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D212D90E4E700B9D960 /* C4-4 第12关：判断数字能不能被整除 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第12关：判断数字能不能被整除"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D302D90E76900B9D960 /* C4-4 第13关：判断区间内素数的个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C4-4 第13关：判断区间内素数的个数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1355,6 +1385,27 @@
 				"C6-2 第13关：将两个有序的数组合并成一个有序数组/main.cpp",
 			);
 			target = 9A5F52522DE98BD50061DE93 /* C6-2 第13关：将两个有序的数组合并成一个有序数组 */;
+		};
+		9A5F526C2DEDBDC20061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第23关：队列变换" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第23关：队列变换/main.cpp",
+			);
+			target = 9A5F52612DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */;
+		};
+		9A5F527B2DEEDDFD0061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第11关：删除数组零元素" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第11关：删除数组零元素/main.cpp",
+			);
+			target = 9A5F52702DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */;
+		};
+		9A5F528A2DEF2F8A0061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数/main.cpp",
+			);
+			target = 9A5F527F2DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */;
 		};
 		9A6F7D1C2D90E24C00B9D960 /* Exceptions for "C4-4 循环结构程序设计进阶" folder in "C4-4 第11关：歌手评分系统" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1841,6 +1892,9 @@
 				9A5F51092DE6B9C80061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。" target */,
 				9A5F524E2DE7FB770061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第10关：练习-输入n个互不相同的整数并存在数组中，找出最大元素，并删除" target */,
 				9A5F525D2DE98BDC0061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第13关：将两个有序的数组合并成一个有序数组" target */,
+				9A5F526C2DEDBDC20061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第23关：队列变换" target */,
+				9A5F527B2DEEDDFD0061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第11关：删除数组零元素" target */,
+				9A5F528A2DEF2F8A0061DE93 /* Exceptions for "C6-2 数组进阶" folder in "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数" target */,
 			);
 			path = "C6-2 数组进阶";
 			sourceTree = "<group>";
@@ -2207,6 +2261,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A5F52502DE98BD50061DE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F525F2DEDBDBD0061DE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F526E2DEEDDFA0061DE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F527D2DEF2F860061DE93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2819,6 +2894,9 @@
 				9A5F50FF2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */,
 				9A5F510E2DE7FB6A0061DE93 /* C6-2 第10关：练习-输入n个互不相同的整数并存在数组中，找出最大元素，并删除 */,
 				9A5F52532DE98BD50061DE93 /* C6-2 第13关：将两个有序的数组合并成一个有序数组 */,
+				9A5F52622DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */,
+				9A5F52712DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */,
+				9A5F52802DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3569,6 +3647,63 @@
 			);
 			productName = "C6-2 第13关：将两个有序的数组合并成一个有序数组";
 			productReference = 9A5F52532DE98BD50061DE93 /* C6-2 第13关：将两个有序的数组合并成一个有序数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A5F52612DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5F52662DEDBDBD0061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第23关：队列变换" */;
+			buildPhases = (
+				9A5F525E2DEDBDBD0061DE93 /* Sources */,
+				9A5F525F2DEDBDBD0061DE93 /* Frameworks */,
+				9A5F52602DEDBDBD0061DE93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第23关：队列变换";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第23关：队列变换";
+			productReference = 9A5F52622DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A5F52702DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5F52752DEEDDFA0061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第11关：删除数组零元素" */;
+			buildPhases = (
+				9A5F526D2DEEDDFA0061DE93 /* Sources */,
+				9A5F526E2DEEDDFA0061DE93 /* Frameworks */,
+				9A5F526F2DEEDDFA0061DE93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第11关：删除数组零元素";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第11关：删除数组零元素";
+			productReference = 9A5F52712DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9A5F527F2DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5F52842DEF2F860061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数" */;
+			buildPhases = (
+				9A5F527C2DEF2F860061DE93 /* Sources */,
+				9A5F527D2DEF2F860061DE93 /* Frameworks */,
+				9A5F527E2DEF2F860061DE93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数";
+			packageProductDependencies = (
+			);
+			productName = "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数";
+			productReference = 9A5F52802DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		9A6F7D112D90E24800B9D960 /* C4-4 第11关：歌手评分系统 */ = {
@@ -4914,6 +5049,15 @@
 					9A5F52522DE98BD50061DE93 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					9A5F52612DEDBDBD0061DE93 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A5F52702DEEDDFA0061DE93 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9A5F527F2DEF2F860061DE93 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					9A6F7D112D90E24800B9D960 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -5230,6 +5374,9 @@
 				9A5F50FE2DE6B9C50061DE93 /* C6-2 第9关：编写函数将M行N列的二维数组中的数据,按列的顺序依次存放到一维数组。 */,
 				9A5F510D2DE7FB6A0061DE93 /* C6-2 第10关：练习-输入n个互不相同的整数并存在数组中，找出最大元素，并删除 */,
 				9A5F52522DE98BD50061DE93 /* C6-2 第13关：将两个有序的数组合并成一个有序数组 */,
+				9A5F52612DEDBDBD0061DE93 /* C6-2 第23关：队列变换 */,
+				9A5F52702DEEDDFA0061DE93 /* C6-2 第11关：删除数组零元素 */,
+				9A5F527F2DEF2F860061DE93 /* C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数 */,
 			);
 		};
 /* End PBXProject section */
@@ -5495,6 +5642,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9A5F524F2DE98BD50061DE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F525E2DEDBDBD0061DE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F526D2DEEDDFA0061DE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5F527C2DEF2F860061DE93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -6703,6 +6871,66 @@
 			name = Debug;
 		};
 		9A5F52592DE98BD50061DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A5F52672DEDBDBD0061DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5F52682DEDBDBD0061DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A5F52762DEEDDFA0061DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5F52772DEEDDFA0061DE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A5F52852DEF2F860061DE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB638K6WFU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5F52862DEF2F860061DE93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -8448,6 +8676,33 @@
 			buildConfigurations = (
 				9A5F52582DE98BD50061DE93 /* Debug */,
 				9A5F52592DE98BD50061DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5F52662DEDBDBD0061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第23关：队列变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5F52672DEDBDBD0061DE93 /* Debug */,
+				9A5F52682DEDBDBD0061DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5F52752DEEDDFA0061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第11关：删除数组零元素" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5F52762DEEDDFA0061DE93 /* Debug */,
+				9A5F52772DEEDDFA0061DE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5F52842DEF2F860061DE93 /* Build configuration list for PBXNativeTarget "C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5F52852DEF2F860061DE93 /* Debug */,
+				9A5F52862DEF2F860061DE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

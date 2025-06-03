@@ -439,6 +439,16 @@
 			<key>orderHint</key>
 			<integer>104</integer>
 		</dict>
+		<key>C6-2 第11关：删除数组零元素.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>107</integer>
+		</dict>
+		<key>C6-2 第12关：全校学生的年龄在16到30岁之间，请用数组元素作为计数器来统计每一年龄的人数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>108</integer>
+		</dict>
 		<key>C6-2 第13关：将两个有序的数组合并成一个有序数组.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -448,6 +458,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>81</integer>
+		</dict>
+		<key>C6-2 第23关：队列变换.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>106</integer>
 		</dict>
 		<key>C6-2 第2关：删除最大值.xcscheme_^#shared#^_</key>
 		<dict>
